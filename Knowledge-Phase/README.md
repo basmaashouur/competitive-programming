@@ -10,15 +10,15 @@
 * Search and find all the resources that you will study to cover everthing about this topic.
   * Make a [General List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/list.md) of all the topics (Toplogical sorting) and approximate time of finishing.
 * Study and understand the sup-topics of that topic.
-  * Make a [Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md) of sup topic's resources, keywords and explanations.
-* Write a genral code of that sup topic  **If exist** and put it in [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md).
+  * Make a [Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list) of sup topic's resources, keywords and explanations.
+* Write a genral code of that sup topic  **If exist** and put it in [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library).
 
 ### Solving part
-* Make a [problem library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library/README.md) of each of the topics, contains problems of that topic's sup topic.
+* Make a [problem library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) of each of the topics, contains problems of that topic's sup topic.
 * Identify all the sup topics in the problem
-  * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md)), go to the next steps.
-  * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md)).
-  * **Know nothing** of the sup topics and can't solve it, put it in [to-solve](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/to-solve/README.md) and go to the **Study part**.
+  * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next steps.
+  * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)).
+  * **Know nothing** of the sup topics and can't solve it, put it in [to-solve](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/to-solve) and go to the **Study part**.
 * Solving techniques
-* Write the sloution in the [Sloutions library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/README.md). 
+* Write the sloution in the [Sloutions library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library). 
   
