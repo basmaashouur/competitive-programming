@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/knowledge.png"></p>
 
-## How to use it:
+## About
 
 ### Study part
 * Select the topic you want to study
