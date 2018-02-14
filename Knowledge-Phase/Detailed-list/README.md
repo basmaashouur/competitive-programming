@@ -1,6 +1,6 @@
 # Detailed List
 
-### How to use it
+### About
 * **Keywords** of that topic
 * Sup topic **Name**
 * Sup topic **Resources** 
