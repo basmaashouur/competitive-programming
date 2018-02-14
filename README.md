@@ -5,5 +5,5 @@
 
 ### Art Of Problem Solving
 * I splitted the Problem Solving into two phases:
-  * Stydying Competitive Programming topics AKA [Knowledge Phase](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/README.md)
-  * Solving different problems without knowing it's topics AKA [Random Phase](https://github.com/basmaashouur/Competitive-Programming/blob/master/Random-Phase/README.md)
+  * Stydying Competitive Programming topics AKA [Knowledge Phase](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase)
+  * Solving different problems without knowing it's topics AKA [Random Phase](https://github.com/basmaashouur/Competitive-Programming/blob/master/Random-Phase)
