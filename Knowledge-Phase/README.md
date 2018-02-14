@@ -18,5 +18,7 @@
 * Identify all the sup topics in the problem
   * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md)), go to the next steps.
   * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md)).
-  * **Know nothing** of the sup topics and can't solve it, put it in [to-solve]() and go to the **Study part**.
+  * **Know nothing** of the sup topics and can't solve it, put it in [to-solve](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/to-solve/README.md) and go to the **Study part**.
+* Solving techniques
+* Write the sloution in the [Sloutions library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/README.md). 
   
