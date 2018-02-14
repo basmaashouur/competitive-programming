@@ -14,7 +14,7 @@
 * Write a general code of that sup topic  **If exist** and put it in [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library).
 
 ### Solving part
-* Make a [problem library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) for each of the topics, contains problems of that topic's sup topic.
+* Make a [Problems library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) for each of the topics, contains problems of that topic's sup topic.
 * Identify all the sup topics in the problem
   * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next steps.
   * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)).
