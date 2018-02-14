@@ -1,6 +1,6 @@
 # Topics library
 
-### How to use it:
+### About
 * Know which topic have that sup topic.
 * Write Sup Topic **Name**.
 * Write Sup Topic **Tag**.
