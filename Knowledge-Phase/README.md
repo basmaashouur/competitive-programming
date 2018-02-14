@@ -12,4 +12,6 @@
 * Study and understand the sup-topics of that topic.
   * Make a detailed [List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list/README.md) of sup topic's resources, keywords and explanations.
 * Write a genral code of that sup topic  **If exist** and put it in [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/README.md)
+
+### Solving part
   
