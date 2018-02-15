@@ -4,6 +4,7 @@
   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/knowledge.png"></p>
 
 ## About
+- This Phase is about studying some topics and solving a straightforward problems that are applications on that topic.
 
 ### Study part
 * Select the topic you want to study
