@@ -5,6 +5,7 @@
 
 ## Linear DS
 
+
 ### Static Arrays
 
 * **Tag**: 1D Array
@@ -41,6 +42,7 @@
    (int)'a' - 97; // will equal 0
    arr[(int)'a' - 97]++; // means I have one 'a' characater
    cout << char(0 + 97); // will print a
+   
    ```
  
  * **Tag**: 2D Array
@@ -66,6 +68,30 @@
   
    // Accessing Complexity is O(1) [direct access]
    cout << arr[row][col]; // will print the value in this index
+   
    ```
+   
+### Dynamically-Resizable Arrays
+
+* **Tag**: Vector
+  * 1D Vector 
+  ```cpp
+   // Declaration 
+   vector<int> vec;
+   
+   // Initialization
+  int val;
+  vec.push_back(val);
+  
+  // Or we can declare it and initialize at the same time
+  vector<int>vec(size, default_init);
+  
+   // Accessing Complexity is O(1) [direct access]
+   cout << vec[index]; // will print the value inside this index
+   
+   ```
+   * Vector of pairs
+   
+
 
    
