@@ -1,6 +1,6 @@
 # list of topics's Resources and Approximate time 
 
-Topic Name   | Resources                                                                      | Approximate time 
+Topic Name   | Resources                                                                      | Approximate stydying time 
 -------------| -------------                                                                  |-------------   
-Genral  | CP<br> CP Handbook<br>                                                              |  # 
-Number Theory  |                                                                              |
+Genral  | CP3<br> CP Handbook<br>                                                              |  # 
+Data Strcture  | [Geeks for geeks DS](https://www.geeksforgeeks.org/data-structures/)        | 8 days
