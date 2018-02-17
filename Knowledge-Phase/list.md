@@ -2,5 +2,5 @@
 
 Topic Name   | Resources                                                                      | Approximate stydying time 
 -------------| -------------                                                                  |-------------   
-Genral  | CP3<br> CP Handbook<br>                                                              |  # 
+General  | CP3<br> CP Handbook<br>                                                              |  # 
 Data Strcture  | [Geeks for geeks DS](https://www.geeksforgeeks.org/data-structures/)        | 8 days
