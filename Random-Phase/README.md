@@ -11,7 +11,7 @@
  ### How
  * Know the problems type (Contest, Random.. etc)
   * [Solving Techniques](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/Solving-techniques.md)
-* Make a [Problems library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) for each of the topics, contains problems of that topic's sup topic.
+* Add the pronlem in [Problems library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) depends on problem's tags.
 * Identify all the sup topics in the problem
   * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next step.
   * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next step.
