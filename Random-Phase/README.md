@@ -14,7 +14,7 @@
 * Identify all the sup topics in the problem
   * **Know all** the sup topics and already wrote it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next step.
   * **Know most** the sup topics, write the missing in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), go to the next step.
-  * **Know nothing** of the sup topics and can't solve it, put it in [to-solve](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/to-solve) and go to the **Study part**.
+  * **Know nothing** of the sup topics and can't solve it, try first to solve it, and if you were able to solve it then put it in ([Detailed List](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Detailed-list), [Topics library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library)), otherwise put it in [to-solve](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/to-solve) and go to the **Study part**.
 * Write the sloution in the [Sloutions library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library). 
 * Put the problem in the [Problems library](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Problems-library) depends on the problem's Sup Topics.
 
