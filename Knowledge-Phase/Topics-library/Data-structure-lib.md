@@ -90,8 +90,39 @@
    cout << vec[index]; // will print the value inside this index
    
    ```
-   * Vector of pairs
+   * Vector of pairs 
+   ```cpp
+    // Declaration 
+    vector<pair<int, int> > vec;
+   
+    // Initialization
+   int a, b;
+   vec.push_back(make_pair(a, b));
+  
+   // Or we can declare it and initialize at the same time
+   vector<pair<int,int> >vec (size, make_pair(def_init1, def_init2));
+  
+    // Accessing Complexity is O(1) [direct access]
+    cout << vec[index].first; // will print the first pair value inside this index
+   
+    ```
    * 2D vectors
+   ```cpp
+    // Declaration 
+    vector<vector<int> > vec (size);
+   
+    // Initialization
+   int val;
+   vec[row].push_back(val);
+  
+    // Accessing Complexity is O(1) [direct access]
+    cout << vec[row][col].; // will print value inside this index
+   
+    ```
 
+### Bitmasks
+* **tag**: Bitmaks
+  * 
 
    
+ 
