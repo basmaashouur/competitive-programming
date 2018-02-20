@@ -33,4 +33,9 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
   * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
 * **Vectors** is similar to an array but are dynamically sized.
 * **Bitmasks** is technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}.
+* **Bitsets** 
+* **LinkedList** 
+* **Stacks** 
+* **Queues** 
+* **Dequeues** 
 
