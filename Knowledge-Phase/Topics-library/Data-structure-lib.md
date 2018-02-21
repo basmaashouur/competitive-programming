@@ -7,7 +7,6 @@
 
 
 ### Static Arrays
-
 * **Tag**: 1D Array
   * Basic code
   ```cpp
@@ -72,7 +71,6 @@
    ```
    
 ### Dynamically-Resizable Arrays
-
 * **Tag**: Vector
   * 1D Vector 
   ```cpp
@@ -116,13 +114,84 @@
    vec[row].push_back(val);
   
     // Accessing Complexity is O(1) [direct access]
-    cout << vec[row][col].; // will print value inside this index
+    cout << vec[row][col]; // will print value inside this index
    
     ```
 
 ### Bitmasks
-* **tag**: Bitmaks
+* **Tag**: Bitmaks
   * 
 
+### LinkedList
+* **Tag**: List
+  * Basic code
+  ``` cpp
+  // Declaration 
+   list <int> li;
    
- 
+   // Initialization
+   int val;
+   li.push_back(val);
+   li.push_front(val);
+   li.insert(it, val);
+   
+   // Accessing Complexity is O(N) 
+   list <int> :: iterator it;
+   for(it = li.begin(); it != li.end(); ++it)
+        cout << '\t' << *it;
+        
+  ```
+
+### Stacks
+* **Tag**: Stacks
+  * Basic Code
+  ``` cpp
+  // Declaration 
+   stack <int> st;
+   
+   // Initialization
+   int val;
+   st.push(val);
+   
+   // Accessing Complexity is O(N) [only can access the top of it]
+    cout <<st.top(); 
+        
+  ```
+  
+### Queues
+* **Tag**: Queues
+  * Basic code
+  ``` cpp
+  // Declaration 
+  queue <int> qu;
+   
+   // Initialization
+   int val;
+   qu.push(val);
+   
+   // Accessing Complexity is O(N)  [only can access the fron and back of it]
+   cout << qu.front();
+   cout << qu.back();
+        
+  ```
+  
+  ### Dequeues
+* **Tag**: Dequeues
+  * Basic code
+  ``` cpp
+  // Declaration 
+    deque <int> deq (size);
+    
+   // Initialization
+   int val, index;
+   deq.push_back(val);
+   deq.push_front(val);
+   deq[index] = val;
+   
+   // Accessing Complexity is O(N) 
+   cout << deq.front();
+   cout << deq.back();
+   cout << deq[index];
+        
+  ```
+  
