@@ -15,13 +15,13 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 - 2D Array (static arrays) (linear DS)
 - Vectors (linear DS)
 - Bitmasks (linear DS)
+- List (linear DS)
 - Stacks (linear DS)
 - Queues (linear DS)
 - Dequeues (linear DS)
 
 
 ## Sup Topic Terminologies and Explanations 
-
 
 ### Linear DS
 -  Collection of variables that are of similar data types and it's elements form a linear sequence.
@@ -34,8 +34,8 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 * **Vectors** is similar to an array but are dynamically sized.
 * **Bitmasks** is technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}.
 * **Bitsets** 
-* **LinkedList** 
-* **Stacks** 
-* **Queues** 
-* **Dequeues** 
+* **LinkedList** store data with structures so that we can automatically create a new place to store a new data.
+* **Stacks** are a type of container adaptors with Last In First Out feature.
+* **Queues** are a type of container adaptors with First In First Out feature.
+* **Dequeues** are like vectors but double ended.
 
