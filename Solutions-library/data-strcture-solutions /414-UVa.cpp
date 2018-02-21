@@ -5,7 +5,7 @@ Tags: Vector, Count
 
 Tutorial: It's a straightforward problem, count all the 'X' in every row, and save the max value, 
 then substract all the counting from that max value and the answer will be the addtion of that substraction.
-We shouldn't use 2D array, due the problem we gonna face while cin the space char, so we mshould use strings and  
+We shouldn't use 2D array, due the problem we gonna face while cin the space char, so we should use strings and  
 then cin the whole row using getline() function.
 
 */
