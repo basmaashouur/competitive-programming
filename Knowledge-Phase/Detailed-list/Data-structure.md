@@ -32,8 +32,9 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
   * **ND Array** 
   * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
 * **Vectors** is similar to an array but are dynamically sized.
-* **Bitmasks** is technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}.
-* **Bitsets** 
+* **Bitsets** it's an array of booleans with useful opeartions like rest() and set().
+* **Bitmasks** is technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}. An int is stored is in a string of bits AKA (bitmask), we can use bit manipulation whick make it more efficient than bitset or vector<bool>.
+  * **Bitwise Manipulation** is the act of algorithmically manipulating bits using bits operators(&, |, ^, ~, <<, >>)
 * **LinkedList** store data with structures so that we can automatically create a new place to store a new data.
 * **Stacks** are a type of container adaptors with Last In First Out feature.
 * **Queues** are a type of container adaptors with First In First Out feature.
