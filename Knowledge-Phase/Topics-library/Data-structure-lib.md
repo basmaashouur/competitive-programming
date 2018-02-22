@@ -119,8 +119,70 @@
     ```
 
 ### Bitmasks
-* **Tag**: Bitmaks
-  * 
+* **Tag**: Bitmasks
+  * Bitwise Manipulation
+  - turn on j-th: {00001} --> shift left by j-th times
+  - turn off j-th and turn on the remaining: {00001} -->  shift left by j-th times, then use NOT
+  ```cpp
+  /* 
+  To multiply/divide an integer by 2, we only need
+  to shift the bits in the integer left/right
+  */
+  S = S << 1; // multiply by 2
+  S = S >> 2; // divide by 4
+  S = S >> 1; // divide by 2
+  
+  /*
+  To set/turn on the j-th item of the set S, make another bitmask where j-th item is only on, 
+  doing it by shiffing the on bit j-th time, then use the bitwise OR with those two bitmaks
+  (1 << j) means we have bitmask=0001 we need to shift to left j times, if j = 3 then bitmask=1000
+  */
+  #define setBit(S, j) (S |= (1 << j))
+  
+  /*
+  To check if the j-th item of the set S is on, make another bitmask where j-th item is only on,
+  then use the bitwise AND with those two bitmaks, if the j-th item of the result is on
+  [not a zero int] then it's true, if it's off [zero int] then it's false
+  */
+  #define isOn(S, j) (S & (1 << j))
+  int S = 42;
+  int T = isOn(S, 3); 
+  // will print ON, the result is 8 which is true
+  printf("T = %d, %s\n", T, T ? "ON" : "OFF"); 
+  
+  /*
+  To clear/turn off the j-th item of the set S, make another bitmask where j-th item is only off,
+  doing it by turn on the j-th item then use bitwise NOT operation,
+  then use the bitwise AND with those two bitmaks
+  */
+  #define clearBit(S, j) (S &= ~(1 << j))
+  
+  /*
+  To toggle (flip the status of) the j-th item of the set S, make another bitmask where j-th 
+  item is only on, then use bitwise XOR operation
+  */
+  #define toggleBit(S, j) (S ^= (1 << j))
+  
+  /*
+  To get the value of the least significant bit that is on, make another bitmask
+  which is two’s complement of the first bitmask, then use AND bitwise
+  the result would [00001000] the on bit is the least significant bit that is on,
+  the intger of that bitmask is always power of 2, so we should know which power of two
+  so we would be able to know the index of the least significant bit that is on
+  */
+  #define lowBit(S) (S & (-S))
+  #define isPowerOfTwo(S) (!(S & (S - 1)))
+  int S = 40; // 101000
+  int T = lowBit(S); // = 8 which is 0100 means (3rd bit from right is on)
+  int index = isPowerOfTwo(T); // = 3
+  
+  /*
+  To turn on all bits in a set of size n,  make another bitmask where n-th
+  is on, then substract every bit from 1, n bits{000} --> {1000} -1 --> {0111}
+  */
+  #define setAll(S, n) (S = (1 << n) - 1)
+  
+  ```
 
 ### LinkedList
 * **Tag**: List
