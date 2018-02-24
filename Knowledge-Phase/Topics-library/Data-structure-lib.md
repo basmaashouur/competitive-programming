@@ -31,7 +31,7 @@
   // Accessing Complexity is O(1) if direct access, but it will be more when doing operations
   cout << arr[index]; // will print the value in this index
   ```
-  * You can make an indexed array for the alphabet characters and every characater will have an index.
+  * You can make an indexed array(Hashing) for the alphabet characters and every characater will have an index.
    ```cpp
    int alpha [26] = {0};
    /* 'a' in ascii = 97
