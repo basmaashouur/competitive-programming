@@ -2,7 +2,8 @@
 Name: 230 - Borrowers
 Online Judge: UVa
 Tags: vectors, sorting, strings
-Tutorial: make a string parsing with the input then put it in vector<pair<author,title >> sort them all 
+Tutorial: Each book has its OWN POSITION on the shelves, and it need to be returned on that position.
+make a string parsing with the input then put it in vector<pair<author,title >> sort them all 
 now we don't need author name anymore replace it with "1" it means the book is on the shelve
 when "borrow" then make first pair= "-1", when "return" put all the return books in a vector
 when "Shelve" change the "-1" to "1" in the vector of that value and put them all in their original 
