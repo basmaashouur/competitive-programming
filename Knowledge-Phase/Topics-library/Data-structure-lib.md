@@ -69,7 +69,26 @@
    cout << arr[row][col]; // will print the value in this index
    
    ```
+ 
+ ### STL Algorthims
+ * **Next permutation**
+   * Given an array of objects a[] that represents a permutation, the next permutation can be found as follows:  
+   * Let i be the greatest index where a[i] < a[i+1]
+   * Let j be the greatest index where a[j] > a[i]   
+   * Swap a[i] and a[j]   
+   * Reverse all elements from i+1 to the end of the array   
+   * for example, if the array is 8 items long, and i = 3, then swap a[4] and a[7], and swap a[5] and a[6].
+   * Or use the next permutation in C++
+   ```cpp
+    string s;
+    bool val = next_permutation(s.begin(), s.end());
+    if (val == false)
+        cout << "No Next permutation" << endl;
+    else
+        cout << s << endl;
+   ```
    
+  
 ### Dynamically-Resizable Arrays
 * **Tag**: Vector
   * 1D Vector 
