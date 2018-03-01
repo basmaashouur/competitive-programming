@@ -1,7 +1,7 @@
 /*
 Name: 11988 - Broken Keyboard (a.k.a. Beiju Text)
 Online Judge: UVa
-Tags: 
+Tags: Lists
 Complexity: 
 Tutorial: If Home key then insert at the beginning and if the End key insert at the end.
 */
