@@ -214,6 +214,15 @@
    int val;
    li.push_back(val);
    li.push_front(val);
+   // insert in that pos
+   // 1 2 3
+   //   ^
+   // if I wanna insert in two pos
+   // 1 10 2 3
+   //      ^
+   // 1 10 11 2 3
+   //        ^
+   // the itreator will increment every time I add by it selt
    li.insert(it, val);
    
    // Accessing Complexity is O(N) 
