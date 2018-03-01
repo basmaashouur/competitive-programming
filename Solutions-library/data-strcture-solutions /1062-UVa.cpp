@@ -64,8 +64,6 @@ int main()
                                 break;
                         }
                 }
-                //for(int x = 0; x < 26; x++)
-                //  if(!st[x].empty()) cout<< st[x].top()<<" ana" <<x << " ";
                 // set size
                 if(ans != -1) cout << "Case " << cn << ": " << ans << endl;
                 else
