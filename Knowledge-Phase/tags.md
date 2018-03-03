@@ -1,6 +1,7 @@
 # All Competitive Programming Tags
 
 ## Tags
+
 - 1D Array (static arrays) (linear DS)
 - 2D Array (static arrays) (linear DS)
 - Stl Algorithms
