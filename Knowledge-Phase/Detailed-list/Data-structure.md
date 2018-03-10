@@ -7,8 +7,8 @@
 
 Sup Topic Name   | Resources   | Approximate stydying & solving time 
 -------------| -------------   |-------------   
-**Linear DS**<br>Static Arrays<br> Stl Algorithms <br> Dynamically-Resizable Arrays<br>Bitmasks<br>BitSets<br>LinkedList<br>Stacks<br>Queues<br>Dequeues|[Bits](https://graphics.stanford.edu/~seander/bithacks.html)<br> [Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)<br> [masks](https://en.wikipedia.org/wiki/Mask_(computing))<br> [Bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)<br> [Bit subset](http://codesam.blogspot.com.eg/2011/03/find-all-subsets-of-given-set.html)<br> [Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)|2Days
-
+**Linear DS**<br>Static Arrays<br> Stl Algorithms <br> Dynamically-Resizable Arrays<br>Bitmasks<br>BitSets<br>LinkedList<br>Stacks<br>Queues<br>Dequeues|[Bits](https://graphics.stanford.edu/~seander/bithacks.html)<br> [Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)<br> [masks](https://en.wikipedia.org/wiki/Mask_(computing))<br> [Bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)<br> [Bit subset](http://codesam.blogspot.com.eg/2011/03/find-all-subsets-of-given-set.html)<br> [Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)|4Days
+**Non-Linear DS**<br>BST<br>Heap<br>Hash Table| | 4Days
 
 ## Tags
 - 1D Array (static arrays) (linear DS)
@@ -25,7 +25,7 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 ## Sup Topic Terminologies and Explanations 
 
 ### Linear DS
--  Collection of variables that are of similar data types and it's elements form a linear sequence.
+- Data items are organized sequentially or linearly where data elements attached one after another OR Collection of variables that are of similar data types and it's elements form a linear sequence.
 
 * **Static Array** is array which you can't change it's size once declared.
   * **1D Array** store single list of elements, can be distinctly accessed by specifying its index.
@@ -42,4 +42,12 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 * **Stacks** are a type of container adaptors with Last In First Out feature.
 * **Queues** are a type of container adaptors with First In First Out feature.
 * **Dequeues** are like vectors but double ended.
+ 
+ 
+ ### Non-Linear DS
+ - Data items are not organized sequentially. In other words, A data elements of the non linear data structure could be connected to more than one elements to reflect a special relationship among them. All the data elements in non linear data structure can not be traversed in single run.
 
+* **Balanced Binary Search Tree** The BST is one way to organize data in a tree structure. In each subtree rooted at x,
+the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree 
+of x are greater than (or equal to) x. allows for O(log n) search(key), insert(key), findMin()/findMax(), successor(key)/predecessor(key), and delete(key).
+  * ****
