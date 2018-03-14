@@ -20,6 +20,9 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 - Stacks (linear DS)
 - Queues (linear DS)
 - Dequeues (linear DS)
+- Maps (BBST)
+- Sets (BBST)
+- 
 
 
 ## Sup Topic Terminologies and Explanations 
@@ -50,4 +53,5 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 * **Balanced Binary Search Tree** The BST is one way to organize data in a tree structure. In each subtree rooted at x,
 the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree 
 of x are greater than (or equal to) x. allows for O(log n) search(key), insert(key), findMin()/findMax(), successor(key)/predecessor(key), and delete(key).
-  * ****
+  * **STL Map**  is an associative container that store elements formed by a combination of a key value 
+  and a mapped value (Key --> Data)
