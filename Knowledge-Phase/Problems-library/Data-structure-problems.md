@@ -12,5 +12,9 @@ List|[Broken Keyboard](https://uva.onlinejudge.org/index.php?option=com_onlineju
 Stack|[Rails](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=455)<br>[Anagram by Stack](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=673)<br>[Containers](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3503)<br>||[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/514-UVa.cpp)<br>[Sloution]()<br>[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/1062-UVa.cpp)<br>|Knowledge <br> Knowledge <br> Knowledge <br>
 Queue & Deque|[The Lonesome Cargo](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1113)<br>[Ferry Loading III](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1842)<br>[Ferry Loading IV](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1975)<br>||[Sloution]()<br>[Sloution]()<br>[Sloution]()<br>|Knowledge <br> Knowledge <br> Knowledge <br>
 
+
+
 Non-Linear DS  | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
+Map | [Hardwood Species](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)<br> [Conformity](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2261)<br>[Unique Snowflakes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2619)||[Sloution]()<br>[Sloution]()<br>[Sloution]()<br>|Knowledge <br> Knowledge <br> Knowledge <br>
+Set | | |[Sloution]()<br>[Sloution]()<br>[Sloution]()<br> |Knowledge <br> Knowledge <br> Knowledge <br>
