@@ -22,7 +22,9 @@ Sup Topic Name   | Resources   | Approximate stydying & solving time
 - Dequeues (linear DS)
 - Maps (BBST)
 - Sets (BBST)
-- 
+- Multisets (BBST)
+- Unordered_set (BBST)
+- Unordered_multiset (BBST)
 
 
 ## Sup Topic Terminologies and Explanations 
