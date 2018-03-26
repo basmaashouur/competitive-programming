@@ -23,8 +23,6 @@ Table of Contents
     + [Dequeues](#Dequeues)
   
  
-<!-- toc -->
-
 ## LinearDS
 ### Static Arrays
 #### 1D Array
