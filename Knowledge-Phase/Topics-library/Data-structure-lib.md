@@ -259,7 +259,7 @@
    int val;
    qu.push(val);
    
-   // Accessing Complexity is O(N)  [only can access the fron and back of it]
+   // Accessing Complexity is O(n)  [only can access the fron and back of it]
    cout << qu.front();
    cout << qu.back();
         
@@ -269,7 +269,7 @@
 * **Tag**: Dequeues
   * Basic code
   ``` cpp
-  // Declaration 
+    // Declaration 
     deque <int> deq (size);
     
    // Initialization
@@ -278,7 +278,7 @@
    deq.push_front(val);
    deq[index] = val;
    
-   // Accessing Complexity is O(N) 
+   // Accessing Complexity is O(n) 
    cout << deq.front();
    cout << deq.back();
    cout << deq[index];
@@ -292,7 +292,7 @@
 * **Tag**: Map
   *Basic code
   ``` cpp
-  // Declaration 
+    // Declaration 
     map<string,int>m; //key_type is of type string and data_type is of type int.
     
    // Initialization
@@ -303,36 +303,95 @@
    string check;
    m[check]++;
    
-   // Finding an element Complexity is O(log N)
+   // Finding an element Complexity is O(log n)
    map<string,int>::iterator itr=m.find(key);
    if(itr != m.end()) cout<< itr->second; // if find it will print it
    
-   // erasing an element Complexity is O(log N)
+   // erasing an element Complexity is O(log n)
    m.erase(key);
    m.erase(itr);
    
-   // Accessing Complexity is O(log N)
+   // Accessing Complexity is O(log n)
    int val = m[key];
+   
+  // interesting usage of lower_bound and upper_bound
+  // display data between ["f".."m") ('felix' is included, martin' is excluded)
+  for (map<string, int>::iterator it = mapper.lower_bound("f"); it != mapper.upper_bound("m"); it++)
+    printf("%s %d\n", ((string)it->first).c_str(), it->second);
     
   ```
   * **Tag**: Multimap
   *Basic code
   ``` cpp
-  // Declaration 
-   multimap map<string,int>m;
+   // Declaration 
+   multimap <string,int> m;
     
    // Initialization
    m.insert(make_pair("hello",9));
    
-   // Finding an element Complexity is O(log N)
-   map<string,int>::iterator itr=m.find(key);
+   // Finding an element Complexity is O(log n)
+   map<string,int>::iterator itr=m.find(key); // find the first element that equal that key
    if(itr != m.end()) cout<< itr->second; // if find it will print it
    
-   // erasing an element Complexity is O(log N)
-   m.erase(key);
-   m.erase(itr);
+   // erasing an element Complexity is O(log n)
+   m.erase(key); // will erase all the elements that equal that key
+   m.erase(itr); // will erase only the element that the itr points to
    
-   // Accessing Complexity is O(log N)
+   // Accessing Complexity is O(log n)
    int val = m[key];
     
+  ```
+ * **Tag**: Set
+  *Basic code
+  ``` cpp
+   // Declaration 
+   set <int> s;
+    
+   // Initialization
+   s.insert(12);
+     
+   // Finding an element Complexity is O(log n)
+   set<int>::iterator itr = s.find(val);
+   
+   // erasing an element Complexity is O(log n)
+   s.erase(itr);
+    
+  ```
+  * **Tag**: Multiset
+  *Basic code
+  ``` cpp
+   // Declaration 
+   multiset <int> s;
+    
+   // Initialization
+   s.insert(12);
+   
+   // Finding an element Complexity is O(log n)
+   set<int>::iterator itr = s.find(val); // find the first element that equal that key
+      
+   // erasing an element Complexity is O(log n)
+   
+   s.erase(itr); // erase the element that the itr point to
+   s.erase(val); // erase all the values that are the same to that val
+   
+  ```
+
+### Heap
+* **Tag**: Priority_queue
+  *Basic code
+  ``` cpp
+    // Declaration 
+    priority_queue<int> pq; // max heap
+    priority_queue<int, vector<int>, greater<int> > mpq; // min heap
+    
+   // Initialization
+   for(int n : {1,8,5,6,3,4,0,9,7,2})
+        q2.push(n);
+   
+   // erasing an element Complexity is O(1)
+   pq.pop();
+   
+   // Accessing Complexity is O(n)
+    pq.top();
+
   ```
