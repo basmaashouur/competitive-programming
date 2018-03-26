@@ -1,7 +1,7 @@
 # Data Structure Library
 
 ##### Table of Contents  
-- [LinearDS](#LinearDS)
+- [NonLinear-DS](#LinearDS)
   * [StaticArrays](#StaticArrays)
     + [1DArray](#1DArray)
 
@@ -9,7 +9,7 @@
 
 ## LinearDS
 ### StaticArrays
-### 1DArray
+#### 1DArray
   * Basic code
   ```cpp
   // Declaration 
@@ -46,7 +46,7 @@
    
    ```
  
- * **Tag**: 2D Array
+ #### 2D-Array
    * Basic code 
    ```cpp
    // Declaration 
@@ -72,8 +72,8 @@
    
    ```
  
- ### STL Algorthims
- * **Next permutation**
+ ### STL-Algorthims
+ #### Next-permutation
    * Given an array of objects a[] that represents a permutation, the next permutation can be found as follows:  
    * Let i be the greatest index where a[i] < a[i+1]
    * Let j be the greatest index where a[j] > a[i]   
@@ -92,7 +92,7 @@
    
   
 ### Dynamically-Resizable Arrays
-* **Tag**: Vector
+#### Vector
   * 1D Vector 
   ```cpp
    // Declaration 
@@ -125,6 +125,7 @@
     cout << vec[index].first; // will print the first pair value inside this index
    
     ```
+    
    * 2D vectors
    ```cpp
     // Declaration 
@@ -140,7 +141,7 @@
     ```
 
 ### Bitmasks
-* **Tag**: Bitmasks
+#### Bitmasks
   * Bitwise Manipulation
   - turn on j-th: {00001} --> shift left by j-th times
   - turn off j-th and turn on the remaining: {00001} -->  shift left by j-th times, then use NOT
@@ -206,7 +207,7 @@
   ```
 
 ### LinkedList
-* **Tag**: List
+#### List
   * Basic code
   ``` cpp
   // Declaration 
@@ -235,7 +236,7 @@
   ```
 
 ### Stacks
-* **Tag**: Stacks
+#### Stacks
   * Basic Code
   ``` cpp
   // Declaration 
@@ -251,7 +252,7 @@
   ```
   
 ### Queues
-* **Tag**: Queues
+#### Queues
   * Basic code
   ``` cpp
   // Declaration 
@@ -269,7 +270,7 @@
  
 
 ### Dequeues
-* **Tag**: Dequeues
+#### Dequeues
   * Basic code
   ``` cpp
     // Declaration 
@@ -289,10 +290,10 @@
   ```
   
 
-### Non-Linear DS
+## Non-Linear DS
 
 ### Balanced Binary Search Tree
-* **Tag**: Map
+#### Map
   * Basic code
   ``` cpp
     // Declaration 
@@ -323,7 +324,7 @@
     printf("%s %d\n", ((string)it->first).c_str(), it->second);
     
   ```
-* **Tag**: Multimap
+#### Multimap
   * Basic code
   ``` cpp
    // Declaration 
@@ -344,7 +345,7 @@
    int val = m[key];
     
   ```
-* **Tag**: Set
+#### Set
   * Basic code
   ``` cpp
    // Declaration 
@@ -360,7 +361,7 @@
    s.erase(itr);
     
   ```
-* **Tag**: Multiset
+#### Multiset
   * Basic code
   ``` cpp
    // Declaration 
@@ -380,7 +381,7 @@
   ```
 
 ### Heap
-* **Tag**: Priority_queue
+#### Priority_queue
   * Basic code
   ``` cpp
     // Declaration 
