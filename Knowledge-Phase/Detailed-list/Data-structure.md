@@ -61,13 +61,13 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree 
 of x are greater than (or equal to) x. allows for O(log n) search(key), insert(key), findMin()/findMax(), successor(key)/predecessor(key), and delete(key).
   * **Map**  is an associative container that store elements formed by a pair of a key value 
-  and a mapped value (key --> value), it will only store each value once for a specific key.
+  and a mapped value (key --> value),following a specific order and it will only store each value once for a specific key.
   * **Multimap** stores pairs of (key --> value) where both key and value can appear several times.
-  * **Set** is
-  * **Multiset**
-* **Heap**
-  * **Priority_queue**
-* **Hash Table**
+  * **Set** is a container that store unique elements following a specific order, set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
+  * **Multiset** is a container that store elements following a specific order, and where multiple elements can have equivalent values.
+* **Heap** is a tree-based data structure in which all the parent nodes it's child is either greater than or equal them (in a max heap) or less than or equal them (in a min heap). The maximum number of children of a node in a heap depends on the type of heap. However, in the more commonly-used heap type, there are at most children of a node and it's known as a Binary heap.
+  * **Priority_queue** is a type of container adaptors, specifically designed such that its first element is always the greatest of the elements it contains.
+ * **Hash Table**
   * **Unordered_map**
   * **Unordered_multimap**
   * **Unordered_set**
