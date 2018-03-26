@@ -1,7 +1,7 @@
 # Data Structure Library
 
 ##### Table of Contents  
-- [LinearDS](#LinearDS)
+- [LinearDS](#linearDS)
   * [StaticArrays](#StaticArrays)
     + [1DArray](#1DArray)
     + [2DArray](#2DArray)
