@@ -1,13 +1,15 @@
 # Data Structure Library
-## Content table
 
+##### Table of Contents  
+- [LinearDS](#LinearDS)
+  * [StaticArrays](#StaticArrays)
+    + [1DArray](#1DArray)
 
+<!-- toc -->
 
-## Linear DS
-
-
-### Static Arrays
-* **Tag**: 1D Array
+## LinearDS
+### StaticArrays
+### 1DArray
   * Basic code
   ```cpp
   // Declaration 
@@ -264,8 +266,9 @@
    cout << qu.back();
         
   ```
-  
-  ### Dequeues
+ 
+
+### Dequeues
 * **Tag**: Dequeues
   * Basic code
   ``` cpp
