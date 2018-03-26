@@ -3,7 +3,7 @@
 
 Table of Contents
 ================= 
-- [Linear DS](#linearDS)
+- [Linear DS](https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase/Topics-library/Data-structure-lib.md#linearDS)
   * [Static Arrays](#StaticArrays)
     + [1D Array](#1DArray)
     + [2D Array](#2DArray)
