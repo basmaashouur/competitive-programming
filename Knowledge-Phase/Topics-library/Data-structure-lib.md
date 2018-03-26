@@ -290,7 +290,7 @@
 
 ### Balanced Binary Search Tree
 * **Tag**: Map
-  *Basic code
+  * Basic code
   ``` cpp
     // Declaration 
     map<string,int>m; //key_type is of type string and data_type is of type int.
@@ -320,8 +320,8 @@
     printf("%s %d\n", ((string)it->first).c_str(), it->second);
     
   ```
-  * **Tag**: Multimap
-  *Basic code
+* **Tag**: Multimap
+  * Basic code
   ``` cpp
    // Declaration 
    multimap <string,int> m;
@@ -341,8 +341,8 @@
    int val = m[key];
     
   ```
- * **Tag**: Set
-  *Basic code
+* **Tag**: Set
+  * Basic code
   ``` cpp
    // Declaration 
    set <int> s;
@@ -357,8 +357,8 @@
    s.erase(itr);
     
   ```
-  * **Tag**: Multiset
-  *Basic code
+* **Tag**: Multiset
+  * Basic code
   ``` cpp
    // Declaration 
    multiset <int> s;
@@ -378,7 +378,7 @@
 
 ### Heap
 * **Tag**: Priority_queue
-  *Basic code
+  * Basic code
   ``` cpp
     // Declaration 
     priority_queue<int> pq; // max heap
