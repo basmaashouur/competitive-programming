@@ -288,5 +288,51 @@
 
 ### Non-Linear DS
 
-### BBST
-* **Tag**: 
+### Balanced Binary Search Tree
+* **Tag**: Map
+  *Basic code
+  ``` cpp
+  // Declaration 
+    map<string,int>m; //key_type is of type string and data_type is of type int.
+    
+   // Initialization
+   m.insert(make_pair("hello",9));
+   
+   // Check if a key exist incement it, if not insert it then incrment
+   // it will also find how many values of that key exist
+   string check;
+   m[check]++;
+   
+   // Finding an element Complexity is O(log N)
+   map<string,int>::iterator itr=m.find(key);
+   if(itr != m.end()) cout<< itr->second; // if find it will print it
+   
+   // erasing an element Complexity is O(log N)
+   m.erase(key);
+   m.erase(itr);
+   
+   // Accessing Complexity is O(log N)
+   int val = m[key];
+    
+  ```
+  * **Tag**: Multimap
+  *Basic code
+  ``` cpp
+  // Declaration 
+   multimap map<string,int>m;
+    
+   // Initialization
+   m.insert(make_pair("hello",9));
+   
+   // Finding an element Complexity is O(log N)
+   map<string,int>::iterator itr=m.find(key);
+   if(itr != m.end()) cout<< itr->second; // if find it will print it
+   
+   // erasing an element Complexity is O(log N)
+   m.erase(key);
+   m.erase(itr);
+   
+   // Accessing Complexity is O(log N)
+   int val = m[key];
+    
+  ```
