@@ -3,13 +3,13 @@
 
 Table of Contents
 ================= 
-- [LinearDS](#linearDS)
-  * [StaticArrays](#StaticArrays)
-    + [1DArray](#1DArray)
-    + [2DArray](#2DArray)
-  * [STL-Algorthims](#STL-Algorthims)
-    + [Next-permutation](#Next-permutation)
-  * [Dynamically-Resizable-Arrays](#Dynamically-Resizable-Arrays)
+- [Linear DS](#linearDS)
+  * [Static Arrays](#StaticArrays)
+    + [1D Array](#1DArray)
+    + [2D Array](#2DArray)
+  * [STL Algorthims](#STL-Algorthims)
+    + [Next permutation](#Next-permutation)
+  * [Dynamically Resizable Arrays](#Dynamically-Resizable-Arrays)
     + [Vector](#Vector)
   * [Bitmasks](#Bitmasks)
     + [Bitmasks](#Bitmasks)
@@ -22,13 +22,12 @@ Table of Contents
   * [Dequeues](#Dequeues)
     + [Dequeues](#Dequeues)
   
-  
-
+ 
 <!-- toc -->
 
 ## LinearDS
-### StaticArrays
-#### 1DArray
+### Static Arrays
+#### 1D Array
   * Basic code
   ```cpp
   // Declaration 
@@ -65,7 +64,7 @@ Table of Contents
    
    ```
  
- #### 2DArray
+ #### 2D Array
    * Basic code 
    ```cpp
    // Declaration 
@@ -91,8 +90,8 @@ Table of Contents
    
    ```
  
- ### STL-Algorthims
- #### Next-permutation
+ ### STL Algorthims
+ #### Next permutation
    * Given an array of objects a[] that represents a permutation, the next permutation can be found as follows:  
    * Let i be the greatest index where a[i] < a[i+1]
    * Let j be the greatest index where a[j] > a[i]   
@@ -110,7 +109,7 @@ Table of Contents
    ```
    
   
-### Dynamically-Resizable-Arrays
+### Dynamically Resizable Arrays
 #### Vector
 * 1D Vector 
   ```cpp
@@ -309,9 +308,9 @@ Table of Contents
   ```
   
 
-## Non-Linear-DS
+## Non-Linear DS
 
-### Balanced-Binary-Search-Tree
+### Balanced Binary Search Tree
 #### Map
   * Basic code
   ``` cpp
