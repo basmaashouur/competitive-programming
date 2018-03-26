@@ -1,6 +1,8 @@
 # Data Structure Library
 
-##### Table of Contents  
+
+Table of Contents
+================= 
 - [LinearDS](#linearDS)
   * [StaticArrays](#StaticArrays)
     + [1DArray](#1DArray)
