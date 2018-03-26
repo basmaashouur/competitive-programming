@@ -4,6 +4,23 @@
 - [NonLinear-DS](#LinearDS)
   * [StaticArrays](#StaticArrays)
     + [1DArray](#1DArray)
+    + [2DArray](#2DArray)
+  * [STL-Algorthims](#STL-Algorthims)
+    + [Next-permutation](#Next-permutation)
+  * [Dynamically-Resizable-Arrays](#Dynamically-Resizable-Arrays)
+    + [Vector](#Vector)
+  * [Bitmasks](#Bitmasks)
+    + [Bitmasks](#Bitmasks)
+  * [LinkedList](#LinkedList)
+    + [List](#List)
+  * [Stacks](#Stacks)
+    + [Stacks](#Stacks)
+  * [Queues](#Queues)
+    + [Queues](#Queues)
+  * [Dequeues](#Dequeues)
+    + [Dequeues](#Dequeues)
+  
+  
 
 <!-- toc -->
 
@@ -46,7 +63,7 @@
    
    ```
  
- #### 2D-Array
+ #### 2DArray
    * Basic code 
    ```cpp
    // Declaration 
@@ -91,9 +108,9 @@
    ```
    
   
-### Dynamically-Resizable Arrays
+### Dynamically-Resizable-Arrays
 #### Vector
-  * 1D Vector 
+* 1D Vector 
   ```cpp
    // Declaration 
    vector<int> vec;
@@ -126,7 +143,7 @@
    
     ```
     
-   * 2D vectors
+ * 2D vectors
    ```cpp
     // Declaration 
     vector<vector<int> > vec (size);
@@ -290,9 +307,9 @@
   ```
   
 
-## Non-Linear DS
+## Non-Linear-DS
 
-### Balanced Binary Search Tree
+### Balanced-Binary-Search-Tree
 #### Map
   * Basic code
   ``` cpp
