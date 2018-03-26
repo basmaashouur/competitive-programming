@@ -26,7 +26,7 @@ Table of Contents
 ## LinearDS
 ### Static Arrays
 #### 1D Array
-  * Basic code
+  - Basic code
   ```cpp
   // Declaration 
   int arr[20];
@@ -49,7 +49,7 @@ Table of Contents
   // Accessing Complexity is O(1) if direct access, but it will be more when doing operations
   cout << arr[index]; // will print the value in this index
   ```
-  * You can make an indexed array(Hashing) for the alphabet characters and every characater will have an index.
+  - You can make an indexed array(Hashing) for the alphabet characters and every characater will have an index.
    ```cpp
    int alpha [26] = {0};
    /* 'a' in ascii = 97
@@ -63,7 +63,7 @@ Table of Contents
    ```
  
  #### 2D Array
-   * Basic code 
+ - Basic code 
    ```cpp
    // Declaration 
    int arr[3][5];
@@ -109,7 +109,7 @@ Table of Contents
   
 ### Dynamically Resizable Arrays
 #### Vector
-* 1D Vector 
+- 1D Vector 
   ```cpp
    // Declaration 
    vector<int> vec;
@@ -125,7 +125,7 @@ Table of Contents
    cout << vec[index]; // will print the value inside this index
    
    ```
-   * Vector of pairs 
+   - Vector of pairs 
    ```cpp
     // Declaration 
     vector<pair<int, int> > vec;
@@ -142,7 +142,7 @@ Table of Contents
    
     ```
     
- * 2D vectors
+ - 2D vectors
    ```cpp
     // Declaration 
     vector<vector<int> > vec (size);
@@ -224,7 +224,7 @@ Table of Contents
 
 ### LinkedList
 #### List
-  * Basic code
+  - Basic code
   ``` cpp
   // Declaration 
    list <int> li;
@@ -253,7 +253,7 @@ Table of Contents
 
 ### Stacks
 #### Stacks
-  * Basic Code
+  - Basic Code
   ``` cpp
   // Declaration 
    stack <int> st;
@@ -269,7 +269,7 @@ Table of Contents
   
 ### Queues
 #### Queues
-  * Basic code
+ - Basic code
   ``` cpp
   // Declaration 
   queue <int> qu;
@@ -287,7 +287,7 @@ Table of Contents
 
 ### Dequeues
 #### Dequeues
-  * Basic code
+ - Basic code
   ``` cpp
     // Declaration 
     deque <int> deq (size);
@@ -310,7 +310,7 @@ Table of Contents
 
 ### Balanced Binary Search Tree
 #### Map
-  * Basic code
+- Basic code
   ``` cpp
     // Declaration 
     map<string,int>m; //key_type is of type string and data_type is of type int.
@@ -341,7 +341,7 @@ Table of Contents
     
   ```
 #### Multimap
-  * Basic code
+- Basic code
   ``` cpp
    // Declaration 
    multimap <string,int> m;
@@ -362,7 +362,7 @@ Table of Contents
     
   ```
 #### Set
-  * Basic code
+- Basic code
   ``` cpp
    // Declaration 
    set <int> s;
@@ -378,7 +378,7 @@ Table of Contents
     
   ```
 #### Multiset
-  * Basic code
+- Basic code
   ``` cpp
    // Declaration 
    multiset <int> s;
@@ -398,7 +398,7 @@ Table of Contents
 
 ### Heap
 #### Priority_queue
-  * Basic code
+ - Basic code
   ``` cpp
     // Declaration 
     priority_queue<int> pq; // max heap
