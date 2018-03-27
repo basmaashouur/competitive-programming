@@ -21,7 +21,7 @@ Table of Contents
   * [Dequeues](#Dequeues)
     + [Dequeues](#Dequeues)
    
-## LinearDS
+## Linear DS
 ### Static Arrays
 #### 1D Array
   - Basic code
