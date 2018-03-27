@@ -4,7 +4,7 @@ Table of Contents
 ================= 
 
 # Table of Contents
-1. [Linear DS Suptopic](#[linear-dS-suptopic)
+1. [Linear DS Suptopic](#linear-dS-suptopic)
 2. [te](#example2)
 3. [Third Example](#third-example)
 
