@@ -4,11 +4,11 @@ Table of Contents
 ================= 
 
 # Table of Contents
-1. [Linear DS](#linearDS)
+1. [LinearDS](#linearDS)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 
-## Linear DS
+## LinearDS
 ## Example2
 ## Third Example
 
