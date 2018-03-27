@@ -1,6 +1,5 @@
 # Data Structure Library
 
-
 Table of Contents
 ================= 
 - [Linear DS](#linearDS)
@@ -21,8 +20,7 @@ Table of Contents
     + [Queues](#Queues)
   * [Dequeues](#Dequeues)
     + [Dequeues](#Dequeues)
-  
- 
+   
 ## LinearDS
 ### Static Arrays
 #### 1D Array
@@ -60,8 +58,7 @@ Table of Contents
    arr[(int)'a' - 97]++; // means I have one 'a' characater
    cout << char(0 + 97); // will print a
    
-   ```
- 
+   ``` 
  #### 2D Array
  - Basic code 
    ```cpp
@@ -87,7 +84,6 @@ Table of Contents
    cout << arr[row][col]; // will print the value in this index
    
    ```
- 
  ### STL Algorthims
  #### Next permutation
    * Given an array of objects a[] that represents a permutation, the next permutation can be found as follows:  
