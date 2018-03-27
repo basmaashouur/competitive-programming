@@ -12,15 +12,23 @@ Table of Contents
   * [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
     + [Vector](#vector)
   * [Bitmasks](#bitmasks)
-    + [Bitmasks](#bitmasks)
+    + [Bitmask](#bitmask)
   * [LinkedList](#linkedlist)
     + [List](#list)
   * [Stacks](#stacks)
-    + [Stacks](#stacks)
+    + [Stack](#stack)
   * [Queues](#queues)
-    + [Queues](#queues)
+    + [Queue](#queue)
   * [Dequeues](#dequeues)
-    + [Dequeues](#dequeues)
+    + [Dequeue](#dequeue)
+- [Non Linear DS](#non-linear-ds)
+  * [Balanced Binary Search Tree](#balanced-binary-search-tree)
+    + [Map](#map)
+    + [Multimap](#multimap)
+    + [Set](#set)
+    + [Multiset](#multiset)
+  * [Heap](#heap)
+    + [Priority_queue](#priority-queue)
    
 ## Linear DS
 ### Static Arrays
@@ -154,7 +162,7 @@ Table of Contents
     ```
 
 ### Bitmasks
-#### Bitmasks
+#### Bitmask
   * Bitwise Manipulation
   - turn on j-th: {00001} --> shift left by j-th times
   - turn off j-th and turn on the remaining: {00001} -->  shift left by j-th times, then use NOT
@@ -249,7 +257,7 @@ Table of Contents
   ```
 
 ### Stacks
-#### Stacks
+#### Stack
   - Basic Code
   ``` cpp
   // Declaration 
@@ -265,7 +273,7 @@ Table of Contents
   ```
   
 ### Queues
-#### Queues
+#### Queue
  - Basic code
   ``` cpp
   // Declaration 
@@ -283,7 +291,7 @@ Table of Contents
  
 
 ### Dequeues
-#### Dequeues
+#### Dequeue
  - Basic code
   ``` cpp
     // Declaration 
@@ -303,7 +311,7 @@ Table of Contents
   ```
   
 
-## Non-Linear DS
+## Non Linear DS
 
 ### Balanced Binary Search Tree
 #### Map
