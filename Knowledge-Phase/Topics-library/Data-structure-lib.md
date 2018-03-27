@@ -3,16 +3,7 @@
 Table of Contents
 ================= 
 
-# Table of Contents
-1. [Linear DS Suptopic](#linear-dS-suptopic)
-2. [te](#example2)
-3. [Third Example](#third-example)
-
-## Linear DS Suptopic
-## te
-## Third Example
-
-- [Linear DS](#linearDS)
+- [Linear DS](#linear-ds)
   * [Static Arrays](#StaticArrays)
     + [1D Array](#1DArray)
     + [2D Array](#2DArray)
