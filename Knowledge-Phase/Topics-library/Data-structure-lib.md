@@ -408,10 +408,12 @@ Table of Contents
     // Declaration 
     priority_queue<int> pq; // max heap
     priority_queue<int, vector<int>, greater<int> > mpq; // min heap
+    priority_queue<pair <int, int>, vector<pair <int, int>>, greater<pair <int, int>> > mpq; // pair min heap
     
    // Initialization
    for(int n : {1,8,5,6,3,4,0,9,7,2})
         q2.push(n);
+   mpq.push(make_pair(1, 3)); // push pair into min heap
    
    // erasing an element Complexity is O(1)
    pq.pop();
