@@ -5,11 +5,11 @@ Table of Contents
 
 # Table of Contents
 1. [Linear DS suptopic](#lineardS)
-2. [Example2](#example2)
+2. [te](#example2)
 3. [Third Example](#third-example)
 
 ## Linear DS suptopic
-## Example2
+## te
 ## Third Example
 
 - [Linear DS](#linearDS)
