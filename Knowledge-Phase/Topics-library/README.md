@@ -18,11 +18,9 @@ Table of Contents
 - [Sup Topic](#sup-topic)
   * [Sup Sup Topic](#sup-sup-topic)
     + [Tag](#tag)
-    + [tag](#tag)
  - [Sup Topic](#sup-topic)
    * [Sup Sup Topic](#sup-sup-topic)
      + [Tag](#tag)
-     + [tag](#tag)
    
 ## Sup Topic
 ### Sup Sup Topic
