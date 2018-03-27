@@ -28,7 +28,7 @@ Table of Contents
     + [Set](#set)
     + [Multiset](#multiset)
   * [Heap](#heap)
-    + [Priority_queue](#priority-queue)
+    + [Priority Queue](#priority-queue)
    
 ## Linear DS
 ### Static Arrays
@@ -402,7 +402,7 @@ Table of Contents
   ```
 
 ### Heap
-#### Priority_queue
+#### Priority Queue
  - Basic code
   ``` cpp
     // Declaration 
