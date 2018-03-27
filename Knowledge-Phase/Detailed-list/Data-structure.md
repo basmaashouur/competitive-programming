@@ -8,7 +8,7 @@
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time 
 -------------| -------------   |-------------   
 **Linear DS**<br>Static Arrays<br> Stl Algorithms <br> Dynamically-Resizable Arrays<br>Bitmasks<br>BitSets<br>LinkedList<br>Stacks<br>Queues<br>Dequeues|[Bits](https://graphics.stanford.edu/~seander/bithacks.html)<br> [Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)<br> [masks](https://en.wikipedia.org/wiki/Mask_(computing))<br> [Bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)<br> [Bit subset](http://codesam.blogspot.com.eg/2011/03/find-all-subsets-of-given-set.html)<br> [Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)|4Days
-**Non-Linear DS**<br>Balanced Binary Search Tree<br>Heap<br>Hash Table|[Performance](https://stackoverflow.com/questions/222658/multiset-map-and-hash-map-complexity?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)<br>[Set differnces](https://www.geeksforgeeks.org/difference-set-multiset-unordered_set-unordered_multiset/)<br> | 4Days
+**Non Linear DS**<br>Balanced Binary Search Tree<br>Heap<br>Hash Table|[Performance](https://stackoverflow.com/questions/222658/multiset-map-and-hash-map-complexity?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)<br>[Set differnces](https://www.geeksforgeeks.org/difference-set-multiset-unordered_set-unordered_multiset/)<br> | 4Days
 
 ## Tags
 - 1D Array (static arrays) (linear DS)
@@ -24,11 +24,11 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Multimap (BBST) (Non-linear DS)
 - Set (BBST) (Non-linear DS)
 - Multiset (BBST) (Non-linear DS)
-- Priority_queue (Heap) (Non-linear DS)
-- Unordered_map (Hash Table) (Non-linear DS)
-- Unordered_multimap (Hash Table) (Non-linear DS)
-- Unordered_set (Hash Table) (Non-linear DS)
-- Unordered_multiset (Hash Table) (Non-linear DS)
+- Priority Queue (Heap) (Non-linear DS)
+- Unordered Map (Hash Table) (Non-linear DS)
+- Unordered Multimap (Hash Table) (Non-linear DS)
+- Unordered Set (Hash Table) (Non-linear DS)
+- Unordered Multiset (Hash Table) (Non-linear DS)
 
 
 
@@ -54,7 +54,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Dequeue** are like vectors but double ended.
  
  
- ### Non-Linear DS
+ ### Non Linear DS
  - Data items are not organized sequentially. In other words, A data elements of the non linear data structure could be connected to more than one elements to reflect a special relationship among them. All the data elements in non linear data structure can not be traversed in single run.
 
 * **Balanced Binary Search Tree** The BST is one way to organize data in a tree structure. In each subtree rooted at x,
@@ -66,9 +66,9 @@ of x are greater than (or equal to) x. allows for O(log n) search(key), insert(k
   * **Set** is a container that store unique elements following a specific order, set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
   * **Multiset** is a container that store elements following a specific order, and where multiple elements can have equivalent values.
 * **Heap** is a tree-based data structure in which all the parent nodes it's child is either greater than or equal them (in a max heap) or less than or equal them (in a min heap). The maximum number of children of a node in a heap depends on the type of heap. However, in the more commonly-used heap type, there are at most children of a node and it's known as a Binary heap.
-  * **Priority_queue** is a type of container adaptors, specifically designed such that its first element is always the greatest of the elements it contains.
+  * **Priority Queue** is a type of container adaptors, specifically designed such that its first element is always the greatest of the elements it contains.
 * **Hash Table**
-  * **Unordered_map**
-  * **Unordered_multimap**
-  * **Unordered_set**
-  * **Unordered_multiset**
+  * **Unordered Map**
+  * **Unordered Multimap**
+  * **Unordered Set**
+  * **Unordered Multiset**
