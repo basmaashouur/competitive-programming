@@ -1,0 +1,42 @@
+# Graphes Problems
+
+Table of Contents
+=================
+- [Graph Traversal](#graph-traversal)
+- [Basic Algorithms](#basic-algorithms)
+- [Minimum Spanning Tree](#minimum-spanning-tree)
+- [Single Source Shortest Paths](#single-source-shortest-paths)
+
+
+## Graph Traversal
+Graph Traversal    | Problems | Notes (Level)| Sloutions| Phase
+-------------| -------------   |-------------| -------------|-------------
+DFS| [Sticker Collector Robot](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2931)<br>[Knight in a War Grid](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3057) <br>  [Forwarding Emails](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3873)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+BFS| []()<br>  []()<br>  []()<br>  ||[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+
+## Basic Algorithms
+Graph Traversal    | Problems | Notes (Level)| Sloutions| Phase
+-------------| -------------   |-------------| -------------|-------------
+Flood Fill| [Ancient Messages](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3544)<br>  [Battleships](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3104)<br>  [Continents](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2035)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Connected Components| []()<br>  []()<br>  []()<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Topological Sort| [Ordering](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=813)<br>  [Beverages](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2001)<br>  [Ordering Tasks](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1246)<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Bipartite Graph Check| [Bicoloring](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=945)<br>  [Place the Guards](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2021)<br>  [Claw Decomposition](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2391)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Articulation points and bridges| [Network](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=251)<br>  [Critical Links](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=737)<br>  [Doves and bombs](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1706)<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>|
+Strongly Connected Components| [Calling Circles](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=183)<br>  [Dominos](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2499)<br>  [Come and Go](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2938)<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Edge Types and Cyclity Check| []()<br>  []()<br>  []()<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+
+
+## Minimum Spanning Tree
+Minimum Spanning Tree    | Problems | Notes (Level)| Sloutions| Phase
+-------------| -------------   |-------------| -------------|-------------
+Standard| [Transportation system](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2169)<br>  [Dark roads](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2678)<br>  [Heavy Cycle Edges](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2847)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Variants| [Audiophobia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=989)<br>  [Arctic Network](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1310)<br>  [ACM Contest and Blackout](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1541)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+
+
+## Single Source Shortest Paths
+Minimum Spanning Tree    | Problems | Notes (Level)| Sloutions| Phase
+-------------| -------------   |-------------| -------------|-------------
+Unweighted Graph BFS| [Word Transformation](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=370)<br>  [Spreading The News](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=865)<br>  [Bombs! NO they are Mines!!](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1594)<br>[Robot](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=250)<br>  [Mall Mania](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2042)<br>  [Unlock the Lock](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3312)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br>[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>Knowledge<br> Knowledge<br> Knowledge<br>| 
+Weighted Graph Dijkstra's| [Number Maze](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=870)<br>  [Mice and Maze](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3553)<br>  [Sending email](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1927)<br> [Lift Hopping](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1742)<br>  [Babel](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2487)<br>  [Highest Paid Toll](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3198)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [Sloution]()<br>[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>Knowledge<br> Knowledge<br> Knowledge<br>| 
+Graph with Negative Weight Cycle <br> Bellman Ford's | [Wormholes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=499)<br>  [Traffic](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1390)<br>  [XYZZY](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1498)<br>  | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+
