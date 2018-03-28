@@ -56,6 +56,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (x',y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
    <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/prot.png">
+   
   * **Point Reflection**
   * **Point Translation**
   * **Vector Addition & subtraction**
