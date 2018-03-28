@@ -5,6 +5,7 @@ Table of Contents
 - [Brute Force](#brute-force)
 - [Greedy](#greedy)
 - [Divide and Conquer](#divide-and-conquer)
+- [Sliding Window](#sliding-window)
 
 
 ## Brute Force
@@ -22,8 +23,12 @@ Classical<br>& sorting| [The Trip, 2007](https://uva.onlinejudge.org/index.php?o
 Non Classical| [Maximum Sum (II)](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1597)<br>  [Bit Mask](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1659)<br>  [Dynamic Frog](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2098)<br>  | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
 
 ## Divide and Conquer
-
 Divide and Conquer    | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
 Binary Search| [Helping Fill Bates](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1508)<br>  [Exact Sum](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1998)<br>  [Grapevine](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3344)<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
 Tag Name| []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+
+## Sliding Window
+Sliding Window  | Problems | Notes (Level)| Sloutions| Phase
+-------------| -------------   |-------------| -------------|-------------
+Tag Name| [Smallest Sub-Array](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2531)<br>  [Subsequence](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3562)<br>  [They Are Everywhere](http://codeforces.com/contest/701/problem/C)<br>  [Subsegments](http://codeforces.com/contest/69/problem/E)<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>Knowledge<br>|
