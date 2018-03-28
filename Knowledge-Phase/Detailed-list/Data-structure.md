@@ -8,6 +8,7 @@ Table of Contents
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Linear DS](#linear-ds)
     + [Static Array](#static-array)
+    + [Stl Algorithms](#stl-algorithms)
     + [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
   * [Non Linear DS](#non-linear-ds)
     + [Balanced Binary Search Tree](#balanced-binary-search-tree)
