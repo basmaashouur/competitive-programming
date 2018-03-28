@@ -1,8 +1,10 @@
 # Data Structure Problems
 ## Content table
+- (Linear DS)(#linear-ds)
+- (Non Linear DS)(#non-linear-ds)
 
 
-
+## Linear DS
 Linear DS  | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
 Static & <br> Dynamic Arrays| [Machined Surfaces](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=355)<br> [Borrowers](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=166)<br>[Jolly Jumpers](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=979)<br>[Newspaper](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2315)<br>[Army Buddies](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3778)<br> [Rotated square](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1796)<br>[Spiral Tap](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1861)<br>[Grid Successors](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2628)| <br><br><br><br><br>| [Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/414-UVa.cpp)<br>[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/230-UVa.cpp)<br> [Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/10038-UVa.cpp)<br> [Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/11340-UVa.cpp)<br> [Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/12356-UVa.cpp)<br>[Sloution]()<br>[Sloution]()<br>[Sloution]()<br>| Knowledge <br> Knowledge <br> Knowledge <br> Knowledge <br> Knowledge <br>Knowledge <br>Knowledge <br>Knowledge 
@@ -14,7 +16,7 @@ Queue & Deque|[The Lonesome Cargo](https://uva.onlinejudge.org/index.php?option=
 
 
 
-
+## Non Linear DS
 Non-Linear DS  | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
 Map | [Hardwood Species](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)<br> [Conformity](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2261)<br>[Unique Snowflakes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2619)<br> [Updating a Dictionary](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3948)<br>[Word Index](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=358)<br>[Hay Points](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=631&page=show_problem&problem=1236)<br>||[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/10226-UVa.cpp)<br>[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/11286-UVa.cpp)<br>[Sloution]()<br>[Sloution]()<br>[Sloution]()<br>[Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/data-strcture-solutions%20/10295-UVa.cpp)<br>|Knowledge <br> Knowledge <br> Knowledge <br> Knowledge <br> Knowledge <br> Knowledge <br>
