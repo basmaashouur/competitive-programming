@@ -2,14 +2,13 @@
 
 Table of Contents
 =================
-- [Sup Topic](#sup-topic)
+- [Brute Force](#brute-force)
 - [Sup Topic](#sup-topic)
 
 
-## Sup Topic
-Sup Topic    | Problems | Notes (Level)| Sloutions| Phase
+## Brute Force
+Brute Force    | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
-Tag Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Tag Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Tag Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Tag Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Iterative| [Integer Sequences from Addition of Terms](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=868)<br>  [Expert Enough?](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3678)<br> [Fractions Again?!](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1917)<br>  [Sales](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3701)<br> [Closest Sums](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1428)<br>  [Tour de France](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2183)<br> [Lotto](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=382)<br>  [Dart-a-Mania](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=676)<br>  [The path in the colored field](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1043)<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br>[Sloution]()<br> [Sloution]()<br> [Sloution]()<br>[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br>Knowledge<br> Knowledge<br> Knowledge<br>|
+Recursive| [CD](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=565)<br>  [Back to the 8-Queens](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2026)<br>  [Y2K Accounting Bug](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1517)<br>  [Prime Ring Problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=465)<br> [Sum It Up](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=515)<br>  [The dominoes solitaire](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1444)<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> [Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br> Knowledge<br>| 
+Memoization| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
