@@ -2,8 +2,8 @@
 
 Table of Contents
 =================
-- (Linear DS)(#linear-ds)
-- (Non Linear DS)(#non-linear-ds)
+- [Linear DS](#linear-ds)
+- [Non Linear DS](#non-linear-ds)
 
 
 ## Linear DS
