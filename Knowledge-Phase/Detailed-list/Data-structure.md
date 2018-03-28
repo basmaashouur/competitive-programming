@@ -1,11 +1,18 @@
-# List of Data Strcture Sup topic's Resources, Tags, Terminologies and Explanations 
+# List of Data Structure Sup topic's Resources, Tags, Terminologies and Explanations
 
-## Content table
+Table of Contents
+=================
+
+- [Resources And Approximate Time](#resources-and-approximate-time)
+- [Tags](#tags)
+- [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
+  * [Linear DS](#linear-ds)
+  * [Non Linear DS](#non-linear-ds)
 
 
 ## Resources and Approximate time
 
-Sup Topic Name   | Resources   | Approximate stydying <br> & solving time 
+Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Linear DS**<br>Static Arrays<br> Stl Algorithms <br> Dynamically-Resizable Arrays<br>Bitmasks<br>BitSets<br>LinkedList<br>Stacks<br>Queues<br>Dequeues|[Bits](https://graphics.stanford.edu/~seander/bithacks.html)<br> [Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)<br> [masks](https://en.wikipedia.org/wiki/Mask_(computing))<br> [Bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)<br> [Bit subset](http://codesam.blogspot.com.eg/2011/03/find-all-subsets-of-given-set.html)<br> [Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)|4Days
 **Non Linear DS**<br>Balanced Binary Search Tree<br>Heap<br>Hash Table|[Performance](https://stackoverflow.com/questions/222658/multiset-map-and-hash-map-complexity?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)<br>[Set differnces](https://www.geeksforgeeks.org/difference-set-multiset-unordered_set-unordered_multiset/)<br> | 4Days
@@ -32,7 +39,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 
 
-## Sup Topic Terminologies and Explanations 
+## Sup Topic Terminologies And Explanations
 
 ### Linear DS
 - Data items are organized sequentially or linearly where data elements attached one after another OR Collection of variables that are of similar data types and it's elements form a linear sequence.
@@ -40,10 +47,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Static Array** is array which you can't change it's size once declared.
   * **1D Array** store single list of elements, can be distinctly accessed by specifying its index.
   * **2D Array || Matrix** multi-dimensional array is an array of arrays, for an array of size N×M, the rows and columns are numbered from 0 to N−1 and columns are numbered from 0 to M−1.
-  * **ND Array** 
+  * **ND Array**
   * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
 * **Stl Algorithms**
-  * **Next permutation** Given a word, find lexicographically greater permutation of it. 
+  * **Next permutation** Given a word, find lexicographically greater permutation of it.
 * **Vector** are similar to an array but are dynamically sized.
 * **Bitset** an array of booleans with useful opeartions like rest() and set().
 * **Bitmask** are technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}. An int is stored is in a string of bits AKA (bitmask), we can use bit manipulation whick make it more efficient than bitset or vector<bool>.
@@ -52,15 +59,15 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Stack** are a type of container adaptors with Last In First Out feature.
 * **Queue** are a type of container adaptors with First In First Out feature.
 * **Dequeue** are like vectors but double ended.
- 
- 
+
+
  ### Non Linear DS
  - Data items are not organized sequentially. In other words, A data elements of the non linear data structure could be connected to more than one elements to reflect a special relationship among them. All the data elements in non linear data structure can not be traversed in single run.
 
 * **Balanced Binary Search Tree** The BST is one way to organize data in a tree structure. In each subtree rooted at x,
-the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree 
+the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree
 of x are greater than (or equal to) x. allows for O(log n) search(key), insert(key), findMin()/findMax(), successor(key)/predecessor(key), and delete(key).
-  * **Map**  is an associative container that store elements formed by a pair of a key value 
+  * **Map**  is an associative container that store elements formed by a pair of a key value
   and a mapped value (key --> value),following a specific order and it will only store each value once for a specific key.
   * **Multimap** stores pairs of (key --> value) where both key and value can appear several times.
   * **Set** is a container that store unique elements following a specific order, set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
