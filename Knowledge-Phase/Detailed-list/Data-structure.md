@@ -7,7 +7,12 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Linear DS](#linear-ds)
+    + [Static Array](#static-array)
+    + [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
   * [Non Linear DS](#non-linear-ds)
+    + [Balanced Binary Search Tree](#balanced-binary-search-tree)
+    + [Heap](#heap)
+    + [Hash Table](#hash-table)
 
 
 ## Resources and Approximate time
@@ -44,17 +49,19 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Linear DS
 - Data items are organized sequentially or linearly where data elements attached one after another OR Collection of variables that are of similar data types and it's elements form a linear sequence.
 
-* **Static Array** is array which you can't change it's size once declared.
-  * **1D Array** store single list of elements, can be distinctly accessed by specifying its index.
-  * **2D Array || Matrix** multi-dimensional array is an array of arrays, for an array of size N×M, the rows and columns are numbered from 0 to N−1 and columns are numbered from 0 to M−1.
-  * **ND Array**
-  * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
-* **Stl Algorithms**
-  * **Next permutation** Given a word, find lexicographically greater permutation of it.
+#### Static Array 
+* is array which you can't change it's size once declared.
+* **1D Array** store single list of elements, can be distinctly accessed by specifying its index.
+* **2D Array || Matrix** multi-dimensional array is an array of arrays, for an array of size N×M, the rows and columns are numbered from 0 to N−1 and columns are numbered from 0 to M−1.
+* **ND Array**
+* **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
+#### Stl Algorithms
+* **Next permutation** Given a word, find lexicographically greater permutation of it.
+#### Dynamically Resizable Arrays
 * **Vector** are similar to an array but are dynamically sized.
 * **Bitset** an array of booleans with useful opeartions like rest() and set().
 * **Bitmask** are technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}. An int is stored is in a string of bits AKA (bitmask), we can use bit manipulation whick make it more efficient than bitset or vector<bool>.
-  * **Bitwise Manipulation** is the act of algorithmically manipulating bits using bits operators(&, |, ^, ~, <<, >>)
+* **Bitwise Manipulation** is the act of algorithmically manipulating bits using bits operators(&, |, ^, ~, <<, >>)
 * **LinkedList** store data with structures so that we can automatically create a new place to store a new data.
 * **Stack** are a type of container adaptors with Last In First Out feature.
 * **Queue** are a type of container adaptors with First In First Out feature.
@@ -64,18 +71,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
  ### Non Linear DS
  - Data items are not organized sequentially. In other words, A data elements of the non linear data structure could be connected to more than one elements to reflect a special relationship among them. All the data elements in non linear data structure can not be traversed in single run.
 
-* **Balanced Binary Search Tree** The BST is one way to organize data in a tree structure. In each subtree rooted at x,
+#### Balanced Binary Search Tree
+* The BST is one way to organize data in a tree structure. In each subtree rooted at x,
 the following BST property holds: Items on the left subtree of x are smaller than x and items on the right subtree
 of x are greater than (or equal to) x. allows for O(log n) search(key), insert(key), findMin()/findMax(), successor(key)/predecessor(key), and delete(key).
-  * **Map**  is an associative container that store elements formed by a pair of a key value
+ * **Map**  is an associative container that store elements formed by a pair of a key value
   and a mapped value (key --> value),following a specific order and it will only store each value once for a specific key.
-  * **Multimap** stores pairs of (key --> value) where both key and value can appear several times.
-  * **Set** is a container that store unique elements following a specific order, set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
+ * **Multimap** stores pairs of (key --> value) where both key and value can appear several times.
+ * **Set** is a container that store unique elements following a specific order, set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
   * **Multiset** is a container that store elements following a specific order, and where multiple elements can have equivalent values.
-* **Heap** is a tree-based data structure in which all the parent nodes it's child is either greater than or equal them (in a max heap) or less than or equal them (in a min heap). The maximum number of children of a node in a heap depends on the type of heap. However, in the more commonly-used heap type, there are at most children of a node and it's known as a Binary heap.
-  * **Priority Queue** is a type of container adaptors, specifically designed such that its first element is always the greatest of the elements it contains.
-* **Hash Table**
-  * **Unordered Map**
-  * **Unordered Multimap**
-  * **Unordered Set**
-  * **Unordered Multiset**
+#### Heap 
+* Is a tree-based data structure in which all the parent nodes it's child is either greater than or equal them (in a max heap) or less than or equal them (in a min heap). The maximum number of children of a node in a heap depends on the type of heap. However, in the more commonly-used heap type, there are at most children of a node and it's known as a Binary heap.
+* **Priority Queue** is a type of container adaptors, specifically designed such that its first element is always the greatest of the elements it contains.
+#### Hash Table
+* **Unordered Map**
+* **Unordered Multimap**
+* **Unordered Set**
+* **Unordered Multiset**
