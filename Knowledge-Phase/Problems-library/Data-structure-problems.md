@@ -1,5 +1,7 @@
 # Data Structure Problems
-## Content table
+
+Table of Contents
+=================
 - (Linear DS)(#linear-ds)
 - (Non Linear DS)(#non-linear-ds)
 
