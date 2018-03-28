@@ -7,6 +7,10 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Euclidean Geometry Foundations](#euclidean-geometry-foundations)
+    + [Space](#space)
+    + [Planes](#planes)
+    + [Points](#points)
+    + [Lines](#lines)
   * [Euclidean Plane Geometry](#euclidean-plane-geometry)
    
    
