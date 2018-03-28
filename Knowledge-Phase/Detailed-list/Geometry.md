@@ -1,7 +1,7 @@
-# List of Geometry Sup topic's Resources, Tags, Terminologies and Explanations 
+# List of Geometry Sup topic's Resources, Tags, Terminologies and Explanations
 
 Table of Contents
-================= 
+=================
 
 - [Resources And Approximate Time](#resources-and-approximate-time)
 - [Tags](#tags)
@@ -12,8 +12,8 @@ Table of Contents
     + [Points](#points)
     + [Lines](#lines)
   * [Euclidean Plane Geometry](#euclidean-plane-geometry)
-   
-   
+
+
 
 ## Resources And Approximate Time
 
@@ -48,12 +48,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Definitions**
   * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
   * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
-  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem |a|= (x)2 +(y)2.
+  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/magnitude.png">
   * **Scalar** A scalar has magnitude (size) only.
   * **Unit Vector** Are vectors which magnitude is exactly 1 unit
 * **Methods & Operations**
-  * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space. (x2-x1)2 +(y2-y1)2 
-  * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (x',y'), where x′=xcosθ−ysinθ and y′=ycosθ+xsinθ, θ is the angle of rotation, in matrix notation
+  * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/eculid.png">
+  * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (x',y'), where
+  x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
+   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/prot.png">
   * **Point Reflection**
   * **Point Translation**
   * **Vector Addition & subtraction**
@@ -62,20 +64,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Vector Multiplying by Scalar**
     * a*v= (a * vi)
   * **Vector Multiplying by vector**
-    * Scalar or dot product: a . b = i=1nai bi = a1b1+ a2b2+... anbn
-    * Vector or cross product
+    * Scalar or dot product:  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/dotpr.png">
+    * Vector or cross product:
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
-  * **Line segment** A straight line which links two points without extending beyond them (has two ends) AB.
-  * **Congruent line segments** When Two line segments have the same length AB ≅ PQ.
-  * **Midpoint in line segments** The midpoint is halfway between the two endpoints M= (x1+x22,y1+y22)
+  * **Line segment** A straight line which links two points without extending beyond them (has two ends)  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/segment.png">.
+  * **Congruent line segments** When Two line segments have the same length  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/congse.png">.
+  * **Midpoint in line segments** The midpoint is halfway between the two endpoints  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/midpoint.png">
   * **Ray** A portion of a line which starts at a point and goes off in a particular direction to infinity (has one end).
   * **Note** Rays and lines cannot be congruent because they do not have both endpoints defined, and so have no definite length.
   * **Collinear** Points that lie on the same straight line.
-  * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°) AB  PQ.
+  * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°) <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/perpen.png">.
   * **Intersecting lines** The point where two lines meet or cross, Two distinct lines have one intersection point unless they are parallel; in which case they have none.
-  * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross,  AB || PQ.
+  * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross,   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/parallel.png">.
   * **Closest point**
   * **Coincident lines** two lines that lie one on top of the other.
   * **Vertical lines** slope is undefined
@@ -89,4 +91,4 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Compute the line equation** We can compute the line equation if we are given at least two points that pass through that line
   * **Determine if a point lies in a line** substitute the values of the point  into the equation of the line y=mx+b, where m & b are known, then If the point satisfies the equation of the line (results in a true equality), then the point is on the line, If you want to know whether the point (x,y)(x,y) is "in between" the two endpoints, make sure that  x1 ≤ x≤ x2 and y1 ≤ y ≤ y2.
 
-### Euclidean Plane Geometry 
+### Euclidean Plane Geometry
