@@ -39,7 +39,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Cartesian Plane** Is a model or method of Euclidean geometry to represent points, and defined by two perpendicular number lines: the x-axis, which is horizontal, and the y-axis, which is vertical. Using these axes, we can describe any point in the plane using an ordered pair of numbers. where each point is named by a pair of real numbers (x,y), straight lines are given by linear equations, distance by the distance formula, circles are given by particular quadratic equations, and angles by angle formulas in terms of trigonometric functions.
   * **Note**  Euclidean Plane means we have only some set of axiom, Cartesian plane means Euclidean plane + One fixed method of representing points.
   * **Coplanar** Objects are coplanar if they all lie in the same plane.
-  * **Properties**
+* **Properties**
   * Two distinct planes are either parallel or they intersect in a line.
   * A line is either parallel to a plane, intersects it at a single point, or is contained in the plane.
   * Two distinct lines perpendicular to the same plane must be parallel to each other.
