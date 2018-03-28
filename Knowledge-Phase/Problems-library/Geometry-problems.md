@@ -1,11 +1,11 @@
-# Data Structure Problems
+# Geometry Problems
 ## Content table
 
 
 
 Linear DS  | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
-Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> |[Sloution]()<br> |[Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> |[Sloution]()<br> |[Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> |[Sloution]()<br> |[Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
-Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> |[Sloution]()<br> |[Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Sup topic Name| []()<br>  []()<br>  []()<br>  []()<br> | |[Sloution]()<br> [Sloution]()<br> [Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
