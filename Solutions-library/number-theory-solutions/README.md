@@ -1,4 +1,4 @@
-# Sloutions of the Data Strcture
+# Sloutions of the Number Theory
 
 ## How
 

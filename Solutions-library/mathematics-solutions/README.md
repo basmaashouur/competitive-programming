@@ -1,4 +1,4 @@
-# Sloutions of the Data Strcture
+# Sloutions of the Mathematics
 
 ## How
 
