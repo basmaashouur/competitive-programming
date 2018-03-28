@@ -6,10 +6,8 @@ Table of Contents
 - [Resources And Approximate Time](#resources-and-approximate-time)
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
-  * [](#)
-    + [](#)
-  * [](#)
-    + [](#)
+  * [Sup Topic Name](#sup-topic-name)
+  * [Sup Topic Name](#sup-topic-name)
    
    
 
@@ -17,10 +15,13 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Sup Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
 ## Tags
 
 ## Sup Topic Terminologies And Explanations
+
+### Sup Topic Name
+### Sup Topic Name
