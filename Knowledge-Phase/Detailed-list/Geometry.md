@@ -48,14 +48,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Definitions**
   * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
   * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
-  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/magnitude.png">
+  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
   * **Scalar** A scalar has magnitude (size) only.
   * **Unit Vector** Are vectors which magnitude is exactly 1 unit
 * **Methods & Operations**
-  * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/eculid.png">
+  * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
   * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (x',y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
-   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/prot.png">
+  ![](imgs/prot.png)
    
   * **Point Reflection**
   * **Point Translation**
@@ -65,20 +65,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Vector Multiplying by Scalar**
     * a*v= (a * vi)
   * **Vector Multiplying by vector**
-    * Scalar or dot product:  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/dotpr.png">
+    * Scalar or dot product:  ![](imgs/dotpr.png)
     * Vector or cross product:
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
-  * **Line segment** A straight line which links two points without extending beyond them (has two ends)  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/segment.png">.
-  * **Congruent line segments** When Two line segments have the same length  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/congse.png">.
-  * **Midpoint in line segments** The midpoint is halfway between the two endpoints  <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/midpoint.png">
+  * **Line segment** A straight line which links two points without extending beyond them (has two ends) ![](imgs/segment.png)
+  * **Congruent line segments** When Two line segments have the same length ![](imgs/congse.png)
+  * **Midpoint in line segments** The midpoint is halfway between the two endpoints  ![](imgs/midpoint.png)
   * **Ray** A portion of a line which starts at a point and goes off in a particular direction to infinity (has one end).
   * **Note** Rays and lines cannot be congruent because they do not have both endpoints defined, and so have no definite length.
   * **Collinear** Points that lie on the same straight line.
-  * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°) <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/perpen.png">.
+  * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°)![](imgs/perpen.png).
   * **Intersecting lines** The point where two lines meet or cross, Two distinct lines have one intersection point unless they are parallel; in which case they have none.
-  * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross,   <img src="https://github.com/basmaashouur/Competitive-Programming/blob/master/Knowledge-Phase//Detailed-list/imgs/parallel.png">.
+  * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross, ![](imgs/parallel.png).
   * **Closest point**
   * **Coincident lines** two lines that lie one on top of the other.
   * **Vertical lines** slope is undefined
