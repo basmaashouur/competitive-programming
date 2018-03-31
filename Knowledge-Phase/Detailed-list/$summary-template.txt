@@ -7,9 +7,9 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Sup Topic Name](#sup-topic-name)
-    +[Sup Sup Topic Name](##sup-sup-topic-name)
+    + [Sup Sup Topic Name](#sup-sup-topic-name)
   * [Sup Topic Name](#sup-topic-name)
-    +[Sup Sup Topic Name](##sup-sup-topic-name)
+    + [Sup Sup Topic Name](#sup-sup-topic-name)
    
    
 
