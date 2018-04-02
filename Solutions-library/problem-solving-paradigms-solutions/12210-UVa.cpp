@@ -50,14 +50,9 @@ int main()
                                         bach.pop_back();
 
                                 }
-                                // best match lay at first, then it's the best
-                                else if (low == spin.begin())
-                                {
-                                        spin.erase(low);
-                                        bach.pop_back();
-                                }
-                                // only have one girl then take it
-                                else if (spin.size() == 1)
+                                // best match lay at first, then she is the best
+                                // or  only have one girl then she is the bes
+                                else if (low == spin.begin() || spin.size() == 1)
                                 {
                                         spin.erase(low);
                                         bach.pop_back();
