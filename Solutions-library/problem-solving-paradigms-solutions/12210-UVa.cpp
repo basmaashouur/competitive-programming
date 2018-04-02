@@ -1,7 +1,7 @@
 /*
 Name: 12210 - A Match Making Problem
 Online Judge: UVa
-Tags: Greedy, Sorting, List, Vector
+Tags: Greedy, Sorting, Binary search, List, Vector
 Complexity: O(n log n)
 Tutorial: We will take the max bach and find the girl to marry him, search for her using binary search
 in a list and find the best match, then delete her from the list and delete him from the vector
