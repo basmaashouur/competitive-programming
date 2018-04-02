@@ -7,10 +7,11 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Brute Force](#brute-force)
+    + [Techniques](#techniques)
     + [Iterative](#iterative)
     + [Recursive](#recursive)
   * [Greedy](#greedy)
-    + [Sup Sup Topic Name](#sup-sup-topic-name)
+    + [Techniques](#techniques)
   * [Divide and Conquer](#divide-and-conquer)
     + [Sup Sup Topic Name](#sup-sup-topic-name)
   * [Sliding Window](#sliding-window)
@@ -41,7 +42,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * Is a general method that can be used to solve almost any algorithm problem, it's solving a problem by traversing the entire (or part of the) search space to obtainthe required solution. During the search, we are allowed to prune (that is, choose not to explore) parts of the search space if we have determined that these parts have no possibility of containing the required solution.
 * **Speeding up brute-force searches** 
   * [Heuristic technique](https://en.wikipedia.org/wiki/Heuristic)
-* **Tips**
+#### Techniques
   * 
 #### Iterative
 * 
@@ -54,7 +55,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Pruning the search**
 * **Meet in the middle**
 ### Greedy
-#### Sup Sup Topic Name
+#### Techniques
 ### Divide and Conquer
 #### Sup Sup Topic Name
 ### Sliding Window
