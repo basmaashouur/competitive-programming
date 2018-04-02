@@ -7,11 +7,13 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Brute Force](#brute-force)
-    + [Techniques](#techniques)
+    + [Brute Force Techniques](#brute-force-techniques)
+    + [Brute Force Problems](#brute-force-problems)
     + [Iterative](#iterative)
     + [Recursive](#recursive)
   * [Greedy](#greedy)
-    + [Techniques](#techniques)
+    + [Greedy Techniques](#greedy-techniques)
+    + [Greedy Problems](#greedy-problems)
   * [Divide and Conquer](#divide-and-conquer)
     + [Sup Sup Topic Name](#sup-sup-topic-name)
   * [Sliding Window](#sliding-window)
@@ -30,11 +32,6 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Tags
 - Iterative (Brute Force)
 - Backtracking (Recursive) (Brute Force)
-- Memoization (Recursive) (Brute Force)
-- Generating subsets (Recursive) (Brute Force)
-- Generating permutations (Recursive) (Brute Force)
-- Pruning the search (Recursive) (Brute Force)
-- Meet in the middle (Recursive) (Brute Force)
 
 ## Sup Topic Terminologies And Explanations
 
@@ -42,20 +39,21 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * Is a general method that can be used to solve almost any algorithm problem, it's solving a problem by traversing the entire (or part of the) search space to obtainthe required solution. During the search, we are allowed to prune (that is, choose not to explore) parts of the search space if we have determined that these parts have no possibility of containing the required solution.
 * **Speeding up brute-force searches** 
   * [Heuristic technique](https://en.wikipedia.org/wiki/Heuristic)
-#### Techniques
-  * 
+#### Brute Force Techniques
+* **Pruning the search**
+* **Meet in the middle**
+### Brute Force Problems  
+* **Memoization**
+* **Generating subsets**
+* **Generating permutations**
 #### Iterative
 * 
 #### Recursive
 - Function do some logic calls itself in(sub problem) until reaches a base case.
 * **Backtracking** is a form of recursion in order to explore all the possibilities until you get the best result for the problem
-* **Memoization**
-* **Generating subsets**
-* **Generating permutations**
-* **Pruning the search**
-* **Meet in the middle**
 ### Greedy
-#### Techniques
+#### Greedy Techniques
+#### Greedy Problems
 ### Divide and Conquer
 #### Sup Sup Topic Name
 ### Sliding Window
