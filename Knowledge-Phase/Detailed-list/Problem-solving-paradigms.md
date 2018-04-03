@@ -17,7 +17,7 @@ Table of Contents
     + [When Use Greedy](#when-use-greedy)
     + [When Greedy Fails](#when-greedy-fails)
     + [Greedy Techniques](#greedy-techniques)
-    + [Greedy Examples](#greedy-examples)
+    + [Classical Greedy Examples](#classical-greedy-examples)
   * [Divide and Conquer](#divide-and-conquer)
     + [Sup Sup Topic Name](#sup-sup-topic-name)
   * [Sliding Window](#sliding-window)
@@ -29,7 +29,7 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Brute Force**<br>Iterative<br> Recursive |[Brute force wiki](https://en.wikipedia.org/wiki/Brute-force_search)<br>[Brute force search](http://intelligence.worldofcomputing.net/ai-search/brute-force-search.html#.Wr8xeHVubeR)<br> [Backtracking](http://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html)<br>[Backtracking Notes](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/03-backtracking.pdf)| 4Days
-**Greedy** |[Activity Selection Problem](https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)<br>[Basic of greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)<br> | 4Days
+**Greedy** |[Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)<br>[Basic of greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)<br> [Activity Selection Problem](https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)<br>| 4Days
 **Divide and Conquer**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 **Sliding Window**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
@@ -61,14 +61,54 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Greedy
 * A greedy algorithm obtains an optimal solution to a problem by making a sequenceof choices. At each decision point, the algorithm makes choice that seems best at the moment. Greedy algorithms are used for optimization problems but this strategy does not always produce an optimal solution
 #### When Use Greedy
-* At every step, we can make a choice that looks best at the moment
-* We get the optimal solution of the complete problem
+* At every step, we can make a choice that looks best at the moment.
+* We get the optimal solution of the complete problem.
+* If the input size given in the problem statement are too large even for the best Complete Search or DP algorithm.
+* **Greedy Steps**
+  1. Determine the optimal substructure of the problem.
+  2. Develop a recursive solution.
+  3. Show that if we make the greedy choice, then only one subproblem remains.
+  4. Prove that it is always safe to make the greedy choice. (Steps 3 and 4 can occur in either order.)
+  5. Develop a recursive algorithm that implements the greedy strategy.
+  6. Convert the recursive algorithm to an iterative algorithm.
 #### When Greedy Fails
+i. Sometimes in general cases 
+   * In coin change when the coins used not euro{1, 5, 10, 20, 50, 100, 200}.
 #### Greedy Techniques
-#### Greedy Examples
+* It is helpful to memorize greedy classical problems solutions.
+*  It's easy to find a greedy sloution that doesn't give TLE but it's hard to proof it's right or generalized.
+#### Classical Greedy Examples
 * **[Interval scheduling](https://en.wikipedia.org/wiki/Interval_scheduling) AKA Activity-selection problem** Given n events with their starting and ending times, find a schedule that includes as many events as possible, and are compatible if the intervals _(si, fi)_ and _(sj, fj)_ do not overlap.
   * **How to solve** 
-    * Always select the next possible event that ends as early as possible.
+    * Always selects the next possible event that ends as early as possible.
+  * **Proof**
+* **Coin Change** Given a set of coins and our task is to form a sum of money n using the coins. The values of the coins are coins = {c1, c2,..., ck}, and each coin can be used as many times we want. What is the minimum number of coins needed?
+  * **How to solve** 
+    * Always selects the largest possible coin, until the required sum of money has been constructed.
+  * **Proof**
+* **[Job Sequencing](https://www.geeksforgeeks.org/job-sequencing-problem-set-1-greedy-algorithm/)** Given a set of jobs has a deadline and associated profit if the job is finished before the deadline, every job takes single unit of time, what is the max total profit we can get?
+  * **How to solve** 
+    * Always selects the largest possible Profit tht can fit in the current result sequence without missing the deadline.
+  * **Proof** every time taking a largest profit that it's not it place then it replaced with smaller one missing the deadline so it's win win.
+* **Tasks and deadlines** Given a set of tasks with durations and deadlines and associated score for each task,we earn d − x points where d is the task’s deadline and x is the moment when we finish the task. What is the max total score?
+  * **How to solve**  
+    *  Always selects the task that have the smallest duration.
+  * **Proof**
+* **Minimizing sums**
+  * **How to solve**  
+    *  
+  * **Proof**
+* **Data compression**
+  * **How to solve**  
+    *  
+  * **Proof**
+* **Huffman coding**
+  * **How to solve**  
+    *  
+  * **Proof**
+* ****
+  * **How to solve**  
+    *  
   * **Proof**
 ### Divide and Conquer
 #### Sup Sup Topic Name 
