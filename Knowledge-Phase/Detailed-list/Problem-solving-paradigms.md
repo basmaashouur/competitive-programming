@@ -19,7 +19,8 @@ Table of Contents
     + [Greedy Techniques](#greedy-techniques)
     + [Classical Greedy Examples](#classical-greedy-examples)
   * [Divide and Conquer](#divide-and-conquer)
-    + [Sup Sup Topic Name](#sup-sup-topic-name)
+    + [Divide and Conquer Techniques](#divide-and-conquer-techniques)
+    + [Binary Search](#binary-search)
   * [Sliding Window](#sliding-window)
     + [Sup Sup Topic Name](#sup-sup-topic-name)
    
@@ -30,13 +31,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Brute Force**<br>Iterative<br> Recursive |[Brute force wiki](https://en.wikipedia.org/wiki/Brute-force_search)<br>[Brute force search](http://intelligence.worldofcomputing.net/ai-search/brute-force-search.html#.Wr8xeHVubeR)<br> [Backtracking](http://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html)<br>[Backtracking Notes](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/03-backtracking.pdf)| 4Days
 **Greedy** |[Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)<br>[Basic of greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)<br> [Activity Selection Problem](https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)<br>| 4Days
-**Divide and Conquer**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Divide and Conquer**<br>Binary Seacrh<br>tag <br> |[Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer-introduction/)<br>[]()<br> | 4Days
 **Sliding Window**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
 ## Tags
 - Iterative (Brute Force)
 - Backtracking (Recursive) (Brute Force)
 - Greedy
+- Binary search (Divide and Conquer)
 
 ## Sup Topic Terminologies And Explanations
 
@@ -49,7 +51,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Brute Force Techniques
 * **Pruning the search**
 * **Meet in the middle**
-### Brute Force Examples  
+#### Brute Force Examples  
 * **Memoization**
 * **Generating subsets**
 * **Generating permutations**
@@ -89,7 +91,8 @@ i. Sometimes in general cases
 * **[Job Sequencing](https://www.geeksforgeeks.org/job-sequencing-problem-set-1-greedy-algorithm/)** Given a set of jobs has a deadline and associated profit if the job is finished before the deadline, every job takes single unit of time, what is the max total profit we can get?
   * **How to solve** 
     * Always selects the largest possible Profit tht can fit in the current result sequence without missing the deadline.
-  * **Proof** every time taking a largest profit that it's not it place then it replaced with smaller one missing the deadline so it's win win.
+  * **Proof** 
+    * every time taking a largest profit that it's not it place then it replaced with smaller one missing the deadline so it's win win.
 * **Tasks and deadlines** Given a set of tasks with durations and deadlines and associated score for each task,we earn d − x points where d is the task’s deadline and x is the moment when we finish the task. What is the max total score?
   * **How to solve**  
     *  Always selects the task that have the smallest duration.
@@ -106,11 +109,11 @@ i. Sometimes in general cases
   * **How to solve**  
     *  
   * **Proof**
-* ****
-  * **How to solve**  
-    *  
-  * **Proof**
 ### Divide and Conquer
-#### Sup Sup Topic Name 
+#### Divide and Conquer Techniques
+i. Divide: break the original problem into sub-problems usually by half or nearly half.
+ii. Conquer: find (sub)-solutions for each of these sub-problems—which are now easier.
+iii. Combine: If needed, combine the sub-solutions to get a complete solution for the main problem.
+#### Binary Search
 ### Sliding Window
 #### Sup Sup Topic Name
