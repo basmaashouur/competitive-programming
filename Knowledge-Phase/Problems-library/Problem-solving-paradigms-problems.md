@@ -24,7 +24,7 @@ Non Classical| [Maximum Sum (II)](https://uva.onlinejudge.org/index.php?option=c
 ## Divide and Conquer
 Divide and Conquer    | Problems | Notes (Level)| Sloutions| Phase
 -------------| -------------   |-------------| -------------|-------------
-Binary Search| [Helping Fill Bates](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1508)<br>  [Exact Sum](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1998)<br>  [Grapevine](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3344)<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
+Binary Search| [Helping Fill Bates](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1508)<br>  [Exact Sum](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1998)<br>  [Grapevine](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3344)<br> | |[#Sloution]()<br> [Sloution](https://github.com/basmaashouur/Competitive-Programming/blob/master/Solutions-library/problem-solving-paradigms-solutions/11057-UVa.cpp)<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
 Tag Name| []()<br>  []()<br>  []()<br> | |[#Sloution]()<br> [#Sloution]()<br> [#Sloution]()<br> | Knowledge<br> Knowledge<br> Knowledge<br>| 
 
 ## Sliding Window
