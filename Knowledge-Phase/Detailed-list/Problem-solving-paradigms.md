@@ -59,7 +59,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * 
 #### Recursive
 - Function do some logic calls itself in(sub problem) until reaches a base case.
+- **When to use**
 * **Backtracking** is a form of recursion in order to explore all the possibilities until you get the best result for the problem
+  * State and Transition
+  * Objective function and Optimization
 ### Greedy
 * A greedy algorithm obtains an optimal solution to a problem by making a sequenceof choices. At each decision point, the algorithm makes choice that seems best at the moment. Greedy algorithms are used for optimization problems but this strategy does not always produce an optimal solution
 #### When Use Greedy
