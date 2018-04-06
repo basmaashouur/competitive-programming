@@ -68,10 +68,12 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
     2. A recursive algorithm must change it’s state and move towards the base case.4
 *  **Recursion types**
    1. Linear Recursion: only 1 sub-call or when no pending operation involves another recursive call to the function, Ex: Factorial Function.
-   2. Binary Recursion:
-   3. Tree Recursion: Non-linearly recursive when the pending operation involves another recursive call to the function, Ex: Fibonacci Function.
-   4. Tail Recursion:
-   5. Removal of Recursion:
+   2. Tree Recursion: Non-linearly recursive or Binary Recursion when the pending operation involves another recursive call to the function, Ex: Fibonacci Function.
+      * Recursive definition: Number of leaves or nodes in the tree
+   3. Tail Recursion:  If there are no pending operations to be performed on return from a recursive call, means the recursion call is at the end o the function
+   4. Removal of Recursion: The method of converting a recursive function into a iterative with the help of looping
+      * Convert the recursive function to the Tail recursive.
+      * Convert the tail recursive function to iterative.
 * **Backtracking** is a form of recursion in order to explore all the possibilities until you get the best result for the problem
   * State and Transition
   * Objective function and Optimization
