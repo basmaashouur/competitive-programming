@@ -7,7 +7,7 @@ Table of Contents
   * [Iterative](#iterative)
     + [Iteratively Subsets](#iteratively-subsets)
   * [Recursive](Recursive)
-    + [Recursively Subsets][#recursively-subsets]
+    + [Recursively Subsets](#recursively-subsets)
  - [Greedy](#greedy)
    * [Sup Sup Topic](#sup-sup-topic)
      + [Tag](#tag)
