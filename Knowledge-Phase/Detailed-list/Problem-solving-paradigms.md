@@ -54,7 +54,15 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Brute Force Examples  
 * **Memoization**
 * **Generating subsets**
+  * **How to solve**  
+    1. Chose one element from input
+    2. Can either include it in current subset or not
+    3. Recursively form subsets including it
+    4. Recursively form subsets excluding it 
 * **Generating permutations**
+  * **How to solve**  
+    1. Chose the first element from input
+    2. Recursively permute remaining input
 #### Iterative
 * 
 #### Recursive
