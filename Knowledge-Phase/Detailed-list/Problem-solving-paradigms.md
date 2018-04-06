@@ -58,8 +58,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Iterative
 * 
 #### Recursive
-- Function do some logic calls itself in(sub problem) until reaches a base case.
-- **When to use**
+* Function do some logic calls itself in(sub problem) until reaches a base case.
+* **When to use**
+  * Whenever you see that you can solve a given problem if you could have solved a similar smaller problem.
+  * As smaller input will call less smaller one, we will end at one of them, then when we need terminating state
+   AKA (base case).
+*  **Approach to write recurrence**
+    1. Have a Base Case which is a condition that allows the algorithm to stop recursing.
+    2. A recursive algorithm must change it’s state and move towards the base case.4
+*  **Recursion types**
+   1. Linear Recursion: only 1 sub-call or when no pending operation involves another recursive call to the function, Ex: Factorial Function.
+   2. Binary Recursion:
+   3. Tree Recursion: Non-linearly recursive when the pending operation involves another recursive call to the function, Ex: Fibonacci Function.
+   4. Tail Recursion:
+   5. Removal of Recursion:
 * **Backtracking** is a form of recursion in order to explore all the possibilities until you get the best result for the problem
   * State and Transition
   * Objective function and Optimization
@@ -67,7 +79,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * A greedy algorithm obtains an optimal solution to a problem by making a sequenceof choices. At each decision point, the algorithm makes choice that seems best at the moment. Greedy algorithms are used for optimization problems but this strategy does not always produce an optimal solution
 #### When Use Greedy
 * At every step, we can make a choice that looks best at the moment.
-* We get the optimal solution of the complete problem.
+* We get the optimal solution of the complete p.roblem.
 * If the input size given in the problem statement are too large even for the best Complete Search or DP algorithm.
 * **Greedy Steps**
   1. Determine the optimal substructure of the problem.
