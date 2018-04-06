@@ -54,7 +54,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Brute Force Examples  
 * **Memoization**
 * **Generating subsets**
-  * **How to solve iteratively**  
+  * **How to solve Iteratively**  
     1. Choose first element from input and put it in a vector
     2. put an empty element in a vector
     3. Itrate over n-1 remaining elements
@@ -65,7 +65,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
     3. Recursively form subsets including it
     4. Recursively form subsets excluding it 
 * **Generating permutations**
-  * **How to solve**  
+  * **How to solve Recursively**  
     1. Choose the first element from input
     2. Recursively permute remaining input
 #### Iterative
