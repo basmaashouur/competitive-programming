@@ -1,0 +1,74 @@
+# List of Graphs Sup topic's Resources, Tags, Terminologies and Explanations
+
+Table of Contents
+=================
+
+- [Resources And Approximate Time](#resources-and-approximate-time)
+- [Tags](#tags)
+- [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
+  * [Graphs Terminologies](#graphs-terminologies)
+  * [Graph Traversal](#graph-traversal)
+  * [Basic Graphs Algorithms](#basic-graphs-algorithms)   
+  * [Minimum Spanning Tree](#minimum-spanning-tree)
+  * [Single Source Shortest Paths](#single-source-shortest-paths)
+
+## Resources And Approximate Time
+
+Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
+-------------| -------------   |-------------   
+**Graphs Terminologies**|[]()<br>[]()<br> | 4Days
+**Graph Traversal**<br>DFS<br>BFS <br> |[]()<br>[]()<br> | 4Days
+**Basic Graphs Algorithms**<br>Flood Fill<br>Connected Components	 <br>Topological Sort	<br>Bipartite Graph Check	<br>Articulation points and bridges	 <br>Strongly Connected Components	 <br>Edge Types and Cyclity Check	 <br>|[]()<br>[]()<br> | 4Days
+**Minimum Spanning Tree**<br>Standard<br>Variants <br> |[]()<br>[]()<br> | 4Days
+**Single Source Shortest Paths**<br>Unweighted Graph BFS<br>Weighted Graph Dijkstra's	 <br>Bellman Ford's |[]()<br>[]()<br> | 4Days
+
+
+## Tags
+- DFS (Graph Traversal)
+- BFS (Graph Traversal)
+- Flood Fill (Basic Graphs Algorithms)
+- Connected Components (Basic Graphs Algorithms)
+- Topological Sort (Basic Graphs Algorithms)
+- Bipartite Graph Check (Basic Graphs Algorithms)
+- Articulation points and bridges (Basic Graphs Algorithms)
+- Strongly Connected Components (Basic Graphs Algorithms)
+- Edge Types and Cyclity Check (Basic Graphs Algorithms)
+- Standard Minimum Spanning Tree
+- Variants Minimum Spanning Tree
+- Unweighted Graph BFS	(Single Source Shortest Paths)
+- Weighted Graph Dijkstra's	(Single Source Shortest Paths)
+- Bellman Ford's (Single Source Shortest Paths)
+
+## Sup Topic Terminologies And Explanations
+
+### Graphs Terminologies
+* **Graphs** which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. graph (G = (V,E)) in its basic form is simply a set of vertices (V ) and edges (E storing
+connectivity information between vertices in V).
+* **Type of Graphs**
+  1. **Directed Graph** if the edges can be traversed in one direction only. all the edges are unidirectional.
+  2. **Undirected graph** An undirected graph is a graph in which all the edges are having  bidirectional relationship. All the edges do not point in any specific direction.
+  3. **Connected graph** if there is path between any two nodes.
+  4. **Weighted graph** each edge is assigned a weight. Often the weights are interpreted as edge lengths.
+* **Nodes** These are the most important components in any graph. Nodes are entities whose relationships are expressed using edges.
+* **Root node** The root node is the ancestor of all other nodes in a graph. It does not have any ancestor. Each graph consists of exactly one root node. root node has no parent. Generally, you must start traversing a graph from the root node.
+* **Leaf nodes** In a graph, leaf nodes represent the nodes that do not have any successors. These nodes only have ancestor nodes. They can have any number of incoming edges but they will not have any outgoing edges.
+* **Adjacent Nodes** Two nodes are neighbors or adjacent if there is an edge between them.
+* **Node degree** The degree of a node is the number of its neighbors.
+* **Edges** Edges are the components that are used to represent the relationships between various nodes in a graph. An edge between two nodes expresses a one-way or two-way relationship between the nodes.
+* **Path** path leads from node a to node b through edges of the graph. The length of a path is the number of edges in it.
+* **Cyclic graph or cycle path** A graph is cyclic if the graph comprises a path that starts from a vertex and ends at the same vertex. That path is called a cycle.
+* **Simple graph, acyclic graph or simple path** A graph is simple if no edge starts and ends at the same node, and there are no multiple edges between two nodes.That path is called a simple.
+
+### Graph Traversal
+* **DFS** The algorithm begins at a starting node or source node, and proceeds to all other unvisited neighbor(s) nodes that are reachable from the starting node using the edges in the graph.The DFS algorithm is a recursive algorithm that uses the idea of backtracking, backtrack means that when you are moving forward and there are no more nodes along the current path, you move backwards on the same path to find nodes to traverse. All the nodes will be visited on the current path till all the unvisited nodes have been traversed after which the next path will be selected.
+  * **Apps**
+    * Reachability between two nodes
+    * Graph Connectivity
+* **BFS** The algorithm begins at a starting node or source node, and proceeds to all other unvisited neighbor(s) nodes that are reachable from the starting node using the edges in the graph.The BFS algorithm is an iterative algorithm that uses the idea of levels, First move horizontally and visits all the nodes of the current level then it’s move to the next level.
+  * **Apps**
+    * Reachability between two nodes
+    * Graph Connectivity
+    * Shortest path in unweighted graph
+### Basic Graphs Algorithms
+### Minimum Spanning Tree
+### Single Source Shortest Paths

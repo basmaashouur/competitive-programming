@@ -1,0 +1,106 @@
+# Graphs
+
+Table of Contents
+=================
+
+- [Graphs Terminologies](#graphs-terminologies)
+  * [Graph Representation](#graph-representation)
+- [Graph Traversal](#graph-traversal)
+  * [DFS](#dfs)
+  * [BFS](#bfs)
+- [Basic Graphs Algorithms](#basic-graphs-algorithms)   
+- [Minimum Spanning Tree](#minimum-spanning-tree)
+- [Single Source Shortest Paths](#single-source-shortest-paths)
+
+## Graphs Terminologies
+### Graph Representation
+- Basic code
+  ```cpp
+   vector<vector<int> > adj;
+   vector<bool> visited;
+
+   int main()
+   {
+   int n, e;
+   cin >> n >> e;
+   adj = vector<vector<int> >(n);
+   visited = vector<bool>(n);
+   }
+
+  ```
+
+## Graph Traversal
+### DFS
+- DFS recursive code (Performs approximately O(V+E))
+  ```cpp
+   /*
+   Function: DFS Exhaustive searches of all the nodes    Exhaustive searches of all the nodes by going level after level.
+ by going ahead, if possible,
+   else by backtracking. And mark all the visited nodes to not visit it again.
+   Parameters: Node: the start node we start traverse from
+   Returns: void
+  */
+
+  vector<int> adj[1000];
+  vector<bool> visited(1000);
+  void dfs(int node)
+  {
+	 visited[node] = true;
+	 for (int i = 0; i < adj[node].size(); i++)
+	 {
+		 int child = adj[node][i];
+		 if (!visited[child])
+		    	dfs(child);
+	 }
+  }
+
+  ```
+
+### BFS
+- BFS iteration code & Shortest path in unweighted graph (Performs approximately O(V+E)
+  ```cpp
+   /*
+    Function: BFS iteration code
+    Exhaustive searches of all the nodes by going level after level.
+    Parameters: Node: the start node we start traverse from
+    Returns: void
+
+    Shortest path for unweighted:
+    Step 1: know the start and destination node.
+    Step 2: bfs(start)
+    Step 3: trace the shortest path vector from destination until start node and that’s
+    would be our path (start  → node → ... →  destination)
+    Note: if we have the same destination node and we want to know paths from different starts nodes,
+    we will make bfs(destination)
+    but if the graph undirected reverse the node u → v will be v → u and repeat
+    Step 3 from every start node.
+  */
+
+    vector<int> adj[1000];
+    vector<bool> visited(1000);
+    vector<int>level(1000);
+    vector<int> short_path(1000);
+    void bfs(int node)
+    {
+           queue<int>q;
+           q.push(node);
+           visited[node] = true;
+           level[node] = 0; //the first level node
+           while (!q.empty())
+          {
+                  int father = q.front();
+                  q.pop();
+                  for (int x = 0; x < adj[father].size(); x++)
+                  {
+                           int child = adj[father][x];
+                           if (!visited[child])
+                           {
+                                  q.push(child);
+                                  level[child] = level[father] + 1; //equal the parent level+1
+                                  short_path[child] = father;// the father node he comes from
+                                 visited[child] = true;
+                           }
+                   }
+          }
+
+  ```
