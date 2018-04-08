@@ -35,7 +35,7 @@ Table of Contents
   ```cpp
    /*
    Function: DFS Exhaustive searches of all the nodes    Exhaustive searches of all the nodes by going level after level.
- by going ahead, if possible,
+   by going ahead, if possible,
    else by backtracking. And mark all the visited nodes to not visit it again.
    Parameters: Node: the start node we start traverse from
    Returns: void
