@@ -26,6 +26,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Tags
 - DFS (Graph Traversal)
 - BFS (Graph Traversal)
+- Implicit graph (Graph Traversal)
 - Flood Fill (Basic Graphs Algorithms)
 - Connected Components (Basic Graphs Algorithms)
 - Topological Sort (Basic Graphs Algorithms)
@@ -58,7 +59,7 @@ connectivity information between vertices in V).
 * **Path** path leads from node a to node b through edges of the graph. The length of a path is the number of edges in it.
 * **Cyclic graph or cycle path** A graph is cyclic if the graph comprises a path that starts from a vertex and ends at the same vertex. That path is called a cycle.
 * **Simple graph, acyclic graph or simple path** A graph is simple if no edge starts and ends at the same node, and there are no multiple edges between two nodes.That path is called a simple.
-
+* **Implicit graph** is a graph whose vertices or edges are not represented as explicit objects in a computer's memory, but rather are determined algorithmically from some more concise input.
 ### Graph Traversal
 * **DFS** The algorithm begins at a starting node or source node, and proceeds to all other unvisited neighbor(s) nodes that are reachable from the starting node using the edges in the graph.The DFS algorithm is a recursive algorithm that uses the idea of backtracking, backtrack means that when you are moving forward and there are no more nodes along the current path, you move backwards on the same path to find nodes to traverse. All the nodes will be visited on the current path till all the unvisited nodes have been traversed after which the next path will be selected.
   * **Apps**
