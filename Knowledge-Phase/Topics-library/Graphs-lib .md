@@ -8,7 +8,14 @@ Table of Contents
 - [Graph Traversal](#graph-traversal)
   * [DFS](#dfs)
   * [BFS](#bfs)
-- [Basic Graphs Algorithms](#basic-graphs-algorithms)   
+- [Basic Graphs Algorithms](#basic-graphs-algorithms) 
+  * [Flood Fill](#flood-fill)
+  * [Connected Components](#connected-components)
+  * [Topological Sort](#topological-sort)
+  * [Bipartite Graph Check](#bipartite-graph-check)
+  * [Articulation points and bridges](#articulation-points-and-bridges)
+  * [Strongly Connected Components](#strongly-connected-components)
+  * [Edge Types and Cyclity Check](#edge-types-and-cyclity-check)
 - [Minimum Spanning Tree](#minimum-spanning-tree)
 - [Single Source Shortest Paths](#single-source-shortest-paths)
 
@@ -104,3 +111,36 @@ Table of Contents
           }
 
   ```
+  
+  ## Basic Graphs Algorithms
+  ### Flood Fill
+  - It determines the area connected to a given cell or a node in a multidimensional array.
+    ```cpp
+    vector<int> matrix[1000];
+    int visited[100][100] = {{0, 0}, {0, 0}};
+    int n, m;
+    static int moves[8][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } };
+
+    void fill(int x, int y)
+    {
+	if (x >= n || y >= m || x < 0 || y < 0 )return; // outside the grid
+	if(visited[x][y] == true)return; // avoid cycling or infinite loop
+	visited[x][y] = true;
+	
+       //cells that you can't visit it, here is the cell that equal 0 
+	if (matrix[x][y] == 0)return;
+	
+	//in case of 8-connections, to the points at both diagonals
+	//not only(up, down, right, left) sharing one side, make the loop i<8
+	for (int i = 0; i < 4; i++)
+	   fill(x + moves[i][0], y + moves[i][1]);
+    }
+
+    ```
+  ### Connected Components	 
+  ### Topological Sort
+  ### Bipartite Graph Check	
+  ### Articulation points and bridges
+  ### Strongly Connected Components
+  ### Edge Types and Cyclity Check	
+
