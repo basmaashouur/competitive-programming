@@ -119,7 +119,8 @@ Table of Contents
     vector<int> matrix[1000];
     int visited[100][100] = {{0, 0}, {0, 0}};
     int n, m;
-    static int moves[8][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } };
+    static int moves[8][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 }, { -1, 1 },
+    { -1, -1 }, { 1, -1 }, { 1, 1 } };
 
     void fill(int x, int y)
     {
@@ -139,6 +140,46 @@ Table of Contents
     ```
   ### Connected Components	 
   ### Topological Sort
+  - topological sort  BFS iteration code, Performs approximately O(V+E)
+  ```cpp
+  /*
+  Function: toplog
+  Step-1: Compute in-degree (number of incoming edges) for each of the vertex present in the DAG
+  Step-2: Pick all the vertices with in-degree as 0 and add them into a queue 
+  Step-3: Remove a vertex from the queue, put the top element  in the results vector and then:
+  1.  Decrease in-degree by 1 for all its neighboring nodes.
+  2. If in-degree of a neighboring nodes is reduced to zero, then add it to the queue.
+  Step-4: Repeat Step 3 until the queue is empty.
+  Step-5: if the result vector != n then it’s not DAG(main) 
+  
+  Parameters: empty
+  Returns: void
+  */
+  
+  vector<vector<int> > adj; 
+  vector<int>res;
+  vector<int>in;
+  void toplog()
+  {
+	priority_queue<int, vector<int>, greater<int> >pq; //sort increasing
+	for (int u = 1; u <= n; u++)
+		if (in[u] == 0) pq.push(u);
+
+	while (!pq.empty())
+	{
+		int top = pq.top(), size=adj[top].size();
+		pq.pop(); res.pp(top);
+	
+		for (int x = 0; x < size; x++)
+		{
+			int u = adj[top][x];
+			if (--in[u] == 0)pq.push(u);
+		}
+	}
+  }
+  
+  ```
+
   ### Bipartite Graph Check	
   ### Articulation points and bridges
   ### Strongly Connected Components
