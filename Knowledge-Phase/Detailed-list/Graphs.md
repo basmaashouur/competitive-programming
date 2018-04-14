@@ -72,5 +72,8 @@ connectivity information between vertices in V).
     * Shortest path in unweighted graph
 ### Basic Graphs Algorithms
 * **Flood Fill**  Is an algorithm that determines the area connected to a given node in a multi-dimensional array.
+* **Topological Sort** Is a linear ordering of the vertices in the DAG so that vertex u comes before vertex v if edge (u → v)
+exists in the DAG, the graph must not contain any cycles, the algorithm begins at all the nodes that have no incoming nodes to them, and proceeds to their children and decrease them by one because we had enqueue their father node u that's mean there won't be no edge as edge u → v. the results vector will be in an increasing order. 
+We can use dfs as well but dfs will also work in the graph that is not DAG so the answer would be wrong.
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
