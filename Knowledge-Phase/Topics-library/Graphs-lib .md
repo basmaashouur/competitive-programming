@@ -181,6 +181,29 @@ Table of Contents
   ```
 
   ### Bipartite Graph Check	
+  -
+  ```cpp
+  void dfs(int node, int ncol)
+  {
+      visited[node] = true;
+      col[node] = ncol;
+      for (int i = 0; i < adj[node].size(); i++)
+      {
+          int child = adj[node][i];
+          if (!visited[child])
+          {
+              int chicol;
+              if (ncol == 1)chicol = 0;
+              else chicol = 1;
+              dfs(child, chicol);
+          }
+          else
+              if (col[child] == col[node]);// not Bipartite
+      }
+  }
+  //dfs(node, 0);
+
+  ```
   ### Articulation points and bridges
   ### Strongly Connected Components
   ### Edge Types and Cyclity Check	
