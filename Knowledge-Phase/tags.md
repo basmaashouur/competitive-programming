@@ -23,6 +23,21 @@
 - Iterative (Brute Force) (Paradigms)
 - Backtracking (Recursive) (Brute Force) (Paradigms)
 - Greedy (Paradigms)
+- DFS (Graph Traversal)
+- BFS (Graph Traversal)
+- Implicit graph (Graph Traversal)
+- Flood Fill (Basic Graphs Algorithms)
+- Connected Components (Basic Graphs Algorithms)
+- Topological Sort (Basic Graphs Algorithms)
+- Bipartite Check (Basic Graphs Algorithms)
+- Articulation points and bridges (Basic Graphs Algorithms)
+- Strongly Connected Components (Basic Graphs Algorithms)
+- Edge Types and Cyclity Check (Basic Graphs Algorithms)
+- Standard Minimum Spanning Tree
+- Variants Minimum Spanning Tree
+- Unweighted Graph BFS	(Single Source Shortest Paths)
+- Weighted Graph Dijkstra's	(Single Source Shortest Paths)
+- Bellman Ford's (Single Source Shortest Paths)
 - String parsing
 - Hashing
 - Sorting
