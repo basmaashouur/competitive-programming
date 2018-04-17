@@ -30,7 +30,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Flood Fill (Basic Graphs Algorithms)
 - Connected Components (Basic Graphs Algorithms)
 - Topological Sort (Basic Graphs Algorithms)
-- Bipartite Graph Check (Basic Graphs Algorithms)
+- Bipartite Check (Basic Graphs Algorithms)
 - Articulation points and bridges (Basic Graphs Algorithms)
 - Strongly Connected Components (Basic Graphs Algorithms)
 - Edge Types and Cyclity Check (Basic Graphs Algorithms)
