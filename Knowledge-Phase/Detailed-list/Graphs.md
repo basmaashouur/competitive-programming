@@ -76,5 +76,7 @@ connectivity information between vertices in V).
 exists in the DAG, the graph must not contain any cycles, the algorithm begins at all the nodes that have no incoming nodes to them, and proceeds to their children and decrease them by one because we had enqueue their father node u that's mean there won't be no edge as edge u → v. the results vector will be in an increasing order. 
 We can use dfs as well but dfs will also work in the graph that is not DAG so the answer would be wrong.
 * **Bipartite Graph Check** A graph is bipartite if its nodes can be colored using two colors so that there are no adjacent nodes with the same color. The idea is to set the starting node with 0, all its neighbors 1, and so on. If at some point of the search we notice that two adjacent nodes have the same color, this means that the graph is not bipartite.
+* **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
+* **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
