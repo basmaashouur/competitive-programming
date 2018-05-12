@@ -216,6 +216,40 @@ Table of Contents
     2. Back edge with (U) will be EXPLORED to a (V) EXPLORED
     3. Forward edge with (U) will be EXPLORED to a (V) FINISHED, start time[u] < start time[v].
     4. Cross edge with (U) will be EXPLORED to a (V) FINISHED, start time[u] > start time[v].
+  ```cpp
+  vector < int > adj[1000];
+  vector < bool > visited(1000);
+  vector < pair < int, int > > time(1000);
+  int timer = 1;
+
+  void dfs(int node, str) 
+  {
+    visited[node] = true;
+    // start
+    time[child].first = timer++;
+    for (int i = 0; i < adj[node].size(); i++) 
+    {
+      int child = adj[node][i];
+    
+      // tree edge
+      if (!visited[child])
+        dfs(child);
+
+      else
+       {
+        // back edge , cycle
+        if (time[child].second == -1)
+        // forward edge
+        else if (time[child].first < time[child].first)
+        // cross edge
+        else if (time[child].first > time[child].first)
+      }
+    }
+   // finish
+   time[child].second = timer++;
+  }
+
+  ```
   ### Articulation points and bridges
   ### Strongly Connected Components
   ### Edge Types and Cyclity Check	
