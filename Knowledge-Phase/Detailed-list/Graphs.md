@@ -83,7 +83,7 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
   * **Back edge** If v is an ancestor of u, then edge (u, v) is a back edge, (Make a cycle).
   * **Forward edge** If v is a descendant of u, then edge (u, v) is a forward edge.
   * **Cross edge** If v is neither an ancestor or descendant of u, then edge (u, v) is a cross edge.
-  * **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
+* **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
 * **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
