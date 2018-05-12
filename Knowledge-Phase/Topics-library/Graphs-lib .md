@@ -219,10 +219,10 @@ Table of Contents
   ```cpp
   vector < int > adj[1000];
   vector < bool > visited(1000);
-  vector < pair < int, int > > time(1000);
+  vector < pair < int, int > > time(1000, make_pair(-1, -1));
   int timer = 1;
 
-  void dfs(int node, str) 
+  void dfs(int node) 
   {
     visited[node] = true;
     // start
