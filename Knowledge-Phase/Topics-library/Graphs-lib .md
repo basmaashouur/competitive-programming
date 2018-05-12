@@ -13,6 +13,7 @@ Table of Contents
   * [Connected Components](#connected-components)
   * [Topological Sort](#topological-sort)
   * [Bipartite Graph Check](#bipartite-graph-check)
+  * [Graph Edges Property](#graph-edges-property)
   * [Articulation points and bridges](#articulation-points-and-bridges)
   * [Strongly Connected Components](#strongly-connected-components)
   * [Edge Types and Cyclity Check](#edge-types-and-cyclity-check)
@@ -204,6 +205,17 @@ Table of Contents
   //dfs(node, 0);
 
   ```
+  ### Graph Edges Property
+  * We need first to make a vector of pair representing all the vertcies, and check the starting visiting time and the finishing visiting time of each of them, Time(start, finish), we will initialize it at first with (-1, -1).
+  * We will have 3 cases of the vertcies:
+    1. Unvisited (-1, -1)
+    2. Explored (1, -1)
+    3. Finished (1, 2)
+  * That will cause four types of edges:
+    1. Tree edge with (U) will be EXPLORED to a (V) UNVISITED
+    2. Back edge with (U) will be EXPLORED to a (V) EXPLORED
+    3. Forward edge with (U) will be EXPLORED to a (V) FINISHED, start time[u] < start time[v].
+    4. Cross edge with (U) will be EXPLORED to a (V) FINISHED, start time[u] > start time[v].
   ### Articulation points and bridges
   ### Strongly Connected Components
   ### Edge Types and Cyclity Check	
