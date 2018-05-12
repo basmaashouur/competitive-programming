@@ -76,7 +76,14 @@ connectivity information between vertices in V).
 exists in the DAG, the graph must not contain any cycles, the algorithm begins at all the nodes that have no incoming nodes to them, and proceeds to their children and decrease them by one because we had enqueue their father node u that's mean there won't be no edge as edge u → v. the results vector will be in an increasing order. 
 We can use dfs as well but dfs will also work in the graph that is not DAG so the answer would be wrong.
 * **Bipartite Graph Check** A graph is bipartite if its nodes can be colored using two colors so that there are no adjacent nodes with the same color. The idea is to set the starting node with 0, all its neighbors 1, and so on. If at some point of the search we notice that two adjacent nodes have the same color, this means that the graph is not bipartite.
+* **Graph Edges Property Check via DFS Spanning Tree**
+  * **Spanning tree**  is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected, Running DFS on a connected graph generates a spanning tree.
+  * **Spanning forest** It's like a spanning tree but when there are multiple connected components, Running DFS generates a spanning forest.
 * **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
+* **Tree edge** If v is visited for the first time as we traverse the edge (u, v) then the edge is a tree edge.
+* **Back edge** If v is an ancestor of u, then edge (u, v) is a back edge, (Make a cycle).
+* **Forward edge** If v is a descendant of u, then edge (u, v) is a forward edge.
+* **Cross edge** If v is neither an ancestor or descendant of u, then edge (u, v) is a cross edge.
 * **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
