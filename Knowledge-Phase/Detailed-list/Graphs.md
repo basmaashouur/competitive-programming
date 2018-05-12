@@ -79,11 +79,11 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
 * **Graph Edges Property Check via DFS Spanning Tree**
   * **Spanning tree**  is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected, Running DFS on a connected graph generates a spanning tree.
   * **Spanning forest** It's like a spanning tree but when there are multiple connected components, Running DFS generates a spanning forest.
-* **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
-* **Tree edge** If v is visited for the first time as we traverse the edge (u, v) then the edge is a tree edge.
-* **Back edge** If v is an ancestor of u, then edge (u, v) is a back edge, (Make a cycle).
-* **Forward edge** If v is a descendant of u, then edge (u, v) is a forward edge.
-* **Cross edge** If v is neither an ancestor or descendant of u, then edge (u, v) is a cross edge.
+  * **Tree edge** If v is visited for the first time as we traverse the edge (u, v) then the edge is a tree edge.
+  * **Back edge** If v is an ancestor of u, then edge (u, v) is a back edge, (Make a cycle).
+  * **Forward edge** If v is a descendant of u, then edge (u, v) is a forward edge.
+  * **Cross edge** If v is neither an ancestor or descendant of u, then edge (u, v) is a cross edge.
+  * **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
 * **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
