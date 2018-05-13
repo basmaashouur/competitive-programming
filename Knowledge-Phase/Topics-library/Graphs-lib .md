@@ -139,10 +139,23 @@ Table of Contents
     }
 
     ```
-  ### Connected Components	 
+  ### Connected Components	
+  - We are giving nodes and edges and we wanna find the number of connected graphs using DFS or BFS.
+  ```cpp
+   int conumb = 0;
+	for (int i = 0; i < n; ++i)
+	{
+		if (visited[i] == false)
+		{
+			dfs(i); // or bfs(i);
+                      conumb++;
+		}
+	}
+
+  ```
   ### Topological Sort
   - topological sort  BFS iteration code, Performs approximately O(V+E)
-  ```cpp
+  ```cp
   /*
   Function: toplog
   Step-1: Compute in-degree (number of incoming edges) for each of the vertex present in the DAG
@@ -182,7 +195,7 @@ Table of Contents
   ```
 
   ### Bipartite Graph Check	
-  -
+  - Using DFS or BFS.
   ```cpp
   void dfs(int node, int ncol)
   {
@@ -252,5 +265,8 @@ Table of Contents
   ```
   ### Articulation points and bridges
   ### Strongly Connected Components
+  - Finding SCC using Tarjan's DFS
+  ```cpp
+  ```
   ### Edge Types and Cyclity Check	
 
