@@ -86,6 +86,6 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
   * **Cross edge** If v is neither an ancestor or descendant of u, then edge (u, v) is a cross edge.
 * **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
 * **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V. 
-* **Strongly Connected Components** A directed graph is SCC if there is a path between all pairs of vertices. A SCC of a directed graph is a maximal strongly connected subgraph.
+* **Strongly Connected Components** A directed graph is SCC if there is a path between all pairs of vertices and it's either a cycle or an individual vertex, A SCC of a directed graph is a maximal strongly connected subgraph. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
