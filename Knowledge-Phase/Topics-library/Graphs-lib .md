@@ -267,6 +267,44 @@ Table of Contents
   ### Strongly Connected Components
   - Finding SCC using Tarjan's DFS
   ```cpp
+  vector<int> adj[1000];
+  vector<int> low(1000, -1);
+  vector<int> dfn(1000, -1); // start visit
+  vector<bool> visited(1000);
+  stack<int>curr;
+  int timer = 0, sccnumb = 0;
+
+  void tarjanSCC(int node)
+  {
+	visited[node] = true;
+	dfn[node] = low[node] = timer++;
+	curr.push(node); // push curent SCC in a stack
+
+	for (int i = 0; i < adj[node].size(); i++)
+	{
+		int child = adj[node][i];
+		if (!visited[child])
+			tarjanSCC(child);
+		if (visited[child]) // if it's visited then it's may be back edge cause a cycle
+			// change the parent the node to the min of it and it's cild
+			low[node] = min(low[node], low[child]);
+	}
+	// if the low equal start then this node is a root node
+	if (dfn[node] == low[node])
+	{
+		sccnumb++;
+		// see the child nodes of the root node that are SCC
+		while (true)
+		{
+			int v = curr.top();
+			cout << v << " ";
+			curr.pop(); visited[v] = false;
+			if (v == node) {cout << endl; break;}
+
+		}
+	}
+  }
+
   ```
   ### Edge Types and Cyclity Check	
 
