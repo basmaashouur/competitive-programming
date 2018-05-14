@@ -283,7 +283,7 @@ Table of Contents
 	for (int i = 0; i < adj[node].size(); i++)
 	{
 		int child = adj[node][i];
-		if (!visited[child])
+		if (dfn[node] != -1)
 			tarjanSCC(child);
 		if (visited[child]) // if it's visited then it's may be back edge cause a cycle
 			// change the parent the node to the min of it and it's cild
