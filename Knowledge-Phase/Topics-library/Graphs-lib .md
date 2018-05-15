@@ -16,7 +16,6 @@ Table of Contents
   * [Graph Edges Property](#graph-edges-property)
   * [Articulation points and bridges](#articulation-points-and-bridges)
   * [Strongly Connected Components](#strongly-connected-components)
-  * [Edge Types and Cyclity Check](#edge-types-and-cyclity-check)
 - [Minimum Spanning Tree](#minimum-spanning-tree)
 - [Single Source Shortest Paths](#single-source-shortest-paths)
 
@@ -250,7 +249,7 @@ Table of Contents
 
       else
        {
-        // back edge , cycle
+        // back edge , cycle found
         if (time[child].second == -1)
         // forward edge
         else if (time[child].first < time[child].first)
@@ -306,5 +305,3 @@ Table of Contents
   }
 
   ```
-  ### Edge Types and Cyclity Check	
-
