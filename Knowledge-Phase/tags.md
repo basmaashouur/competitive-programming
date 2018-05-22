@@ -42,4 +42,4 @@
 - Hashing
 - Sorting
 - Counting
-- commutative sum
+- commutative sum (array)
