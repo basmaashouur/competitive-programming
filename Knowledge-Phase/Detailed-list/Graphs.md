@@ -87,7 +87,8 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
 * **Articulation points** A vertex in an undirected connected graph is an articulation point iff removing it and all the edges associated with it disconnects the graph.
 * **Bridges** An edge in a graph between vertices say U and V is called a Bridge, if after removing it, there will be no path left between U and V, and the the components will increase by one, **every bridge is not part of a cycle**. 
   * **Bridges in Directed Graphs** If the whole graph is SCC then it contains no bridges, if it contains more than one SCC
-  then there must be a brdige connecting those SCC, so an edge is a bridge if and only if it is not contained in any cycle
+  then there must be a brdige connecting those SCC, so an edge is a bridge if and only if it is not contained in any cycle.
+* If there is a bridge then there must be an Articulation points, but if there is an Articulation points they may contain no bridges.
 * **Strongly Connected Components** A directed graph is SCC if there is a path between all pairs of vertices and it's either a cycle or an individual vertex, A SCC of a directed graph is a maximal strongly connected subgraph. 
 ### Minimum Spanning Tree
 ### Single Source Shortest Paths
