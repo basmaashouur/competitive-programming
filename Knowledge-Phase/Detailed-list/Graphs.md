@@ -91,8 +91,7 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
 * **If there is a bridge then there must be an Articulation points, but if there is an Articulation points they may contain no bridges.**
 * **Bridges & Articulation points notes:** 
   * **Undirected graph**
-    1. If the whole graph make a cycle then there is no cut points or bridges.
-    2. 
+    1. If the whole graph make a cycle (Biconnected graph) then there is no cut points or bridges.
   * **Directed graph**
     1.  If the whole graph is SCC then there is no cut points or bridges.
 * **Strongly Connected Components** A directed graph is SCC if there is a path between all pairs of vertices and it's either a cycle or an individual vertex, A SCC of a directed graph is a maximal strongly connected subgraph. 
