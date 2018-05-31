@@ -263,6 +263,21 @@ Table of Contents
 
   ```
   ### Articulation points and bridges
+  - Finding Cut points and Bridges using Tarjan's DFS
+  ```cpp
+   /*
+  Function: tarjanAP&BR
+  
+  Articulation points are determined as follows:
+  Step1: The root of the DFS tree is an articulation point if it has two or more children.
+  Step2: Any other internal vertex u in the DFS tree is an articulation point if u has a child v
+  such that Low[v] ≥ discover[u]. means no child node can appear to a node 
+  
+  Bridges are determined as follows:
+  */
+  
+  
+  ```
   ### Strongly Connected Components
   - Finding SCC using Tarjan's DFS
   ```cpp
