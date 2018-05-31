@@ -266,7 +266,7 @@ Table of Contents
   - Finding Cut points and Bridges using Tarjan's DFS
   ```cpp
    /*
-  Function: tarjanAP&BR
+  Function: tarjan_AP_BR
   
   Articulation points are determined as follows:
   Step1: The root of the DFS tree is an articulation point if it has two or more children.
@@ -275,7 +275,40 @@ Table of Contents
   
   Bridges are determined as follows:
   */
-  
+  vector<int> adj[1000];
+  vector<int> low(1000, -1);
+  vector<int> dfn(1000, -1);
+  vector<int> parent(1000);
+  vector<int> cutp(1000);
+  vector  < pair < int,  int >>  bridges;
+  int timer = 0, rootch = 0, root;
+
+  void tarjan_AP_BR(int node)
+  {
+	dfn[node] = low[node] = timer++;
+
+	for (int i = 0; i < adj[node].size(); i++)
+	{
+		int child = adj[node][i];
+		if (dfn[child] == -1)
+		{
+			// know the father of the child node
+			parent[child] = node;
+			// special case, count children of root
+			if (node == root)rootch++;
+			tarjan_AP_BR(child);
+			// cut points
+			if  (low[child]  >= dfn[node])cutp[node]  = 1;   
+			// brigde egde
+			if  (low[child]  > dfn[node]) 
+				bridges.push_back(make_pair(node,  child));   
+			// update the father node with the min
+			low[node] = min(low[node],  low[child]);  
+		}
+		else if (parent[node]  != child) 
+			low[node]  = min(low[node], dfn[child]);   
+	}
+  }
   
   ```
   ### Strongly Connected Components
