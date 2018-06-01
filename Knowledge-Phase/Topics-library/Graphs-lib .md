@@ -298,15 +298,15 @@ Table of Contents
 			if (node == root)rootch++;
 			tarjan_AP_BR(child);
 			// cut points
-			if  (low[child]  >= dfn[node])cutp[node]  = 1;   
+			if (low[child] >= dfn[node])cutp[node] = 1;   
 			// brigde egde
-			if  (low[child]  > dfn[node]) 
-				bridges.push_back(make_pair(node,  child));   
+			if (low[child] > dfn[node]) 
+				bridges.push_back(make_pair(node, child));   
 			// update the father node with the min
-			low[node] = min(low[node],  low[child]);  
+			low[node] = min(low[node], low[child]);
 		}
-		else if (parent[node]  != child) 
-			low[node]  = min(low[node], dfn[child]);   
+		else if (parent[node] != child)
+			low[node] = min(low[node], dfn[child]);
 	}
   }
   
