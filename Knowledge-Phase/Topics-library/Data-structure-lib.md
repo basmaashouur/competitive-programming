@@ -31,7 +31,7 @@ Table of Contents
     + [Priority Queue](#priority-queue)
   * [Hash Table](#hash-table)
 - [Self Written DS](#self-written-ds)
-  * [Union Find Disjoint Sets](Union-find-disjoint-sets)
+  * [Union Find Disjoint Sets](union-find-disjoint-sets)
    
 ## Linear DS
 ### Static Arrays
