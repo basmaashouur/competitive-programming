@@ -428,6 +428,6 @@ Table of Contents
 ### Hash Table
 
 ## Self Written DS
-### Union-Find Disjoint Sets
+### Union Find Disjoint Sets
 ```cpp
 ```
