@@ -96,6 +96,21 @@ of x are greater than (or equal to) x. allows for O(log n) search(key), insert(k
 ### Self Written DS
 - important data structures that do not have built-in support yet in C++ STL.
 #### Union Find Disjoint Sets
-- Is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets. A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
-i. **Find:** Determine which subset a particular element is in. This can be used for determining if two elements are in the same subset.
-ii. **Union:** Join two subsets into a single subset.
+- Is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets.
+- The main innovation of this data structure is in choosing a representative ‘parent’ item
+to represent a set.
+- A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
+   * **Find:** Determine which subset a particular element is in. This can be used for determining if two elements are in      the same subset.
+   * **Union:** Join two subsets into a single subset.
+- **UFDS is using in the following problems:**
+  * Finding connected components in an undirected graph, to detrmine if the two nodes exist in the same component.
+- **Steps of UFDS Algorthim:**
+  * Store the index of the parent item and (the upper bound of)the height of the tree of each set (vi p and vi rank in our    implementation).
+  *  p[i] stores the immediate parent of item i.If item i is the representative item of a certain disjoint set, then p[i] = i, i.e. a self-loop.
+  * rank[i] yields (the upper bound of) the height of the tree rooted at item i.
+  * We initialize the data structure such that each item is a disjoint set by itself with rank 0 and the parent of each item    is initially set to itself.
+  * To unite two disjoint sets, we set the representative item (root) of one disjoint set to be
+the new parent of the representative item of the other disjoint set.
+  * We can use the information contained in vi rank to set the representative item
+of the disjoint set with higher rank to be the new parent of the disjoint set with lower rank, if both ranks are the same, we arbitrarily choose one of them as the new parent and increase the resultant root’s rank.
+  * To find if two sets are in the same big set we see if both of them have the same parent or not
