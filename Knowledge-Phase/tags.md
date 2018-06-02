@@ -20,6 +20,7 @@
 - Unordered Multimap (Hash Table) (Non-linear DS) (DS)
 - Unordered Set (Hash Table) (Non-linear DS) (DS)
 - Unordered Multiset (Hash Table) (Non-linear DS) (DS)
+- Union Find Disjoint Sets (Self Written DS) (DS)
 - Iterative (Brute Force) (Paradigms)
 - Backtracking (Recursive) (Brute Force) (Paradigms)
 - Greedy (Paradigms)
