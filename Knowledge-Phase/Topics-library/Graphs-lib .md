@@ -358,5 +358,101 @@ Table of Contents
   ```
 ## Minimum Spanning Tree
 ### Kruskal's Algorithm
+```cpp
+
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+vector<vii> AdjList; // vector of vector of pairs
+class UnionFind
+{
+
+private:
+	vi p, rank, setSize;
+	int numSets;
+
+public:
+
+	UnionFind(int N)
+	{
+		setSize.assign(N, 1); numSets = N; rank.assign(N, 0);
+		p.assign(N, 0); for (int i = 0; i < N; i++) p[i] = i;
+	}
+
+	int findSet(int i)
+	{
+		return (p[i] == i) ? i : (p[i] = findSet(p[i]));
+	}
+
+	bool isSameSet(int i, int j)
+	{
+		return findSet(i) == findSet(j);
+	}
+
+	void unionSet(int i, int j)
+	{
+		if (!isSameSet(i, j))
+		{
+			numSets--;
+			int x = findSet(i), y = findSet(j);
+			if (rank[x] > rank[y])
+			{
+				p[y] = x; setSize[x] += setSize[y];
+			}
+			else
+			{
+				p[x] = y; setSize[y] += setSize[x];
+				if (rank[x] == rank[y]) rank[y]++;
+			}
+		}
+	}
+
+	int numDisjointSets() { return numSets; }
+
+	int sizeOfSet(int i) { return setSize[findSet(i)]; }
+
+};
+
+int main()
+{
+	int V, E, u, v, w;
+	cin >> V >> E;
+
+	AdjList.assign(V, vii());
+
+	// weight --> first
+	// u --> second.first
+	// v --> sesond.second
+	vector< pair<int, ii> > EdgeList;
+
+	for (int i = 0; i < E; i++)
+	{
+		cin >> u >> v >> w;
+		EdgeList.push_back(make_pair(w, ii(u, v)));
+		AdjList[u].push_back(ii(v, w));
+		AdjList[v].push_back(ii(u, w));
+	}
+	sort(EdgeList.begin(), EdgeList.end());
+
+	int mst_cost = 0;
+	UnionFind UF(V);
+
+	for (int i = 0; i < E; i++)
+	{
+		pair<int, ii> front = EdgeList[i];
+		// u & v are not connected
+		if (!UF.isSameSet(front.second.first, front.second.second))
+		{
+			// weight
+			mst_cost += front.first;
+			// connect u & v
+			UF.unionSet(front.second.first, front.second.second);
+		}
+	}
+
+	return 0;
+}
+
+```
 ### Prim's Algorithm
 ### Variants
