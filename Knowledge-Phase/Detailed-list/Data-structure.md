@@ -104,6 +104,7 @@ to represent a set.
    * **Union:** Join two subsets into a single subset.
 - **UFDS is using in the following problems:**
   * Finding connected components in an undirected graph, to detrmine if the two nodes exist in the same component.
+  * Detect a Cycle in a Graph.
 - **Steps of UFDS Algorthim:**
   * Store the index of the parent item and (the upper bound of)the height of the tree of each set (vi p and vi rank in our    implementation).
   *  p[i] stores the immediate parent of item i.If item i is the representative item of a certain disjoint set, then p[i] = i, i.e. a self-loop.
