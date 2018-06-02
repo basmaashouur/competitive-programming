@@ -96,5 +96,11 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
   * **Directed graph**
     1.  If the whole graph is SCC then there is no cut points or bridges.
 * **Strongly Connected Components** A directed graph is SCC if there is a path between all pairs of vertices and it's either a cycle or an individual vertex, A SCC of a directed graph is a maximal strongly connected subgraph. 
-### Minimum Spanning Tree
+### Minimum Weight Spanning Tree
+* **What is MST** Given a connected, Weighted and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together, and have the min total of weights.
+  * **Kruskal's Algorithm** is an algorithm for finding MST, below are the steps: 
+     1. Sort all the edges in non-decreasing order of their weight.
+    2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far, using union find to find if the two nodes are already connected or not. If cycle is not formed (not connected), include this edge. Else, discard it.
+    3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+  * **Prim's Algorithm**  is an algorithm for finding MST, below are the steps: 
 ### Single Source Shortest Paths
