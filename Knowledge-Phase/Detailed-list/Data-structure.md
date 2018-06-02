@@ -14,6 +14,8 @@ Table of Contents
     + [Balanced Binary Search Tree](#balanced-binary-search-tree)
     + [Heap](#heap)
     + [Hash Table](#hash-table)
+  * [Self Written DS](#self-written-ds)
+    + [Union Find Disjoint Sets](#union-find-disjoint-sets)
 
 
 ## Resources and Approximate time
@@ -22,6 +24,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Linear DS**<br>Static Arrays<br> Stl Algorithms <br> Dynamically-Resizable Arrays<br>Bitmasks<br>BitSets<br>LinkedList<br>Stacks<br>Queues<br>Dequeues|[Bits](https://graphics.stanford.edu/~seander/bithacks.html)<br> [Bitwise](https://en.wikipedia.org/wiki/Bitwise_operation)<br> [masks](https://en.wikipedia.org/wiki/Mask_(computing))<br> [Bit manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)<br> [Bit subset](http://codesam.blogspot.com.eg/2011/03/find-all-subsets-of-given-set.html)<br> [Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)|4Days
 **Non Linear DS**<br>Balanced Binary Search Tree<br>Heap<br>Hash Table|[Performance](https://stackoverflow.com/questions/222658/multiset-map-and-hash-map-complexity?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)<br>[Set differnces](https://www.geeksforgeeks.org/difference-set-multiset-unordered_set-unordered_multiset/)<br> | 4Days
+**Self Written DS**<br>Union Find Disjoint Sets<br> || 4Days
 
 ## Tags
 - 1D Array (static arrays) (linear DS)
@@ -42,7 +45,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Unordered Multimap (Hash Table) (Non-linear DS)
 - Unordered Set (Hash Table) (Non-linear DS)
 - Unordered Multiset (Hash Table) (Non-linear DS)
-
+- Union Find Disjoint Sets (Self Written DS)
 
 
 ## Sup Topic Terminologies And Explanations
@@ -89,3 +92,6 @@ of x are greater than (or equal to) x. allows for O(log n) search(key), insert(k
 * **Unordered Multimap**
 * **Unordered Set**
 * **Unordered Multiset**
+
+### Self Written DS
+#### Union Find Disjoint Sets
