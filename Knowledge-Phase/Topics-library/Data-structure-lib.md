@@ -29,6 +29,9 @@ Table of Contents
     + [Multiset](#multiset)
   * [Heap](#heap)
     + [Priority Queue](#priority-queue)
+  * [Hash Table](#hash-table)
+- [Self Written DS](#self-written-ds)
+  * [Union Find Disjoint Sets](Union-find-disjoint-sets)
    
 ## Linear DS
 ### Static Arrays
@@ -422,3 +425,9 @@ Table of Contents
     pq.top();
 
   ```
+### Hash Table
+
+## Self Written DS
+### Union-Find Disjoint Sets
+```cpp
+```
