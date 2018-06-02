@@ -17,6 +17,9 @@ Table of Contents
   * [Articulation points and bridges](#articulation-points-and-bridges)
   * [Strongly Connected Components](#strongly-connected-components)
 - [Minimum Spanning Tree](#minimum-spanning-tree)
+  * [Kruskal's Algorithm](#kruskal's-algorithm)
+  * [Prim's Algorithm](#prim's-algorithm)
+  * [Variants](#variants)
 - [Single Source Shortest Paths](#single-source-shortest-paths)
 
 ## Graphs Terminologies
@@ -353,3 +356,7 @@ Table of Contents
   }
 
   ```
+## Minimum Spanning Tree
+### Kruskal's Algorithm
+### Prim's Algorithm
+### Variants
