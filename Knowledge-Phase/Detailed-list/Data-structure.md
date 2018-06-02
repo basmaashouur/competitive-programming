@@ -94,4 +94,8 @@ of x are greater than (or equal to) x. allows for O(log n) search(key), insert(k
 * **Unordered Multiset**
 
 ### Self Written DS
+- important data structures that do not have built-in support yet in C++ STL.
 #### Union Find Disjoint Sets
+- Is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets. A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
+i. **Find:** Determine which subset a particular element is in. This can be used for determining if two elements are in the same subset.
+ii. **Union:** Join two subsets into a single subset.
