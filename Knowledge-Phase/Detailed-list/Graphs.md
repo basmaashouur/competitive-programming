@@ -101,6 +101,6 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
   * **Kruskal's Algorithm** is an algorithm for finding MST, below are the steps: 
      1. Sort all the edges in non-decreasing order of their weight.
     2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far, using union find to find if the two nodes are already connected or not. If cycle is not formed (not connected), include this edge. Else, discard it.
-    3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+    3. Repeat step#b until there are (V-1) edges in the spanning tree.
   * **Prim's Algorithm**  is an algorithm for finding MST, below are the steps: 
 ### Single Source Shortest Paths
