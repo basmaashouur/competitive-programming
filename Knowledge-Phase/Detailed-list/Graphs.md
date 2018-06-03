@@ -109,4 +109,20 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
        - put u in taken
        - put all the weights of u in pq
        - chose the min weight which is u not in taken
+   * **Variants** of basic MST problem which are interesting: 
+     1. Max Spanning Tree
+        - Modify Kruskal’s algorithm a bit, we sort the edges based on non increasing weight.
+     2. Min Spanning Subgraph  
+        - Some edges in the given graph have already been fixed and must be taken as part of the solution.
+        - After taking into account all the fixed edges and their costs.
+        - Running Kruskal’s algorithm on the remaining free edges until we have a spanning subgraph (or spanning tree).
+     3. Min Spanning Forest
+        - Form a forest of K connected components (K subtrees) in the least cost.
+        - Run Kruskal’s algorithm as per normal, but as soon as the number of connected components equals to the desired   K, we can terminate the algorithm.
+     4. Second Best Spanning Tree
+        - Sort the edges, then find MST using Kruskal.
+        - Now, for each edge in MST (We will have V-1 edges in it) temporarily exclude it from the edge list so that it cannot be chosen.
+        - Then, again try to find the MST in O(E) (In this we have excluded an edge).
+        - Do this for all the edges in MST, and take the best of all.
+     5. Minimax and Maximin
 ### Single Source Shortest Paths
