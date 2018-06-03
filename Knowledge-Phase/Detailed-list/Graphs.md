@@ -99,8 +99,14 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
 ### Minimum Spanning Tree
 * **What is MST** Given a connected, Weighted and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together, and have the min total of weights, there can be more than one spanning tree that have the same MST weight
   * **Kruskal's Algorithm** is an algorithm for finding MST, below are the steps: 
-     1. Sort all the edges in non-decreasing order of their weight.
+    1. Sort all the edges in non-decreasing order of their weight.
     2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far, using union find to find if the two nodes are already connected or not. If cycle is not formed (not connected), include this edge. Else, discard it.
     3. Repeat step#b until there are (V-1) edges in the spanning tree.
   * **Prim's Algorithm**  is an algorithm for finding MST, below are the steps: 
+    1.  Create a vector taken that keeps track of vertices already included in MST.
+    2. While taken doesn’t include all vertices
+       - pick a vertex u that doesn't include in taken 
+       - put u in taken
+       - put all the weights of u in pq
+       - chose the min weight which is u not in taken
 ### Single Source Shortest Paths
