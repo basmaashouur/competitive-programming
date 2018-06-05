@@ -14,12 +14,6 @@ be carefull to add the weight of the first cell [0][0]
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef pair<int, int> ii;
-typedef vector<int> vi;
-typedef vector<ii> vii;
-#define INF 1000000000
-
-
 static int moves[4][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 } };
 typedef pair<int, int> ii;
 typedef vector<int> vi;
