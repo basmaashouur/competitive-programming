@@ -126,3 +126,20 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
         - Do this for all the edges in MST, and take the best of all.
      5. **Minimax and Maximin**
 ### Single Source Shortest Paths
+* **SSSP on Unweighted Graphs: BFS Algorithm**
+   * Graph with constant similar weights 
+      * multiply answer by that constant
+   * Graph with small weights
+      * duplicate the nodes
+   * 0-1 weighted graph 
+       * modified bfs
+   * Implicit graph (2d)
+       * Convert it to 1d graph which adj[x][y] = adj[x*col + y] 
+   * BFS with single destination
+       * Solved by reversing the role of source and destination
+   * Multi-source variant
+* **SSSP on Weighted Graphs: Dijkstra Algorithm**
+    * Multi-source variant
+    * State-space search
+    * Failure on negative weights
+
