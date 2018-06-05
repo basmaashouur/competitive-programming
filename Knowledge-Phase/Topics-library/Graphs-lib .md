@@ -19,8 +19,8 @@ Table of Contents
 - [Minimum Spanning Tree](#minimum-spanning-tree)
   * [Kruskal's Algorithm](#kruskals-algorithm)
   * [Prim's Algorithm](#prims-algorithm)
-  * [Variants](#variants)
 - [Single Source Shortest Paths](#single-source-shortest-paths)
+  * [Dijkstra](#dijkstra)
 
 ## Graphs Terminologies
 ### Graph Representation
@@ -502,4 +502,48 @@ int main()
 }
 
 ```
-### Variants
+## Single Source Shortest Paths
+### Dijkstra 
+- Directed or undirected grph
+```cpp
+
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+#define INF 1000000000
+
+int main()
+{
+	int V, E, s, t, u, v, w;
+	vector<vii> AdjList;
+	cin >> V >> E >> s >> t;
+        // take the graph
+	AdjList.assign(V, vii());
+	for (int i = 0; i < E; i++)
+	{
+		cin >> u >> v >> w;
+		AdjList[u].push_back(ii(v, w));
+		AdjList[v].push_back(ii(u, w));
+	}
+	// Dijkstra
+	vi dist(V, INF); dist[s] = 0;
+	priority_queue< ii, vector<ii>, greater<ii> > pq; pq.push(ii(0, s));
+	while (!pq.empty())
+	{
+		ii front = pq.top(); pq.pop();
+		int d = front.first, u = front.second;
+		if (d > dist[u]) continue;
+		for (int j = 0; j < (int)AdjList[u].size(); j++)
+		{
+			ii v = AdjList[u][j];
+			if (dist[u] + v.second < dist[v.first])
+			{
+				dist[v.first] = dist[u] + v.second;
+				pq.push(ii(dist[v.first], v.first));
+			}
+		}
+	}
+	cout << dist[t] << endl;
+	return 0;
+}
+```
