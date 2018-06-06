@@ -24,6 +24,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 **Sup Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
 ## Tags
+- Points (Euclidean Geometry Foundations)
+- Lines (Euclidean Geometry Foundations)
 
 ## Sup Topic Terminologies And Explanations
 
