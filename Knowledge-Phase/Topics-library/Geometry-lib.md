@@ -103,6 +103,7 @@ int main()
 
 // Angles convertion from 360 to rad
 double DEG_to_RAD(double d) { return d * PI / 180.0; }
+
 double RAD_to_DEG(double r) { return r * 180.0 / PI; }
 
 point rotate(point p, double theta)
