@@ -137,8 +137,12 @@ We can use dfs as well but dfs will also work in the graph that is not DAG so th
        * Convert it to 1d graph which adj[x][y] = adj[x*col + y] 
    * BFS with single destination
        * Solved by reversing the role of source and destination
+       * If the graphs directed revrse the dirction 
    * Multi-source variant
 * **SSSP on Weighted Graphs: Dijkstra Algorithm**
+     * Dijkstra with single destination
+       * Solved by reversing the role of source and destination
+       * If the graphs directed revrse the dirction 
     * Multi-source variant
     * State-space search
     * Failure on negative weights
