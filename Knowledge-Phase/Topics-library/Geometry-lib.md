@@ -8,7 +8,26 @@ Table of Contents
      + [Points Declaration](#points-declaration)
      + [Euclidean Distance](#euclidean-distance)
      + [Point Rotation](#point-rotation)
+     + [Vector Declaration](#vector-declaration)
+     + [Point To Vector](#point-to-vector)
+     + [Scale Vector](#scale-vector)
+     + [Translate Point](#translate-point)
    - [Lines](#lines)
+     + [Line Declaration](#line-declaration)
+     + [Points To Line](#points-to-line)
+     + [Point To Line](#point-to-line)
+     + [Parallel Lines](#parallel-lines)
+     + [Same Lines](#same-lines)
+     + [Intersect Lines](#intersect-lines)
+     + [Closet Point To Line](#closet-point-to-line)
+     + [Reflection Point](#reflection-point)
+     + [](#)
+     + [](#)
+     + [](#)
+     + [](#)
+     + [](#)
+     + [](#)
+     + [](#)
    
    
 ## Euclidean Geometry Foundations
@@ -114,4 +133,135 @@ point rotate(point p, double theta)
 }
 
 ```
+#### Vector Declaration
+-
+```cpp
+```
+#### Point To Vector
+-
+```cpp
+```
+#### Scale Vector
+-
+```cpp
+```
+#### Translate Point
+-
+```cpp
+```
+
 ### Lines
+#### Line Declaration
+-
+```cpp
+// ax + by + c = 0;
+struct line { double a, b, c; }; 
+// y = mx + c; m is the slop
+struct line2 { double m, c; };
+```
+#### Points To Line
+- Using the equation *ax + by + c = 0
+```cpp
+#define EPS 1e-9
+void pointsToLine(point p1, point p2, line &l)
+{
+	if (fabs(p1.x - p2.x) < EPS)
+	{	// vertical line
+		l.a = 1.0;   l.b = 0.0;   l.c = -p1.x;
+	}
+	else
+	{
+		l.a = -(double)(p1.y - p2.y) / (p1.x - p2.x); // always -m
+		l.b = 1.0;
+		l.c = -(double)(l.a * p1.x) - p1.y;
+	}
+}
+```
+- Using the equation *y = mx + c
+```cpp
+#define EPS 1e-9
+#define INF 1e9
+int pointsToLine2(point p1, point p2, line2 &l)
+{
+	if (abs(p1.x - p2.x) < EPS)
+	{	//  vertical line
+		l.m = INF; // means undfined
+		l.c = p1.x;
+		return 0;   // we need this return variable to differentiate result
+	}
+	else
+	{
+		l.m = (double)(p1.y - p2.y) / (p1.x - p2.x);
+		l.c = p1.y - l.m * p1.x;
+		return 1;
+	}
+}
+```
+#### Point To Line
+- Have a slope and a point
+```cpp
+void pointSlopeToLine(point p, double m, line &l) 
+{
+	l.a = -m; // always -m
+	l.b = 1;  // always 1
+	l.c = -((l.a * p.x) + (l.b * p.y));
+} 
+```
+#### Parallel Lines
+- Have the same slope and have different intercepts
+#define EPS 1e-9
+bool areParallel(line l1, line l2)
+{	// check coefficients a & b
+	return (fabs(l1.a - l2.a) < EPS) && (fabs(l1.b - l2.b) < EPS);
+}
+```
+#### Same Lines
+-
+```cpp
+#define EPS 1e-9
+bool areSame(line l1, line l2)
+{	// also check coefficient c
+	return areParallel(l1 , l2) && (fabs(l1.c - l2.c) < EPS);
+}
+```
+#### Intersect Lines
+-
+```cpp
+```
+#### Closet Point To Line
+-
+```cpp
+```
+#### Reflection Point
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+####
+-
+```cpp
+```
+
