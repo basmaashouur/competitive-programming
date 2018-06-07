@@ -89,7 +89,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Vertical lines** slope is undefined
   * **Horizontal lines** slope = 0
 * **Methods & Operations**
-![](imgs/line.ong)
+![](imgs/line.png)
   * **Linear Equation Slope-intercept** A linear equation can be written in the form y = mx + b; m ≠ 0, m is the slope of the line and b is the y-intercept.
   * **Standard form of a line** AX + BY = C; A, B, C, where A is the slope and C is y-intercept.
   * **The Slope of a Line** m, represents the change in y over the change in x. Given two points, (x1, y1) and (x2, y2), this formula determines the slope of a line m = ∆y / ∆x = ( y2 − y1) / (x2 − x1),
