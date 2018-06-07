@@ -126,6 +126,11 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * Check they cross on a point
      * Find that point they cross in by sloving the two linear algebraic equations togther
    * **Closet Point To Line**
+     * If the line is vertical then the y of the closet point is the same as the line, and x = -c
+     * If the line is horizontal then the x of the closet point is the same as the line, and y = -c
+     * If the line is normal:
+       * Draw a line from that point to the line which is perpendicular, we know the point and the slope
+       * Then find the intersection of that perpendicular line and the other line and that would be the closet point
    * **Reflection Point**
    * ****
    * ****
