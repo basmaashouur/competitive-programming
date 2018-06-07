@@ -259,8 +259,44 @@ bool areIntersect(line l1, line l2, point &p)
 
 ```
 #### Closet Point To Line
--
+- We have 3 cases Vertical, Horizontal or Normal line
 ```cpp
+bool areParallel(line l1, line l2)
+{
+	return (fabs(l1.a - l2.a) < EPS) && (fabs(l1.b - l2.b) < EPS);
+}
+bool areIntersect(line l1, line l2, point &p)
+{
+	if (areParallel(l1, l2)) return false;
+	p.x = (l2.b * l1.c - l1.b * l2.c) / (l2.a * l1.b - l1.a * l2.b);
+	if (fabs(l1.b) > EPS) p.y = -(l1.a * p.x + l1.c);
+	else  p.y = -(l2.a * p.x + l2.c);
+	return true;
+}
+void pointSlopeToLine(point p, double m, line &l)
+{
+	l.a = -m;
+	l.b = 1;
+	l.c = -((l.a * p.x) + (l.b * p.y));
+}
+void closestPoint(line l, point p, point &ans)
+{
+	line perpendicular;  // perpendicular to l and pass through p
+	if (fabs(l.b) < EPS)
+	{	// special case 1: vertical line
+		//y of line and point is the same
+		ans.x = -(l.c); ans.y = p.y; return;
+	}
+
+	if (fabs(l.a) < EPS)
+	{	// special case 2: horizontal line; 
+		//x of line and point is the same
+		ans.x = p.x; ans.y = -(l.c); return;
+	}
+    // normal line
+	pointSlopeToLine(p, 1 / l.a, perpendicular); 
+	areIntersect(l, perpendicular, ans);
+}
 ```
 #### Reflection Point
 -
