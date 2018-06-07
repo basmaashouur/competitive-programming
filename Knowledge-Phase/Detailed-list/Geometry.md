@@ -83,8 +83,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Collinear** Points that lie on the same straight line.
   * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°)![](imgs/perpen.png).
   * **Intersecting lines** The point where two lines meet or cross, Two distinct lines have one intersection point unless they are parallel; in which case they have none.
-  * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross, ![](imgs/parallel.png).
-  * **Closest point** Find the close point from a line to a point.
+  * **Parallel** Lines are parallel if they are always have the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross, ![](imgs/parallel.png).
+  * **Closest point** The closet point from a line to a point.
   * **Coincident lines** two lines that lie one on top of the other.
   * **Vertical lines** slope is undefined
   * **Horizontal lines** slope = 0
@@ -100,12 +100,28 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Algorithms** 
   * **Points To Line** You have two points and want to  compute the required line equation
      * Find the slope, m = ∆y / ∆x 
-     * Put the slope and one point into the "Point-Slope Formula
-     * Simplify to get the line equation AX + BY = C
+       * If the line is vertical then the slope is undifend, then the equation would be x = x constant, **Special case**
+       * If the line is horizontal then the slope is zero, then the equation would be y = y constant
+     * Put the slope and one point into the "Point-Slope Formula y - y1 = m(x - x1)
+     * Simplify to get the line equation ax + by + c
+       * y - y1 = mx - mx1
+       * mx = y + (mx1 - y1)
+       * ax = mx; a = -m
+       * by = y; y = 1
+       * c = mx1 - y1
    * **Point To Line**
+     * If we have the line slope and one point then we will compute the line equation
    * **Parallel Lines**
+      * Check if the have the same slope
+      * Check if the don't cross
    * **Same Lines** 
+     * Check if the have the same slope
+     * Check if they cross
+     * Check if they have the same hight 
    * **Intersect Lines**
+     * Check if they don't have the same slope (not Parallel)
+     * Check they cross on a point
+     * Find that point
    * **Closet Point To Line**
    * **Reflection Point**
    * ****
