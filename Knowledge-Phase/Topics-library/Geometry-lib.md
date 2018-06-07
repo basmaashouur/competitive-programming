@@ -159,7 +159,7 @@ vec scale(vec v, double s)
 } ;
 ```
 #### Translate Point
--  translate p according to v
+-  Translate p according to v
 ```cpp
 point translate(point p, vec v) 
 {
@@ -169,7 +169,6 @@ point translate(point p, vec v)
 
 ### Lines
 #### Line Declaration
--
 ```cpp
 // ax + by + c = 0;
 struct line { double a, b, c; }; 
@@ -234,7 +233,6 @@ bool areParallel(line l1, line l2)
 }
 ```
 #### Same Lines
--
 ```cpp
 #define EPS 1e-9
 bool areSame(line l1, line l2)
