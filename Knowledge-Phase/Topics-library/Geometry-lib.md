@@ -177,7 +177,7 @@ struct line { double a, b, c; };
 struct line2 { double m, c; };
 ```
 #### Points To Line
-- Using the equation *ax + by + c = 0
+- Using the equation ax + by + c = 0
 ```cpp
 #define EPS 1e-9
 void pointsToLine(point p1, point p2, line &l)
@@ -194,7 +194,7 @@ void pointsToLine(point p1, point p2, line &l)
 	}
 }
 ```
-- Using the equation *y = mx + c
+- Using the equation y = mx + c
 ```cpp
 #define EPS 1e-9
 #define INF 1e9
@@ -226,6 +226,7 @@ void pointSlopeToLine(point p, double m, line &l)
 ```
 #### Parallel Lines
 - Have the same slope and have different intercepts
+```cpp
 #define EPS 1e-9
 bool areParallel(line l1, line l2)
 {	// check coefficients a & b
