@@ -55,11 +55,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Unit Vector** Are vectors which magnitude is exactly 1 unit
 * **Methods & Operations**
   * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
-  * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (x',y'), where
+  * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (*x',*y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
   ![](imgs/prot.png)
    
-  * **Point Reflection**
   * **Point Translation**
   * **Vector Addition & subtraction**
     * Vector ± Vector: A ± B = (ai ± bi)
@@ -69,6 +68,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Vector Multiplying by vector**
     * Scalar or dot product:  ![](imgs/dotpr.png)
     * Vector or cross product:
+* **Algorithms** 
+  * **Point To Vector**
+  * **Scale Vector**
+  * **Translate Point**
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
@@ -81,17 +84,36 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°)![](imgs/perpen.png).
   * **Intersecting lines** The point where two lines meet or cross, Two distinct lines have one intersection point unless they are parallel; in which case they have none.
   * **Parallel** Lines are parallel if they are always the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross, ![](imgs/parallel.png).
-  * **Closest point**
+  * **Closest point** Find the close point from a line to a point.
   * **Coincident lines** two lines that lie one on top of the other.
   * **Vertical lines** slope is undefined
   * **Horizontal lines** slope = 0
 * **Methods & Operations**
-  * **Linear Equation** A linear equation can be written in the form y = mx+b where a and b are real numbers, m ≠ 0., m is the slope of the line and b is the y-intercept.
-  * **Standard form of a line** AX + BY = C, A, B, C  Z, where A is the slope and C is y-intercept.
+![](imgs/line.ong)
+  * **Linear Equation Slope-intercept** A linear equation can be written in the form y = mx + b; m ≠ 0, m is the slope of the line and b is the y-intercept.
+  * **Standard form of a line** AX + BY = C; A, B, C, where A is the slope and C is y-intercept.
   * **The Slope of a Line** m, represents the change in y over the change in x. Given two points, (x1, y1) and (x2, y2), this formula determines the slope of a line m = ∆y / ∆x = ( y2 − y1) / (x2 − x1),
   * **Note**  Vertical lines cannot be described by such equations, however, because dividing by ∆x means dividing by zero.
   * **The Point-Slope Formula**  one point and the slope, the point-slope formula will lead to the equation of a line: y − y1 = m(x − x1).
   * **Compute the line equation** We can compute the line equation if we are given at least two points that pass through that line
   * **Determine if a point lies in a line** substitute the values of the point  into the equation of the line y=mx+b, where m & b are known, then If the point satisfies the equation of the line (results in a true equality), then the point is on the line, If you want to know whether the point (x,y)(x,y) is "in between" the two endpoints, make sure that  x1 ≤ x≤ x2 and y1 ≤ y ≤ y2.
-
+* **Algorithms** 
+  * **Points To Line** You have two points and want to  compute the required line equation
+     * Find the slope, m = ∆y / ∆x 
+     * Put the slope and one point into the "Point-Slope Formula
+     * Simplify to get the line equation AX + BY = C
+   * **Point To Line**
+   * **Parallel Lines**
+   * **Same Lines** 
+   * **Intersect Lines**
+   * **Closet Point To Line**
+   * **Reflection Point**
+   * ****
+   * ****
+   * ****
+   * ****
+   * ****
+   * ****
+   * ****
+   * ****
 ### Euclidean Plane Geometry
