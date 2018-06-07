@@ -134,20 +134,37 @@ point rotate(point p, double theta)
 
 ```
 #### Vector Declaration
--
+- Vector is not the same as stl vector
 ```cpp
+struct vec
+{
+	double x, y;
+	vec(double _x, double _y) : x(_x), y(_y) {}
+};
 ```
 #### Point To Vector
--
+- Convert 2 points to vector a->b
 ```cpp
+vec toVec(point a, point b)
+{	
+	return vec(b.x - a.x, b.y - a.y);
+};
 ```
 #### Scale Vector
--
+- Nonnegative s = <1 .. 1 .. >1
 ```cpp
+vec scale(vec v, double s)
+{
+	return vec(v.x * s, v.y * s);
+} ;
 ```
 #### Translate Point
--
+-  translate p according to v
 ```cpp
+point translate(point p, vec v) 
+{
+	return point(p.x + v.x , p.y + v.y);
+}
 ```
 
 ### Lines
@@ -225,8 +242,20 @@ bool areSame(line l1, line l2)
 }
 ```
 #### Intersect Lines
--
+- Returns true (+ intersection point) if two lines are intersect
 ```cpp
+#define EPS 1e-9
+bool areIntersect(line l1, line l2, point &p)
+{
+	if (areParallel(l1, l2)) return false;
+	// solve system of 2 linear algebraic equations with 2 unknowns
+	p.x = (l2.b * l1.c - l1.b * l2.c) / (l2.a * l1.b - l1.a * l2.b);
+	// special case: test for vertical line to avoid division by zero
+	if (fabs(l1.b) > EPS) p.y = -(l1.a * p.x + l1.c);
+	else  p.y = -(l2.a * p.x + l2.c);
+	return true;
+}
+
 ```
 #### Closet Point To Line
 -
