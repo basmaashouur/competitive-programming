@@ -70,8 +70,11 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
     * Vector or cross product:
 * **Algorithms** 
   * **Point To Vector**
+    * A vector is a line segment (thus it has two end points and length/magnitude, so if we have two points and want to convert to a vector then find the distance between them.
   * **Scale Vector**
+    * We can scale(change size) a vector by some value by multiplyng the vector by that scale.
   * **Translate Point**
+    * Change the place of the point according to a vector
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
@@ -121,7 +124,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * **Intersect Lines**
      * Check if they don't have the same slope (not Parallel)
      * Check they cross on a point
-     * Find that point
+     * Find that point they cross in by sloving the two linear algebraic equations togther
    * **Closet Point To Line**
    * **Reflection Point**
    * ****
