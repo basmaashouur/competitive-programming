@@ -1,4 +1,4 @@
-# Mathematics Problems
+# General Math Problems
 
 Table of Contents
 =================
