@@ -20,6 +20,11 @@ NE --> (+x, +y)
 NW --> (-x, +y)
 SE --> (+x, -y)
 SW --> (-x, -y)
+
+
+OR 
+vertcial or hotzoinatl = dist * seta = dist * 1; sin(90) = 1
+dioganal = dist * seta = dist * 1/sqrt(2); sin(45) = 1/sqrt(2)
 */
 
 // C O D E
