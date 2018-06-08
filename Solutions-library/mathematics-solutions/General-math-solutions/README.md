@@ -1,4 +1,4 @@
-# Sloutions of the General matj
+# Sloutions of the General math
 
 ## How
 
