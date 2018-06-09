@@ -350,7 +350,7 @@ double distToLineSegment(point p, point a, point b, point &c)
 
 ```
 #### Two Lines Angle
--
+- The angle between two lines
 ```cpp
 #define PI acos(-1.0)
 
@@ -395,7 +395,7 @@ bool ccw(point p, point q, point r)
 
 ```
 #### Point In Line Segment
--
+- Check and see if point p1 is on the line segment s1 and s2
 ```cpp
 bool pointInLineSegment(point p1, point s1, point s2)
 {
