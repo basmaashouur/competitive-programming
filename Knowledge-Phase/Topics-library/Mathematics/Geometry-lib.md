@@ -382,7 +382,7 @@ bool collinear(point p, point q, point r)
 
 ```
 #### Counter Clockwise
--
+- Returns true if point r is on the left side of line pq
 ```cpp
 vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
 
