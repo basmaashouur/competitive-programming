@@ -149,5 +149,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * **Two Lines Angle**
      * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
    * **Collinear**
+     * 
    * **Counter Clockwise**
+     * 
 ### Euclidean Plane Geometry
