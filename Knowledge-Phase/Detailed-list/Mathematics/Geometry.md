@@ -140,9 +140,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * Draw a line from that point to the line which is perpendicular, we know the point and the slope
        * Then find the intersection of that perpendicular line and the other line and that would be the closet point
    * **Reflection Point**
+     * 
    * **Distance To Line**
+     * Find the closet point but using vector instead of the normal equations
    * **Distance To Line Segment**
+     * If the perpendicular line point from the point is on the line segment then find normal closet point
+     * If the perp point not in the line segment then the answer would be the first point or the second of the segment
    * **Two Lines Angle**
+     * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
    * **Collinear**
    * **Counter Clockwise**
 ### Euclidean Plane Geometry
