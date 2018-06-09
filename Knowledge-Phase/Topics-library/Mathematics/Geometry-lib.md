@@ -12,6 +12,9 @@ Table of Contents
      + [Point To Vector](#point-to-vector)
      + [Scale Vector](#scale-vector)
      + [Translate Point](#translate-point)
+     + [Dot Product](#dot-product)
+     + [Cross Product](#cross-product)
+     + [Normalize](#normalize)
    - [Lines](#lines)
      + [Line Declaration](#line-declaration)
      + [Points To Line](#points-to-line)
@@ -21,13 +24,11 @@ Table of Contents
      + [Intersect Lines](#intersect-lines)
      + [Closet Point To Line](#closet-point-to-line)
      + [Reflection Point](#reflection-point)
-     + [](#)
-     + [](#)
-     + [](#)
-     + [](#)
-     + [](#)
-     + [](#)
-     + [](#)
+     + [Distance To Line](#distance-to-line)
+     + [Distance To Line Segment](#distance-to-line-segment)
+     + [Two Lines Angle](#two-lines-angle)
+     + [Collinear](#collinear)
+     + [Counter Clockwise](#counter-clockwise)
    
    
 ## Euclidean Geometry Foundations
@@ -166,6 +167,18 @@ point translate(point p, vec v)
 	return point(p.x + v.x , p.y + v.y);
 }
 ```
+#### Dot Product
+```cpp
+double dot(vec a, vec b) { return (a.x * b.x + a.y * b.y); }
+```
+#### Cross Product
+```cpp
+double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
+```
+#### Normalize
+```cpp
+double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
+```
 
 ### Lines
 #### Line Declaration
@@ -300,23 +313,23 @@ void closestPoint(line l, point p, point &ans)
 -
 ```cpp
 ```
-####
+#### Distance To Line
 -
 ```cpp
 ```
-####
+#### Distance To Line Segment
 -
 ```cpp
 ```
-####
+#### Two Lines Angle
 -
 ```cpp
 ```
-####
+#### Collinear
 -
 ```cpp
 ```
-####
+#### Counter Clockwise
 -
 ```cpp
 ```
