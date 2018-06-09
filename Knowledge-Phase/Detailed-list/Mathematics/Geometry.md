@@ -75,6 +75,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
     * We can scale(change size) a vector by some value by multiplyng the vector by that scale.
   * **Translate Point**
     * Change the place of the point according to a vector
+   * **Dot Product**
+     * Computing the angle α between two vectors a and b, a⋅b=|a|⋅|b|⋅cos(α). 
+       * •<0 if the angle is obtuse,
+       * •>0 if the angle is acute,
+       * •=0 if the a and b are orthogonal.
+   * **Cross Product**
+   * **Normalize**
+     * Make it a unit vector
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
@@ -132,12 +140,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * Draw a line from that point to the line which is perpendicular, we know the point and the slope
        * Then find the intersection of that perpendicular line and the other line and that would be the closet point
    * **Reflection Point**
-   * ****
-   * ****
-   * ****
-   * ****
-   * ****
-   * ****
-   * ****
-   * ****
+   * **Distance To Line**
+   * **Distance To Line Segment**
+   * **Two Lines Angle**
+   * **Collinear**
+   * **Counter Clockwise**
 ### Euclidean Plane Geometry
