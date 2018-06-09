@@ -368,7 +368,7 @@ double angle(point a, point o, point b)
 
 ```
 #### Collinear
--
+- Returns true if point r is on the same line as the line pq
 ```cpp
 #define EPS 1e-9
 vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
