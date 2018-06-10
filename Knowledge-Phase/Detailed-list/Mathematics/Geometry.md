@@ -46,7 +46,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Points
 * **Definitions**
   * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
-  * **Unit Vector** Are vectors which magnitude is exactly 1 unit
+  * **Collinear** Points that lie on the same straight line.
 * **Methods & Operations**
   * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
   * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (*x',*y'), where
@@ -54,7 +54,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   ![](imgs/prot.png)
 * **Algorithms** 
      * **Reflection Point**
-     * 
+       * 
    * **Distance To Line**
      * Find the closet point but using vector instead of the normal equations
    * **Distance To Line Segment**
@@ -66,12 +66,12 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * 
    * **Counter Clockwise**
      * 
- #### Points
+ #### Vectors
 * **Definitions**
   * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
   * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
   * **Scalar** A scalar has magnitude (size) only.
-  * **Unit Vector** Are vectors which magnitude is exactly 1 unit
+  * **Unit Vector** Are vectors which magnitude is exactly 1 unit.
 * **Methods & Operations**
   * **Vector Addition & subtraction**
     * Vector ± Vector: A ± B = (ai ± bi)
@@ -93,9 +93,6 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * •<0 if the angle is obtuse,
        * •>0 if the angle is acute,
        * •=0 if the a and b are orthogonal.
-   * **Cross Product**
-   * **Normalize**
-     * Make it a unit vector 
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
@@ -104,7 +101,6 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Midpoint in line segments** The midpoint is halfway between the two endpoints  ![](imgs/midpoint.png)
   * **Ray** A portion of a line which starts at a point and goes off in a particular direction to infinity (has one end).
   * **Note** Rays and lines cannot be congruent because they do not have both endpoints defined, and so have no definite length.
-  * **Collinear** Points that lie on the same straight line.
   * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°)![](imgs/perpen.png).
   * **Intersecting lines** The point where two lines meet or cross, Two distinct lines have one intersection point unless they are parallel; in which case they have none.
   * **Parallel** Lines are parallel if they are always have the same distance apart (called "equidistant"), and will never meet, parallel lines share the same slope but have different intercepts and by definition never cross, ![](imgs/parallel.png).
@@ -146,6 +142,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * Check if they don't have the same slope (not Parallel)
      * Check they cross on a point
      * Find that point they cross in by sloving the two linear algebraic equations togther
+   * **Intersect Lines Segments**
    * **Closet Point To Line**
      * If the line is vertical then the y of the closet point is the same as the line, and x = -c
      * If the line is horizontal then the x of the closet point is the same as the line, and y = -c
