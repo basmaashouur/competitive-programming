@@ -10,9 +10,8 @@ Table of Contents
     + [Space](#space)
     + [Planes](#planes)
     + [Points](#points)
+    + [Vectors](#vectors)
     + [Lines](#lines)
-  * [Euclidean Plane Geometry](#euclidean-plane-geometry)
-
 
 
 ## Resources And Approximate Time
@@ -20,8 +19,6 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Euclidean Geometry Foundations** <br>Space <br> Planes 2D <br> Points 0D <br> Lines 1D <br> Shapes 2D&3D <br> Solid 3D <br> Angles|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br> [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br>[Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html)<br>[Point Rotation](https://academo.org/demos/rotation-about-point/) <br>[Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| 4Days
-**Euclidean Plane Geometry** <br>tag<br>tag <br>|[]()<br>[]()<br> | 4Days
-**Sup Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
 ## Tags
 - Points (Euclidean Geometry Foundations)
@@ -49,17 +46,33 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Points
 * **Definitions**
   * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
-  * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
-  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
-  * **Scalar** A scalar has magnitude (size) only.
   * **Unit Vector** Are vectors which magnitude is exactly 1 unit
 * **Methods & Operations**
   * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
   * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (*x',*y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
   ![](imgs/prot.png)
-   
-  * **Point Translation**
+* **Algorithms** 
+     * **Reflection Point**
+     * 
+   * **Distance To Line**
+     * Find the closet point but using vector instead of the normal equations
+   * **Distance To Line Segment**
+     * If the perpendicular line point from the point is on the line segment then find normal closet point
+     * If the perp point not in the line segment then the answer would be the first point or the second of the segment
+   * **Two Lines Angle**
+     * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
+   * **Collinear**
+     * 
+   * **Counter Clockwise**
+     * 
+ #### Points
+* **Definitions**
+  * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
+  * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
+  * **Scalar** A scalar has magnitude (size) only.
+  * **Unit Vector** Are vectors which magnitude is exactly 1 unit
+* **Methods & Operations**
   * **Vector Addition & subtraction**
     * Vector ± Vector: A ± B = (ai ± bi)
     * Vector ± Point: P ± V = (pi ± vi)
@@ -82,7 +95,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * •=0 if the a and b are orthogonal.
    * **Cross Product**
    * **Normalize**
-     * Make it a unit vector
+     * Make it a unit vector 
 #### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
@@ -139,17 +152,3 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * If the line is normal:
        * Draw a line from that point to the line which is perpendicular, we know the point and the slope
        * Then find the intersection of that perpendicular line and the other line and that would be the closet point
-   * **Reflection Point**
-     * 
-   * **Distance To Line**
-     * Find the closet point but using vector instead of the normal equations
-   * **Distance To Line Segment**
-     * If the perpendicular line point from the point is on the line segment then find normal closet point
-     * If the perp point not in the line segment then the answer would be the first point or the second of the segment
-   * **Two Lines Angle**
-     * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
-   * **Collinear**
-     * 
-   * **Counter Clockwise**
-     * 
-### Euclidean Plane Geometry
