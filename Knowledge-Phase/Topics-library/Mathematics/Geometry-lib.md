@@ -8,6 +8,16 @@ Table of Contents
      + [Points Declaration](#points-declaration)
      + [Euclidean Distance](#euclidean-distance)
      + [Point Rotation](#point-rotation)
+     + [Reflection Point](#reflection-point)
+     + [Distance To Line](#distance-to-line)
+     + [Distance To Line Segment](#distance-to-line-segment)
+     + [Two Lines Angle](#two-lines-angle)
+     + [Collinear](#collinear)
+     + [Counter Clockwise](#counter-clockwise)
+     + [Point On Line Segment](#point-on-line-segment)
+     + [Point On Line](#point-on-line)
+     + [Point On Ray](#point-on-ray)
+   - [Vectors](#vectors)
      + [Vector Declaration](#vector-declaration)
      + [Point To Vector](#point-to-vector)
      + [Scale Vector](#scale-vector)
@@ -22,14 +32,9 @@ Table of Contents
      + [Parallel Lines](#parallel-lines)
      + [Same Lines](#same-lines)
      + [Intersect Lines](#intersect-lines)
+     + [Intersect Lines Segment](#intersect-lines-segment)
      + [Closet Point To Line](#closet-point-to-line)
-     + [Reflection Point](#reflection-point)
-     + [Distance To Line](#distance-to-line)
-     + [Distance To Line Segment](#distance-to-line-segment)
-     + [Two Lines Angle](#two-lines-angle)
-     + [Collinear](#collinear)
-     + [Counter Clockwise](#counter-clockwise)
-     + [Point In Line Segment](#point-in-line-segment)
+     
    
    
 ## Euclidean Geometry Foundations
@@ -135,6 +140,119 @@ point rotate(point p, double theta)
 }
 
 ```
+#### Reflection Point
+-
+```cpp
+```
+#### Distance To Line
+- Two points a and b (a and b must be different) to make a line, find the closet point to line
+```cpp
+vec toVec(point a, point b){return vec(b.x - a.x, b.y - a.y);}
+
+point translate(point p, vec v){return point(p.x + v.x , p.y + v.y);}
+
+vec scale(vec v, double s){return vec(v.x * s, v.y * s);} 
+
+double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
+
+double dist(point p1, point p2){return hypot(p1.x - p2.x, p1.y - p2.y);}
+
+double distToLine(point p, point a, point b, point &c)
+{
+	// formula: c = a + u * ab
+	vec ap = toVec(a, p), ab = toVec(a, b);
+	double u = dot(ap, ab) / norm_sq(ab);
+	c = translate(a, scale(ab, u));
+	return dist(p, c);
+}
+```
+#### Distance To Line Segment
+- Put all the functions of Distance to line, find the closet point to line segment
+```cpp
+double distToLineSegment(point p, point a, point b, point &c)
+{
+	vec ap = toVec(a, p), ab = toVec(a, b);
+	double u = dot(ap, ab) / norm_sq(ab);
+	if (u < 0.0)
+	{	// closer to a
+		c = point(a.x, a.y);
+		return dist(p, a);
+	}
+	if (u > 1.0)
+	{	// closer to b
+		c = point(b.x, b.y);
+		return dist(p, b);
+	}
+
+	return distToLine(p, a, b, c);
+}
+
+```
+#### Two Lines Angle
+- The angle between two lines
+```cpp
+#define PI acos(-1.0)
+
+vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
+
+double dot(vec a, vec b) { return (a.x * b.x + a.y * b.y); }
+
+double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
+
+double angle(point a, point o, point b) 
+{  // returns angle aob in rad
+	vec oa = toVec(o, a), ob = toVec(o, b);
+	return acos(dot(oa, ob) / sqrt(norm_sq(oa) * norm_sq(ob)));
+}
+
+```
+#### Collinear
+- Returns true if point r is on the same line as the line pq
+```cpp
+#define EPS 1e-9
+vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
+
+double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
+
+bool collinear(point p, point q, point r) 
+{
+	return fabs(cross(toVec(p, q), toVec(p, r))) < EPS;
+}
+
+```
+#### Counter Clockwise
+- Returns true if point r is on the left side of line pq
+```cpp
+vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
+
+double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
+
+bool ccw(point p, point q, point r)
+{
+	return cross(toVec(p, q), toVec(p, r)) > 0;
+}
+
+```
+#### Point On Line Segment
+- Check and see if point p1 is on the line segment s1 and s2
+```cpp
+bool pointOnLineSegment(point p1, point s1, point s2)
+{
+	// not inside it
+	if ((s1 < p1 && s2 < p1) || (p1 < s1 && p1 < s2))
+		return false;
+	return true;
+}
+```
+### Point On Line
+-
+```cpp
+```
+### Point On Ray
+-
+```cpp
+```
+### Vectors
 #### Vector Declaration
 - Vector is not the same as stl vector
 ```cpp
@@ -261,6 +379,11 @@ bool areIntersect(line l1, line l2, point &p)
 }
 
 ```
+
+### Intersect Lines Segment
+- 
+```cpp
+```
 #### Closet Point To Line
 - We have 3 cases Vertical, Horizontal or Normal line
 ```cpp
@@ -301,112 +424,3 @@ void closestPoint(line l, point p, point &ans)
 	areIntersect(l, perpendicular, ans);
 }
 ```
-#### Reflection Point
--
-```cpp
-```
-#### Distance To Line
-- Two points a and b (a and b must be different) to make a line
-```cpp
-vec toVec(point a, point b){return vec(b.x - a.x, b.y - a.y);}
-
-point translate(point p, vec v){return point(p.x + v.x , p.y + v.y);}
-
-vec scale(vec v, double s){return vec(v.x * s, v.y * s);} 
-
-double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
-
-double dist(point p1, point p2){return hypot(p1.x - p2.x, p1.y - p2.y);}
-
-double distToLine(point p, point a, point b, point &c)
-{
-	// formula: c = a + u * ab
-	vec ap = toVec(a, p), ab = toVec(a, b);
-	double u = dot(ap, ab) / norm_sq(ab);
-	c = translate(a, scale(ab, u));
-	return dist(p, c);
-}
-```
-#### Distance To Line Segment
-- Put all the functions of Distance to line
-```cpp
-double distToLineSegment(point p, point a, point b, point &c)
-{
-	vec ap = toVec(a, p), ab = toVec(a, b);
-	double u = dot(ap, ab) / norm_sq(ab);
-	if (u < 0.0)
-	{	// closer to a
-		c = point(a.x, a.y);
-		return dist(p, a);
-	}
-	if (u > 1.0)
-	{	// closer to b
-		c = point(b.x, b.y);
-		return dist(p, b);
-	}
-
-	return distToLine(p, a, b, c);
-}
-
-```
-#### Two Lines Angle
-- The angle between two lines
-```cpp
-#define PI acos(-1.0)
-
-vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
-
-double dot(vec a, vec b) { return (a.x * b.x + a.y * b.y); }
-
-double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
-
-double angle(point a, point o, point b) 
-{  // returns angle aob in rad
-	vec oa = toVec(o, a), ob = toVec(o, b);
-	return acos(dot(oa, ob) / sqrt(norm_sq(oa) * norm_sq(ob)));
-}
-
-```
-#### Collinear
-- Returns true if point r is on the same line as the line pq
-```cpp
-#define EPS 1e-9
-vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
-
-double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
-
-bool collinear(point p, point q, point r) 
-{
-	return fabs(cross(toVec(p, q), toVec(p, r))) < EPS;
-}
-
-```
-#### Counter Clockwise
-- Returns true if point r is on the left side of line pq
-```cpp
-vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
-
-double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
-
-bool ccw(point p, point q, point r)
-{
-	return cross(toVec(p, q), toVec(p, r)) > 0;
-}
-
-```
-#### Point In Line Segment
-- Check and see if point p1 is on the line segment s1 and s2
-```cpp
-bool pointInLineSegment(point p1, point s1, point s2)
-{
-	// not inside it
-	if ((s1 < p1 && s2 < p1) || (p1 < s1 && p1 < s2))
-		return false;
-	return true;
-}
-```
-####
--
-```cpp
-```
-
