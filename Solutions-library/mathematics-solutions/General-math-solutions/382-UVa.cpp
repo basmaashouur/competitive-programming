@@ -1,5 +1,5 @@
 /*
-Name: 1225 - Digit Counting
+Name: 382 - Perfection
 Online Judge: UVa
 Tags: Brute Force math
 Complexity:
