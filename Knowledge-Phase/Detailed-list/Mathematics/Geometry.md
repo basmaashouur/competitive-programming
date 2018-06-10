@@ -67,7 +67,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Collinear**
 * **Counter Clockwise**
  ### Vectors
-#### Definition
+#### Definitions
 * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
 * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
 * **Scalar** A scalar has magnitude (size) only.
