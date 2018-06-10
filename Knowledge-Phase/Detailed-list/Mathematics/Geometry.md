@@ -6,19 +6,25 @@ Table of Contents
 - [Resources And Approximate Time](#resources-and-approximate-time)
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
-  * [Euclidean Geometry Foundations](#euclidean-geometry-foundations)
-    + [Space](#space)
-    + [Planes](#planes)
-    + [Points](#points)
-    + [Vectors](#vectors)
-    + [Lines](#lines)
+   * [Space](#space)
+   * [Planes](#planes)
+   * [Points](#points)
+   * [Vectors](#vectors)
+   * [Lines](#lines)
 
 
 ## Resources And Approximate Time
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Euclidean Geometry Foundations** <br>Space <br> Planes 2D <br> Points 0D <br> Lines 1D <br> Shapes 2D&3D <br> Solid 3D <br> Angles|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br> [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br>[Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html)<br>[Point Rotation](https://academo.org/demos/rotation-about-point/) <br>[Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| 4Days
+**Space** <br>Space <br> Planes 2D <br> Points 0D <br> Lines 1D <br> Shapes 2D&3D <br> Solid 3D <br> Angles|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html) <br>| 4Days
+Planes 2d | | 
+Points 0d | [Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br>  [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br> [Point Rotation](https://academo.org/demos/rotation-about-point/)| 
+Vectors 1d| [Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br> [Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| 
+Lines 1d| | 
+Shapes 2d & 3d | |
+Angles ||
+
 
 ## Tags
 - Points (Euclidean Geometry Foundations)
@@ -26,8 +32,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-### Euclidean Geometry Foundations
-#### Space
+### Space
   * **Definitions**
     * **Space** is a term used to describe an infinitely large area that spans in all directions forever, and is empty unless a scenario says otherwise.
     * **Euclidean space** it’s basic units are points, which we can construct from it(lines, planes and shapes), as sets of points having prescribed properties it comes in dimensions from 1 to n.
@@ -43,7 +48,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * A line is either parallel to a plane, intersects it at a single point, or is contained in the plane.
   * Two distinct lines perpendicular to the same plane must be parallel to each other.
   * Two distinct planes perpendicular to the same line must be parallel to each other.
-#### Points
+### Points
 * **Definitions**
   * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
   * **Collinear** Points that lie on the same straight line.
@@ -66,7 +71,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * 
    * **Counter Clockwise**
      * 
- #### Vectors
+ ### Vectors
 * **Definitions**
   * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
   * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
@@ -93,7 +98,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * •<0 if the angle is obtuse,
        * •>0 if the angle is acute,
        * •=0 if the a and b are orthogonal.
-#### Lines
+### Lines
 * **Definitions**
   * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
   * **Line segment** A straight line which links two points without extending beyond them (has two ends) ![](imgs/segment.png)
