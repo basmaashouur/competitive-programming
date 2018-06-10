@@ -17,13 +17,12 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Space** <br>Space <br> Planes 2D <br> Points 0D <br> Lines 1D <br> Shapes 2D&3D <br> Solid 3D <br> Angles|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html) <br>| 4Days
-Planes 2d | | 
-Points 0d | [Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br>  [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br> [Point Rotation](https://academo.org/demos/rotation-about-point/)| 
-Vectors 1d| [Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br> [Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| 
-Lines 1d| | 
-Shapes 2d & 3d | |
-Angles ||
+**Space**|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html) <br>| 4Days
+**Points 0d** | [Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br>  [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br> [Point Rotation](https://academo.org/demos/rotation-about-point/)| 
+**Vectors 1d**| [Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br> [Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| 
+**Lines 1d**| | 
+**Shapes 2d & 3d** | |
+**Angles** ||
 
 
 ## Tags
