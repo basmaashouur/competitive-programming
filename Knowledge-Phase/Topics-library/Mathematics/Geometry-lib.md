@@ -2,44 +2,41 @@
 
 Table of Contents
 ================= 
-
-* [Euclidean Geometry Foundations](#euclidean-geometry-foundations)
-   - [Points](#points)
-     + [Points Declaration](#points-declaration)
-     + [Euclidean Distance](#euclidean-distance)
-     + [Point Rotation](#point-rotation)
-     + [Reflection Point](#reflection-point)
-     + [Distance To Line](#distance-to-line)
-     + [Distance To Line Segment](#distance-to-line-segment)
-     + [Two Lines Angle](#two-lines-angle)
-     + [Collinear](#collinear)
-     + [Counter Clockwise](#counter-clockwise)
-     + [Point On Line Segment](#point-on-line-segment)
-     + [Point On Line](#point-on-line)
-     + [Point On Ray](#point-on-ray)
-   - [Vectors](#vectors)
-     + [Vector Declaration](#vector-declaration)
-     + [Point To Vector](#point-to-vector)
-     + [Scale Vector](#scale-vector)
-     + [Translate Point](#translate-point)
-     + [Dot Product](#dot-product)
-     + [Cross Product](#cross-product)
-     + [Normalize](#normalize)
-   - [Lines](#lines)
-     + [Line Declaration](#line-declaration)
-     + [Points To Line](#points-to-line)
-     + [Point To Line](#point-to-line)
-     + [Parallel Lines](#parallel-lines)
-     + [Same Lines](#same-lines)
-     + [Intersect Lines](#intersect-lines)
-     + [Intersect Lines Segment](#intersect-lines-segment)
-     + [Closet Point To Line](#closet-point-to-line)
+ - [Points](#points)
+   + [Points Declaration](#points-declaration)
+   + [Euclidean Distance](#euclidean-distance)
+   + [Point Rotation](#point-rotation)
+   + [Reflection Point](#reflection-point)
+   + [Distance To Line](#distance-to-line)
+   + [Distance To Line Segment](#distance-to-line-segment)
+   + [Two Lines Angle](#two-lines-angle)
+   + [Collinear](#collinear)
+   + [Counter Clockwise](#counter-clockwise)
+   + [Point On Line Segment](#point-on-line-segment)
+   + [Point On Line](#point-on-line)
+   + [Point On Ray](#point-on-ray)
+- [Vectors](#vectors)
+   + [Vector Declaration](#vector-declaration)
+   + [Point To Vector](#point-to-vector)
+   + [Scale Vector](#scale-vector)
+   + [Translate Point](#translate-point)
+   + [Dot Product](#dot-product)
+   + [Cross Product](#cross-product)
+   + [Normalize](#normalize)
+ - [Lines](#lines)
+   + [Line Declaration](#line-declaration)
+   + [Points To Line](#points-to-line)
+   + [Point To Line](#point-to-line)
+   + [Parallel Lines](#parallel-lines)
+   + [Same Lines](#same-lines)
+   + [Intersect Lines](#intersect-lines)
+   + [Intersect Lines Segment](#intersect-lines-segment)
+   + [Closet Point To Line](#closet-point-to-line)
      
    
    
-## Euclidean Geometry Foundations
-### Points
-#### Points Declaration
+## Points
+### Points Declaration
 - If no mush precision needed use this struct
 ```cpp
 struct point_i
@@ -104,7 +101,7 @@ int main()
 
 ```
 
-#### Euclidean Distance
+### Euclidean Distance
 - Don't forget the point struct to insert it above that code
 ```cpp
 double dist(point p1, point p2)
@@ -120,7 +117,7 @@ int main()
 	return 0;
 }
 ```
-#### Point Rotation
+### Point Rotation
 - We can rotate a point by angle θ counter clockwise around origin (0, 0) by the following code, 
 **Insert point code struct above it**
 ```cpp
@@ -140,11 +137,11 @@ point rotate(point p, double theta)
 }
 
 ```
-#### Reflection Point
+### Reflection Point
 -
 ```cpp
 ```
-#### Distance To Line
+### Distance To Line
 - Two points a and b (a and b must be different) to make a line, find the closet point to line
 ```cpp
 vec toVec(point a, point b){return vec(b.x - a.x, b.y - a.y);}
@@ -166,7 +163,7 @@ double distToLine(point p, point a, point b, point &c)
 	return dist(p, c);
 }
 ```
-#### Distance To Line Segment
+### Distance To Line Segment
 - Put all the functions of Distance to line, find the closet point to line segment
 ```cpp
 double distToLineSegment(point p, point a, point b, point &c)
@@ -188,7 +185,7 @@ double distToLineSegment(point p, point a, point b, point &c)
 }
 
 ```
-#### Two Lines Angle
+### Two Lines Angle
 - The angle between two lines
 ```cpp
 #define PI acos(-1.0)
@@ -206,7 +203,7 @@ double angle(point a, point o, point b)
 }
 
 ```
-#### Collinear
+### Collinear
 - Returns true if point r is on the same line as the line pq
 ```cpp
 #define EPS 1e-9
@@ -220,7 +217,7 @@ bool collinear(point p, point q, point r)
 }
 
 ```
-#### Counter Clockwise
+### Counter Clockwise
 - Returns true if point r is on the left side of line pq
 ```cpp
 vec toVec(point a, point b) {return vec(b.x - a.x, b.y - a.y);}
@@ -233,7 +230,7 @@ bool ccw(point p, point q, point r)
 }
 
 ```
-#### Point On Line Segment
+### Point On Line Segment
 - Check and see if point p1 is on the line segment s1 and s2
 ```cpp
 bool pointOnLineSegment(point p1, point s1, point s2)
@@ -252,8 +249,8 @@ bool pointOnLineSegment(point p1, point s1, point s2)
 -
 ```cpp
 ```
-### Vectors
-#### Vector Declaration
+## Vectors
+### Vector Declaration
 - Vector is not the same as stl vector
 ```cpp
 struct vec
@@ -262,43 +259,43 @@ struct vec
 	vec(double _x, double _y) : x(_x), y(_y) {}
 };
 ```
-#### Point To Vector
+### Point To Vector
 - Convert 2 points to vector a->b
 ```cpp
 vec toVec(point a, point b){return vec(b.x - a.x, b.y - a.y);}
 ```
-#### Scale Vector
+### Scale Vector
 - Nonnegative s = <1 .. 1 .. >1
 ```cpp
 vec scale(vec v, double s){return vec(v.x * s, v.y * s);} 
 ```
-#### Translate Point
+### Translate Point
 -  Translate p according to v
 ```cpp
 point translate(point p, vec v) {return point(p.x + v.x , p.y + v.y);}
 ```
-#### Dot Product
+### Dot Product
 ```cpp
 double dot(vec a, vec b) { return (a.x * b.x + a.y * b.y); }
 ```
-#### Cross Product
+### Cross Product
 ```cpp
 double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
 ```
-#### Normalize
+### Normalize
 ```cpp
 double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
 ```
 
-### Lines
-#### Line Declaration
+## Lines
+### Line Declaration
 ```cpp
 // ax + by + c = 0;
 struct line { double a, b, c; }; 
 // y = mx + c; m is the slop
 struct line2 { double m, c; };
 ```
-#### Points To Line
+### Points To Line
 - Using the equation ax + by + c = 0
 ```cpp
 #define EPS 1e-9
@@ -336,7 +333,7 @@ int pointsToLine2(point p1, point p2, line2 &l)
 	}
 }
 ```
-#### Point To Line
+### Point To Line
 - Have a slope and a point
 ```cpp
 void pointSlopeToLine(point p, double m, line &l) 
@@ -346,7 +343,7 @@ void pointSlopeToLine(point p, double m, line &l)
 	l.c = -((l.a * p.x) + (l.b * p.y));
 } 
 ```
-#### Parallel Lines
+### Parallel Lines
 - Have the same slope and have different intercepts
 ```cpp
 #define EPS 1e-9
@@ -355,7 +352,7 @@ bool areParallel(line l1, line l2)
 	return (fabs(l1.a - l2.a) < EPS) && (fabs(l1.b - l2.b) < EPS);
 }
 ```
-#### Same Lines
+### Same Lines
 ```cpp
 #define EPS 1e-9
 bool areSame(line l1, line l2)
@@ -363,7 +360,7 @@ bool areSame(line l1, line l2)
 	return areParallel(l1 , l2) && (fabs(l1.c - l2.c) < EPS);
 }
 ```
-#### Intersect Lines
+### Intersect Lines
 - Returns true (+ intersection point) if two lines are intersect
 ```cpp
 #define EPS 1e-9
@@ -384,7 +381,7 @@ bool areIntersect(line l1, line l2, point &p)
 - 
 ```cpp
 ```
-#### Closet Point To Line
+### Closet Point To Line
 - We have 3 cases Vertical, Horizontal or Normal line
 ```cpp
 bool areParallel(line l1, line l2)
