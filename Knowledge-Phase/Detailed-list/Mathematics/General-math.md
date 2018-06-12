@@ -44,8 +44,12 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## High Precision Arithmetic
 ## Numerical Bases and Conversion
 ## Real Numbers
+
 # Algebra
 ## Polynomials
+### Definition:
+- **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
+- **Form:**![](imgs/poly.png)
 ## Sums and Products 
 ## Root Finding 
 ## Logarithms
