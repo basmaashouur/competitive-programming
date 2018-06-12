@@ -7,17 +7,21 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [Arithmetic](#arithmetic)
-    + [Machine Arithmetic](#machine-arithmetic)
-    + [High Precision Integers](#High-precision-integers)
-    + [](#)
-    + [](#)
-    + [](#)
+    + [High Precision Integers](#high-precision-integers)
+    + [High Precision Arithmetic](#high-precision-arithmetic)
+    + [Numerical Bases And Conversion](#numerical-bases-and-conversion)
+    + [Real Numbers](#real-numbers)
   * [Algebra](#sup-topic-name)
-    + [](#)
-    + [](#)
-    + [](#)
-    + [](#)
-    + [](#)
+    + [Polynomials](#polynomials)
+    + [Sums And Products](#sums-and-products)
+    + [Root Finding](#root-finding)
+    + [Logarithms](#logarithms)
+    + [Exponentiations](#exponentiations)
+    + [Ceil And Floor](#ceil-and-floor)
+  * [Other](other)
+    + [Grid](#grid)
+    + [Finding Pattern Or Formula](#finding-pattern-or-formula)
+    + [Mathematical Simulation](#mathematical-simulation)
    
    
 
@@ -25,9 +29,9 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> |
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> |
+**Sup Topic Name** |[A & A](http://www.differencebetween.info/difference-between-algebra-and-arithmetic)<br>[]()<br> |
+**Sup Topic Name** |[]()<br>[]()<br> |
+**Sup Topic Name** |[]()<br>[]()<br> |
 
 ## Tags
 -
@@ -35,12 +39,19 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-## Arithmetic
-## Machine Arithmetic
-## 
-## 
-## 
-## 
-## 
-## 
-## 
+# Arithmetic
+## High Precision Integers
+## High Precision Arithmetic
+## Numerical Bases and Conversion
+## Real Numbers
+# Algebra
+## Polynomials
+## Sums and Products 
+## Root Finding 
+## Logarithms
+## Exponentiations
+## Ceil And Floor
+# Other
+## Grid
+## Finding Pattern or Formula
+## Mathematical Simulation
