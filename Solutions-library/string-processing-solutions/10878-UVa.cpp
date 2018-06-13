@@ -1,7 +1,7 @@
 /*
 Name: 10878 - Decode the tape
 Online Judge: UVa
-Tags: Encode, Strings
+Tags: Ciphering, Strings
 Complexity:
 Tutorial: first we will stop getlime when we get two of  "___________", then just decode the encoded string by
 converting the ' ' into '0' and the 'o' into '1', and igonre anything else, that will give as a binary number
