@@ -1,7 +1,7 @@
 /*
 Name: 11385 - Da Vinci Code
 Online Judge: UVa
-Tags: Encode, Strings
+Tags: Ciphering, Strings
 Complexity:
 Tutorial: First Generate the fib series, then after take fib number know ehich index does it belong,
 know map every capital char with it's fib, then print it in order and take care of spaces of missings fib
