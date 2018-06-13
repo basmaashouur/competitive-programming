@@ -1,7 +1,7 @@
 /*
 Name: 11278 - One-Handed Typist
 Online Judge: UVa
-Tags: Encode, Strings
+Tags: Ciphering, Strings
 Complexity:
 Tutorial: Map from qwerty into dvoark, if you didn't find the char in qwerty means it's the same so leave it as it's.
 */
