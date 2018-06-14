@@ -1,4 +1,4 @@
-# List of topic Sup topic's Resources, Tags, Terminologies and Explanations 
+# List of Strings Sup topic's Resources, Tags, Terminologies and Explanations 
 
 Table of Contents
 ================= 
