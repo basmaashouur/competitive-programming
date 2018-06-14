@@ -17,7 +17,7 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**String Terminology** |[String](https://en.wikipedia.org/wiki/String_(computer_science))<br>[]()<br> | 4Days
+**String Terminology** |[String](https://en.wikipedia.org/wiki/String_(computer_science))<br> | 4Days
 **String Algorithms**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 **String Matching**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 **Suffix Structures**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
