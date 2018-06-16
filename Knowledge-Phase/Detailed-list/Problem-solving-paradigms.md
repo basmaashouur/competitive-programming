@@ -141,9 +141,9 @@ i. Sometimes in general cases
   * **Proof**
 ### Divide and Conquer
 #### Divide and Conquer Techniques
-i. Divide: break the original problem into sub-problems usually by half or nearly half.
-ii. Conquer: find (sub)-solutions for each of these sub-problems—which are now easier.
-iii. Combine: If needed, combine the sub-solutions to get a complete solution for the main problem.
+1. Divide: break the original problem into sub-problems usually by half or nearly half.
+2. Conquer: find (sub)-solutions for each of these sub-problems—which are now easier.
+3. Combine: If needed, combine the sub-solutions to get a complete solution for the main problem.
 #### Binary Search
 ### Sliding Window
 #### Sup Sup Topic Name
