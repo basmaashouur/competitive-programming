@@ -58,6 +58,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Just Ad Hoc
 ### Subsequences
 ### String Hashing
+###  Searching for Patterns
+### Manipulating Strings
+### Prefixes and suffixes
+### 
 
 
 ## String Matching
