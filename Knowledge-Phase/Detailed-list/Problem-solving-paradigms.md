@@ -31,8 +31,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Brute Force**<br>Iterative<br> Recursive |[Brute force wiki](https://en.wikipedia.org/wiki/Brute-force_search)<br>[Brute force search](http://intelligence.worldofcomputing.net/ai-search/brute-force-search.html#.Wr8xeHVubeR)<br> [Backtracking](http://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html)<br>[Backtracking Notes](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/03-backtracking.pdf)| 4Days
 **Greedy** |[Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)<br>[Basic of greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)<br> [Activity Selection Problem](https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)<br>| 4Days
-**Divide and Conquer**<br>Binary Seacrh<br>tag <br> |[Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer-introduction/)<br>[]()<br> | 4Days
-**Sliding Window**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Divide and Conquer**<br>Binary Seacrh<br> |[Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer-introduction/)<br>[]()<br> | 4Days
+**Sliding Window**|[]()<br>[]()<br> | 4Days
 
 ## Tags
 - Iterative (Brute Force)
