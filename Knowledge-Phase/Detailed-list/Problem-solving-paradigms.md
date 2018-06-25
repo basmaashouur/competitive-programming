@@ -42,16 +42,16 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-### Brute Force
+## Brute Force
 * Is a general method that can be used to solve almost any algorithm problem, it's solving a problem by traversing the entire (or part of the) search space to obtainthe required solution. During the search, we are allowed to prune (that is, choose not to explore) parts of the search space if we have determined that these parts have no possibility of containing the required solution.
 * **Speeding up brute-force searches** 
   * [Heuristic technique](https://en.wikipedia.org/wiki/Heuristic)
-#### When Use Brute Force
-#### When Brute Force Fails
-#### Brute Force Techniques
+### When Use Brute Force
+### When Brute Force Fails
+### Brute Force Techniques
 * **Pruning the search**
 * **Meet in the middle**
-#### Brute Force Examples  
+### Brute Force Examples  
 * **Memoization**
 * **Generating subsets**
   * **How to solve Iteratively**  
@@ -68,9 +68,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **How to solve Recursively**  
     1. Choose the first element from input
     2. Recursively permute remaining input
-#### Iterative
+### Iterative
 * 
-#### Recursive
+### Recursive
 * Function do some logic calls itself in(sub problem) until reaches a base case.
 * **When to use**
   * Whenever you see that you can solve a given problem if you could have solved a similar smaller problem.
@@ -90,9 +90,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Backtracking** is a form of recursion in order to explore all the possibilities until you get the best result for the problem
   * State and Transition
   * Objective function and Optimization
-### Greedy
+## Greedy
 * A greedy algorithm obtains an optimal solution to a problem by making a sequenceof choices. At each decision point, the algorithm makes choice that seems best at the moment. Greedy algorithms are used for optimization problems but this strategy does not always produce an optimal solution
-#### When Use Greedy
+### When Use Greedy
 * At every step, we can make a choice that looks best at the moment.
 * We get the optimal solution of the complete p.roblem.
 * If the input size given in the problem statement are too large even for the best Complete Search or DP algorithm.
@@ -103,13 +103,13 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   4. Prove that it is always safe to make the greedy choice. (Steps 3 and 4 can occur in either order.)
   5. Develop a recursive algorithm that implements the greedy strategy.
   6. Convert the recursive algorithm to an iterative algorithm.
-#### When Greedy Fails
+### When Greedy Fails
 i. Sometimes in general cases 
    * In coin change when the coins used not euro{1, 5, 10, 20, 50, 100, 200}.
-#### Greedy Techniques
+### Greedy Techniques
 * It is helpful to memorize greedy classical problems solutions.
 *  It's easy to find a greedy sloution that doesn't give TLE but it's hard to proof it's right or generalized.
-#### Classical Greedy Examples
+### Classical Greedy Examples
 * **[Interval scheduling](https://en.wikipedia.org/wiki/Interval_scheduling) AKA Activity-selection problem** Given n events with their starting and ending times, find a schedule that includes as many events as possible, and are compatible if the intervals _(si, fi)_ and _(sj, fj)_ do not overlap.
   * **How to solve** 
     * Always selects the next possible event that ends as early as possible.
@@ -139,11 +139,11 @@ i. Sometimes in general cases
   * **How to solve**  
     *  
   * **Proof**
-### Divide and Conquer
-#### Divide and Conquer Techniques
+## Divide and Conquer
+### Divide and Conquer Techniques
 1. Divide: break the original problem into sub-problems usually by half or nearly half.
 2. Conquer: find (sub)-solutions for each of these sub-problems—which are now easier.
 3. Combine: If needed, combine the sub-solutions to get a complete solution for the main problem.
-#### Binary Search
-### Sliding Window
-#### Sup Sup Topic Name
+### Binary Search
+## Sliding Window
+### Sup Sup Topic Name
