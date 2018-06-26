@@ -147,7 +147,8 @@ i. Sometimes in general cases
 ### Binary Search
 - Binary search splits the search space into two parts. The item being searched for can either be "here", or "there". This duality of options is a binary system, a system with only 2 parts. Thus, "Binary Search".
 #### Normal BS
-- 
+- The canonical usage of Binary Search is searching for an item in a static sorted array. We check the middle of the sorted array to determine if it contains what we arelooking for. If it is or there are no more items to consider, stop. Otherwise, we can decide whether the answer is to the left or right of the middle element and continue searching.
+- We also use Binary Search in Arrays with duplicates (finding first/last occurence).
 #### BS in C++
 #### BS on Uncommon DS
 #### Bisection Method
