@@ -150,6 +150,10 @@ i. Sometimes in general cases
 - The canonical usage of Binary Search is searching for an item in a static sorted array. We check the middle of the sorted array to determine if it contains what we arelooking for. If it is or there are no more items to consider, stop. Otherwise, we can decide whether the answer is to the left or right of the middle element and continue searching.
 - We also use Binary Search in Arrays with duplicates (finding first/last occurence).
 #### BS in C++
+- The C++ standard library contains the following functions that are based on binary search and work in logarithmic time:
+  * Lower-bound: searching for the first element that is greater or equal than x.
+  * Upper-bound: searching for the first element that is strictly greater than x.
+  * Equal_range: searching for sub-range within a given range (first, last) that has all the elements equivalent to x.
 #### BS on Uncommon DS
 #### Bisection Method
 #### BS the Answer
