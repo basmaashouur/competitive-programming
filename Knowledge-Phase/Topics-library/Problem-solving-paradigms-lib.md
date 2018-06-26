@@ -82,6 +82,7 @@ Table of Contents
 
 ## Divide And Conquer
 ### Binary Search
+#### Normal BS
 - Binary Search Iteration code:
 - Performs approximately O(log2(N))
 - **NOTE:** We write mid = start + (end - start) / 2; instead of mid = (start + end) / 2; in case We having big integers so when we sum it first then divide it it may overflow and give us a wrong position, anyway they both are equivalent.
@@ -114,8 +115,8 @@ int BinarySearch(vector<int> vec, int value, int size)
 }
 
 ```
-#### Normal BS
 #### Bs In C++
+ ![](imgs/ul.png)
 #### BS The Answer
 #### Find Min Value
 #### Find Max Value
