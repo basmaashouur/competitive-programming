@@ -13,7 +13,7 @@ Table of Contents
 - [Divide And Conquer](#divide-and-conquer)
    * [Binary Search](#binary-search)
      + [Normal BS](#normal-bs)
-     + [BS In C++](#bs-in-c++)
+     + [BS Built In](#bs-built-in)
      + [Bisection Method](#bisection-method)
      + [BS The Answer](#bs-the-answer)
      + [Find Min Value](#find-min-value)
@@ -116,7 +116,7 @@ int BinarySearch(vector<int> vec, int value, int size)
 }
 
 ```
-#### BS In C++
+#### BS Built In
  ![](imgs/ul.png)
 - Return iterator to lower bound or upper bound:
 - Performs approximately log2(N)+1
