@@ -145,5 +145,12 @@ i. Sometimes in general cases
 2. Conquer: find (sub)-solutions for each of these sub-problems—which are now easier.
 3. Combine: If needed, combine the sub-solutions to get a complete solution for the main problem.
 ### Binary Search
+- Binary search splits the search space into two parts. The item being searched for can either be "here", or "there". This duality of options is a binary system, a system with only 2 parts. Thus, "Binary Search".
+#### Normal BS
+- 
+#### BS in C++
+#### BS on Uncommon DS
+#### Bisection Method
+#### BS the Answer
 ## Sliding Window
 ### Sup Sup Topic Name
