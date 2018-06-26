@@ -117,6 +117,43 @@ int BinarySearch(vector<int> vec, int value, int size)
 ```
 #### Bs In C++
  ![](imgs/ul.png)
+- Return iterator to lower bound or upper bound:
+- Performs approximately log2(N)+1
+```cpp
+/*
+Function:lower-bound, upper-bound and equal-range.
+
+Parameters:
+- The range used is [first,last), which contains all the elements between first and last, 
+including the element pointed by first but not the element pointed by last.
+- The value we want to lower, upper bound or equal range to search in that range.
+
+Returns:
+- An iterator to the lower bound or upper bound  of val in the range.
+- If all the element in the range compare less than val, the function returns last, or no element
+equivalent to val, then return the nearest element greater than val
+
+- In case of Equal ramge returns the initial and the final bound of such a sub-range.
+- If there is no element equivalent to val, then both first and second points to the nearest element
+greater than val, or if val is greater than any other value, then both of them point to last.
+
+Note: We subtract the iterator from the pointer of the beginning of the vector to know the index of it.
+*/
+	vector<int>::iterator low, up;
+	low = lower_bound (vec.begin(), vec.end(), value);
+	up = upper_bound (vec.begin(), vec.end(), value);
+	int low1 = low - vec.begin(), up1 = up - vec.begin();
+	
+        pair<vector<int>::iterator, vector<int>::iterator> er;
+	er = equal_range(v.begin(), v.begin(), value;
+	int erfi = er.first - v.begin(), erse.second - v.begin();
+	
+        // Or
+	auto low = lower_bound(vec.begin(), vec.end(), value);
+	auto up  = upper_bound(vec.begin(), vec.end(), value);
+	auto er  = equal_range(vec.begin(), vec.end(), value);
+```
+
 #### BS The Answer
 #### Find Min Value
 #### Find Max Value
