@@ -156,6 +156,8 @@ i. Sometimes in general cases
   * Equal_range: searching for sub-range within a given range (first, last) that has all the elements equivalent to x.
 #### BS on Uncommon DS
 #### Bisection Method
+- The bisection method in mathematics is a root-finding(x will be called a solution or a root if it satisfies the equation) method that repeatedly bisects an interval and then selects a subinterval in which a root must lie for further processing.
+- The method is based on The **Intermediate Value Theorem** which states that if f(x) is a continuous function and there are two real numbers a and b such that f(a)*f(b) 0 and f(b) < 0), then it is guaranteed that it has at least one root between them.
 #### BS the Answer
 ## Sliding Window
 ### Sup Sup Topic Name
