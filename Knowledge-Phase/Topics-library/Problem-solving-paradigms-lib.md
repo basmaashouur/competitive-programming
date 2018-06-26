@@ -179,10 +179,10 @@ void bisection(double a, double b)
 		return -1;
 
 	double c = a;
-	while ((b - a) >= EPS)
+	while (fabs(b - a) >= EPS)
 	{
 		// Find middle point
-		c = (a + b) / 2;
+		c = a + (b - a) / 2.0;
 		// Check if middle point is root
 		if (func(c) == 0.0)break;
 		// Decide the side to repeat the steps
@@ -194,5 +194,25 @@ void bisection(double a, double b)
 
 ```
 #### BS The Answer
+- While loop implementation with EPS
+```cpp
+#define EPS 1e-9
+bool can(double f)
+{
+}
+
+int main()
+{
+	double start = 0.0, end = 10000.0, mid = 0.0, ans = 0.0;
+	while (fabs(end - start) > EPS)
+	{
+		mid = start + (end - start) / 2.0;
+		if (can(mid))ans = mid, end = mid;
+		else start = mid;
+	}
+	cout << ans << endl;
+	return 0;
+}
+```
 #### Find Min Value
 #### Find Max Value
