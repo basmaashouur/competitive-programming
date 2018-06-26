@@ -82,6 +82,38 @@ Table of Contents
 
 ## Divide And Conquer
 ### Binary Search
+- Binary Search Iteration code:
+- Performs approximately O(log2(N))
+- **NOTE:** We write mid = start + (end - start) / 2; instead of mid = (start + end) / 2; in case We having big integers so when we sum it first then divide it it may overflow and give us a wrong position, anyway they both are equivalent.
+```cpp
+/*
+Function: Binary Search
+Searching for a specific value in a sorted vector.
+
+Parameters:
+vec - the vector that we will search in.
+value - the value that we want to find it.
+size- the size of the vector
+
+Returns:
+-if we find the value it returns it's position(index).
+-if we didn't find it returns -1.
+
+*/
+int BinarySearch(vector<int> vec, int value, int size)
+{
+	int start = 0, end = size - 1, mid;
+	while (start <= end)
+	{
+		mid = start + (end - start) / 2;
+		if (value == vec[mid])return mid;
+		else if (value < vec[mid])end = mid - 1;
+		else start = mid + 1;
+	}
+	return -1;
+}
+
+```
 #### Normal BS
 #### Bs In C++
 #### BS The Answer
