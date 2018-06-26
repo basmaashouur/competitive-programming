@@ -31,7 +31,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Brute Force**<br>Iterative<br> Recursive |[Brute force wiki](https://en.wikipedia.org/wiki/Brute-force_search)<br>[Brute force search](http://intelligence.worldofcomputing.net/ai-search/brute-force-search.html#.Wr8xeHVubeR)<br> [Backtracking](http://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html)<br>[Backtracking Notes](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/03-backtracking.pdf)| 4Days
 **Greedy** |[Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)<br>[Basic of greedy](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)<br> [Activity Selection Problem](https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)<br>| 4Days
-**Divide and Conquer**<br>Binary Seacrh<br> |[Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer-introduction/)<br>[]()<br> | 4Days
+**Divide and Conquer**<br>Binary Seacrh<br> |[Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer-introduction/)<br>[Bisection](https://en.wikipedia.org/wiki/Bisection_method)<br> | 4Days
 **Sliding Window**|[]()<br>[]()<br> | 4Days
 
 ## Tags
@@ -159,5 +159,6 @@ i. Sometimes in general cases
 - The bisection method in mathematics is a root-finding(x will be called a solution or a root if it satisfies the equation) method that repeatedly bisects an interval and then selects a subinterval in which a root must lie for further processing.
 - The method is based on The **Intermediate Value Theorem** which states that if f(x) is a continuous function and there are two real numbers a and b such that f(a)*f(b) 0 and f(b) < 0), then it is guaranteed that it has at least one root between them.
 #### BS the Answer
+- Search for an answer that make the equation true between two intervals.
 ## Sliding Window
 ### Sup Sup Topic Name
