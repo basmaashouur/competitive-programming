@@ -8,9 +8,16 @@ Table of Contents
     + [Iteratively Subsets](#iteratively-subsets)
   * [Recursive](Recursive)
     + [Recursively Subsets](#recursively-subsets)
- - [Greedy](#greedy)
-   * [Sup Sup Topic](#sup-sup-topic)
-     + [Tag](#tag)
+- [Greedy](#greedy)
+  * [Tag](#tag)
+- [Divide And Conquer](#divide-and-conquer)
+   * [Binary Search](#binary-search)
+     + [Normal BS](#normal-bs)
+     + [BS The Answer](#bs-the-answer)
+     + [BS In C++](#bs-in-c++)
+     + [Find Min Value](#find-min-value)
+     + [Find Max Value](#find-max-value)
+- [Sliding Window](#sliding-window)
    
    
 ## Brute Force
@@ -71,5 +78,12 @@ Table of Contents
   ```
   
 ## Greedy
-### Sup Sup Topic
-#### Tag
+### Tag
+
+## Divide And Conquer
+### Binary Search
+#### Normal BS
+#### Bs In C++
+#### BS The Answer
+#### Find Min Value
+#### Find Max Value
