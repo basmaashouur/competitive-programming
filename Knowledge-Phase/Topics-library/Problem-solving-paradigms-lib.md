@@ -14,6 +14,7 @@ Table of Contents
    * [Binary Search](#binary-search)
      + [Normal BS](#normal-bs)
      + [BS In C++](#bs-in-c++)
+     + [Bisection Method](#bisection-method)
      + [BS The Answer](#bs-the-answer)
      + [Find Min Value](#find-min-value)
      + [Find Max Value](#find-max-value)
@@ -153,7 +154,7 @@ Note: We subtract the iterator from the pointer of the beginning of the vector t
 	auto up  = upper_bound(vec.begin(), vec.end(), value);
 	auto er  = equal_range(vec.begin(), vec.end(), value);
 ```
-
+#### Bisection Method
 #### BS The Answer
 #### Find Min Value
 #### Find Max Value
