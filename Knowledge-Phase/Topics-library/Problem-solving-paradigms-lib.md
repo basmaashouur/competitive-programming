@@ -155,6 +155,49 @@ Note: We subtract the iterator from the pointer of the beginning of the vector t
 	auto er  = equal_range(vec.begin(), vec.end(), value);
 ```
 #### Bisection Method
+- While loop implementation with EPS
+```cpp
+/*
+- Steps:
+1. Find middle point c= (a + b)/2 .
+2. If f(c) == 0, then c is the root of the solution.
+3. Else f(c) != 0
+    3.1 If value f(a)*f(c) < 0 then root lies between a and c. So we recur for a and c, b = c.
+    3.2 Else If f(b)*f(c) < 0 then root lies between b and c. So we recur b and c, a = b
+    3.3 Else given function doesn’t follow one of assumptions.
+*/
+
+#define EPS 1e-9
+double func(double x)
+{
+	return // define function here x*x*x - x*x + 2;
+}
+void bisection(double a, double b)
+{
+	// a and b are wrong assumption
+	if (func(a) * func(b) >= 0)
+		return -1;
+
+	double c = a;
+	while ((b - a) >= EPS)
+	{
+		// Find middle point
+		c = (a + b) / 2;
+
+		// Check if middle point is root
+		if (func(c) == 0.0)
+			break;
+
+		// Decide the side to repeat the steps
+		else if (func(c)*func(a) < 0)
+			b = c;
+		else
+			a = c;
+	}
+	cout << "The value of root is : " << c;
+}
+
+```
 #### BS The Answer
 #### Find Min Value
 #### Find Max Value
