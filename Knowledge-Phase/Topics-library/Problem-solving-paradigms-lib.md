@@ -13,8 +13,8 @@ Table of Contents
 - [Divide And Conquer](#divide-and-conquer)
    * [Binary Search](#binary-search)
      + [Normal BS](#normal-bs)
-     + [BS The Answer](#bs-the-answer)
      + [BS In C++](#bs-in-c++)
+     + [BS The Answer](#bs-the-answer)
      + [Find Min Value](#find-min-value)
      + [Find Max Value](#find-max-value)
 - [Sliding Window](#sliding-window)
@@ -115,7 +115,7 @@ int BinarySearch(vector<int> vec, int value, int size)
 }
 
 ```
-#### Bs In C++
+#### BS In C++
  ![](imgs/ul.png)
 - Return iterator to lower bound or upper bound:
 - Performs approximately log2(N)+1
