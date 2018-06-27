@@ -220,7 +220,9 @@ Table of Contents
   #define isPowerOfTwo(S) (!(S & (S - 1)))
   int S = 40; // 101000
   int T = lowBit(S); // = 8 which is 0100 means (3rd bit from right is on)
-  int index = isPowerOfTwo(T); // = 3
+  int index = isPowerOfTwo(T); // = 1 which is true
+  // to find which power is that
+  int pow = log(T) / log(2); // 3 -> 2^3 = 8
   
   /*
   To turn on all bits in a set of size n,  make another bitmask where n-th
