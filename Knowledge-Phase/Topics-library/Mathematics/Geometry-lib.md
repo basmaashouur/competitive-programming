@@ -240,6 +240,17 @@ bool pointOnLineSegment(point p1, point s1, point s2)
 		return false;
 	return true;
 }
+
+// or
+
+bool pointOnSegment(Point p, Point q, Point r)
+{
+	if (q.x <= max(p.x, r.x) && q.x >= min(p.x, r.x) &&
+	        q.y <= max(p.y, r.y) && q.y >= min(p.y, r.y))
+		return true;
+
+	return false;
+}
 ```
 ### Point On Line
 -
