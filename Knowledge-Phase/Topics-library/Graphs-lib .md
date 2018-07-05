@@ -21,6 +21,7 @@ Table of Contents
   * [Prim's Algorithm](#prims-algorithm)
 - [Single Source Shortest Paths](#single-source-shortest-paths)
   * [Dijkstra](#dijkstra)
+- [All Pairs Shortest Paths](#all-pairs-shortest-paths)
 
 ## Graphs Terminologies
 ### Graph Representation
