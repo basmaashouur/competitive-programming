@@ -18,6 +18,7 @@ Table of Contents
     + [Logarithms](#logarithms)
     + [Exponentiations](#exponentiations)
     + [Ceil And Floor](#ceil-and-floor)
+    + [Rrearrange The Equation](#rearrange-the-equation)
   * [Other](other)
     + [Grid](#grid)
     + [Finding Pattern Or Formula](#finding-pattern-or-formula)
@@ -55,6 +56,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Logarithms
 ## Exponentiations
 ## Ceil And Floor
+## Rrearrange The Equation
 # Other
 ## Grid
 ## Finding Pattern or Formula
