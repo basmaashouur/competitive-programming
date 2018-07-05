@@ -1,4 +1,5 @@
 - Invstegate Problem
+- Identify it's type
 - Think about the prolem
 - Solve Problem
 - Add corner test case and debug
