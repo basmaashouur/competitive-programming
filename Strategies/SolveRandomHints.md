@@ -1,0 +1,4 @@
+- speed problems
+- implempnt problems
+- know which topic
+- 
