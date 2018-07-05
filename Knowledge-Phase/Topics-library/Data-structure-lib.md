@@ -32,6 +32,9 @@ Table of Contents
   * [Hash Table](#hash-table)
 - [Self Written DS](#self-written-ds)
   * [Union Find Disjoint Sets](#union-find-disjoint-sets)
+  * [Segment Trees](#segment-trees)
+  * [Fenwick Trees](#fenwick-trees)
+  * [Sparse Table](#sparse-table)
    
 ## Linear DS
 ### Static Arrays
