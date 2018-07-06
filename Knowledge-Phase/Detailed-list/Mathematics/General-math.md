@@ -12,7 +12,7 @@ Table of Contents
     + [Numerical Bases And Conversion](#numerical-bases-and-conversion)
     + [Real Numbers](#real-numbers)
   * [Algebra](#sup-topic-name)
-    + [Sets, Numbers And Functions](#sets,-numbers-and-functions)
+    + [Sets And Numbers And Functions](#sets-and-numbers-and-functions)
     + [Polynomials](#polynomials)
     + [Sums And Products](#sums-and-products)
     + [Inequalities](#inequalities)
@@ -49,7 +49,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Real Numbers
 
 # Algebra
-## Sets, Numbers And Functions
+## Sets And Numbers And Functions
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
