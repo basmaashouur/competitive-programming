@@ -50,6 +50,15 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 # Algebra
 ## Sets And Numbers And Functions
+### Definitions:
+- **Sets** is an unordered collection of objects, called elements or members of the set. A set is said to contain its elements. We write a ∈ A to denote that a is an element of the set A. A set can contain no elements at all; this is the empty set 0 = {}. 
+- **Set union** U (union) We define A UB to be the set each of whose elements is contained either in A or in B (or in both).
+- **Set intersection**  n (intersection) We define A n B to be the set whose elements are contained in both A and B.
+- **Subset** If all elements of a set A are contained in a set B, we say that A is a subset of B and write A ⊆ B. Note that A ⊆ A and 0 ⊆ A for all sets A.
+- Two fundamental sets are the natural numbers N := {I, 2, 3,4, ... } and the integers Z := {O, ±1,±2,±3, ±4, ... }.
+- **Set subtraction** A - B := {a ∈ A : a no∈ B}; 
+- **Power Sets** the power set of S is the set of all subsets *all combinations of elements of a set* of the set S. The power set of S is denoted by P(S).
+
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
