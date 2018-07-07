@@ -20,7 +20,7 @@ Table of Contents
     + [Root Finding](#root-finding)
     + [Logarithms](#logarithms)
     + [Exponentiations](#exponentiations)
-    + [Ceil And Floor](#ceil-and-floor)
+    + [Integer Functions](#integer-functions)
     + [Rrearrange The Equation](#rearrange-the-equation)
   * [Other](other)
     + [Grid](#grid)
@@ -45,7 +45,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 # Arithmetic
 ## High Precision Integers
+- Representing truly enormous integers digits. by Arrays of Digits, (big int).
 ## High Precision Arithmetic
+- Operations madde to the (big int) like (+, - , *, /)
 ## Numerical Bases and Conversion
 ## Real Numbers
 
@@ -84,7 +86,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Root Finding 
 ## Logarithms
 ## Exponentiations
-## Ceil And Floor
+## Integer Functions
 ## Rrearrange The Equation
 # Other
 ## Grid
