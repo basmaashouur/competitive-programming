@@ -13,8 +13,9 @@ Table of Contents
     + [Real Numbers](#real-numbers)
   * [Algebra](#sup-topic-name)
     + [Sets And Numbers And Functions](#sets-and-numbers-and-functions)
+    + [Algebraic Manipulation Revisited](#algebraic-manipulation-revisited)
+    + [Sequences And Summations And Product](#sequences-and-summations-and-product)
     + [Polynomials](#polynomials)
-    + [Sums And Products](#sums-and-products)
     + [Inequalities](#inequalities)
     + [Root Finding](#root-finding)
     + [Logarithms](#logarithms)
@@ -58,12 +59,28 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Two fundamental sets are the natural numbers N := {I, 2, 3,4, ... } and the integers Z := {O, ±1,±2,±3, ±4, ... }.
 - **Set subtraction** A - B := {a ∈ A : a no∈ B}; 
 - **Power Sets** the power set of S is the set of all subsets *all combinations of elements of a set* of the set S. The power set of S is denoted by P(S).
-
+- **Function** A relation in which each input has only one output. Often denoted f(x).
+- **Range** The set of all outputs of a relation or function.
+- **Domain** The set of all inputs of a relation or function.
+## Algebraic Manipulation Revisited
+- **Algebra basic formulas**
+![](imgs/algformulas.png)
+- **Manipulating Squares**
+![](imgs/manseq.png)
+## Sequences And Summations And Product
+- **Sequences** A sequence is a function from a subset of the set of integers (usually either the set{0, 1, 2,...} or the set {1, 2, 3,...}) to a set S.
+- **Geometric progression** is a sequence of the form {a, ar, ar^2,... , ar^n,...} where the initial term a and the common ratio r are real numbers.
+- **Arithmetic progression** is a sequence of the form {a, a + d, a + 2d,... ,a + nd, ...} where the initial term a and the common difference d are real numbers.
+- **Recurrence relation** the sequence {an} is an equation that expresses an in terms of one or more of the previous terms of the sequence, namely, a0, a1,...,an−1, for all integers n with n ≥ n0, where n0 is a nonnegative integer.
+   * **The initial conditions** for a recursively defined sequence specify the terms that precede the first term where the recurrence relation takes effect.
+   * We say that we have solved the recurrence relation together with the initial conditions when we find an explicit formula, called a **closed formula**, for the terms of the sequence
+- **The Fibonacci sequence** {f0, f1, f2,..., }is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn−1 + fn−2 for n = 2, 3, 4,....
+- **Summations And Product Notation**
+  * Σ (sigma) is used for sum and π (pi) is used for product.
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
 - **Form:**![](imgs/poly.png)
-## Sums and Products 
 ## Root Finding 
 ## Logarithms
 ## Exponentiations
