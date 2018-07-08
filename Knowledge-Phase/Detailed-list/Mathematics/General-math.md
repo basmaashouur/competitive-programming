@@ -79,6 +79,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **The Fibonacci sequence** {f0, f1, f2,..., }is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn−1 + fn−2 for n = 2, 3, 4,....
 - **Summations And Product Notation**
   * Σ (sigma) is used for sum and π (pi) is used for product.
+  ![](imgs.sumrules.png)
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
