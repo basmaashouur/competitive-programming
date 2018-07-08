@@ -59,6 +59,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 #### Static Array 
 * is array which you can't change it's size once declared.
 * **1D Array** store single list of elements, can be distinctly accessed by specifying its index.
+  * array is quicker than vectors, so it's better to use it in problems that we change the values of array alot
 * **2D Array || Matrix** multi-dimensional array is an array of arrays, for an array of size N×M, the rows and columns are numbered from 0 to N−1 and columns are numbered from 0 to M−1.
 * **ND Array**
 * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
