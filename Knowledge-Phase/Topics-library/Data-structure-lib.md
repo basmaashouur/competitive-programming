@@ -355,6 +355,11 @@ Table of Contents
     // itrate over all the elemnts expect the last and first one
     auto it = m.begin(); it++;
 	for (; it != mp.end(); ++it)
+	
+    // Find the max value in a map
+    	auto itr = std::max_element(mp.begin(), mp.end(),
+	        [](const pair<string, int>& p1, const pair<string, int>& p2)
+	{ return p1.second < p2.second; });
     
   ```
 #### Multimap
