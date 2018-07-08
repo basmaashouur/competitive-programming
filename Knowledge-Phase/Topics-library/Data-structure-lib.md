@@ -352,6 +352,10 @@ Table of Contents
   for (map<string, int>::iterator it = mapper.lower_bound("f"); it != mapper.upper_bound("m"); it++)
     printf("%s %d\n", ((string)it->first).c_str(), it->second);
     
+    // itrate over all the elemnts expect the last and first one
+    auto it = m.begin(); it++;
+	for (; it != mp.end(); ++it)
+    
   ```
 #### Multimap
 - Basic code
