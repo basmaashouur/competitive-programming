@@ -92,15 +92,13 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **The Fibonacci sequence** {f0, f1, f2,..., }is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn−1 + fn−2 for n = 2, 3, 4,....
 - **Summations Notation**
   * A large uppercase Greek letter sigma Σ (sigma) i, is used to denote summation.
-  * am, am+1,...,an. from the sequence {an}. We use the notation 
-  ![](imgs/suntnot.png) 
+  * am, am+1,...,an. from the sequence {an}. We use the notation  ![](imgs/suntnot.png) 
      * the variable j is called the index of summation, and the choice of the letter j as the variable is arbitrary; 
      * the index of summation runs through all integers starting with itslower limit m and ending with its upper limit n.
-  * ![](imgs/sumrules.png)
+    * ![](imgs/sumrules.png)
 - **Product Notation**
   * A large uppercase Greek letter, π (pi) is used to denote product 
-  * ak, ak+1,...,an. from the sequence {an}. We use the notation 
-  ![](imgs/pinot.png)
+  * ak, ak+1,...,an. from the sequence {an}. We use the notation ![](imgs/pinot.png)
      *  the variable k is called the index of summation, and the choice of the letter k as the variable is arbitrary; 
      * the index of summation runs through all integers starting with itslower limit k and ending with its upper limit 7.
 ## Polynomials
