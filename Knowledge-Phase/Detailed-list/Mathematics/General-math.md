@@ -83,16 +83,24 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **Manipulating Squares**
 ![](imgs/manseq.png)
 ## Sequences And Summations And Product
-- **Sequences** A sequence is a function from a subset of the set of integers (usually either the set{0, 1, 2,...} or the set {1, 2, 3,...}) to a set S.
-- **Geometric progression** is a sequence of the form {a, ar, ar^2,... , ar^n,...} where the initial term a and the common ratio r are real numbers.
-- **Arithmetic progression** is a sequence of the form {a, a + d, a + 2d,... ,a + nd, ...} where the initial term a and the common difference d are real numbers.
-- **Recurrence relation** the sequence {an} is an equation that expresses an in terms of one or more of the previous terms of the sequence, namely, a0, a1,...,an−1, for all integers n with n ≥ n0, where n0 is a nonnegative integer.
-   * **The initial conditions** for a recursively defined sequence specify the terms that precede the first term where the recurrence relation takes effect.
-   * We say that we have solved the recurrence relation together with the initial conditions when we find an explicit formula, called a **closed formula**, for the terms of the sequence
-- **The Fibonacci sequence** {f0, f1, f2,..., }is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn−1 + fn−2 for n = 2, 3, 4,....
-- **Summations And Product Notation**
-  * Σ (sigma) is used for sum and π (pi) is used for product.
-  - ![](imgs/sumrules.png)
+- **Sequences** A sequence is a function from a subset of the set of integers (usually either the set{0, 1, 2,...} or the set {1, 2, 3,...}) to a set S. 
+  * **Geometric progression** is a sequence of the form {a, ar, ar^2,... , ar^n,...} where the initial term a and the common ratio r are real numbers.
+  * **Arithmetic progression** is a sequence of the form {a, a + d, a + 2d,... ,a + nd, ...} where the initial term a and the common difference d are real numbers.
+  * **Recurrence relation** the sequence {an} is an equation that expresses an in terms of one or more of the previous terms of the sequence, namely, a0, a1,...,an−1, for all integers n with n ≥ n0, where n0 is a nonnegative integer.
+    * **The initial conditions** for a recursively defined sequence specify the terms that precede the first term where the recurrence relation takes effect.
+    * We say that we have solved the recurrence relation together with the initial conditions when we find an explicit formula, called a **closed formula**, for the terms of the sequence
+  * **The Fibonacci sequence** {f0, f1, f2,..., }is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn−1 + fn−2 for n = 2, 3, 4,....
+- **Summations Notation**
+  * A large uppercase Greek letter sigma Σ (sigma) i, is used to denote summation.
+  * am, am+1,...,an. from the sequence {an}. We use the notation ![](imgs/suntnot.png) 
+     * the variable j is called the index of summation, and the choice of the letter j as the variable is arbitrary; 
+     * the index of summation runs through all integers starting with itslower limit m and ending with its upper limit n.
+  * ![](imgs/sumrules.png)
+- **Product Notation**
+  * A large uppercase Greek letter, π (pi) is used to denote product 
+  * ak, ak+1,...,an. from the sequence {an}. We use the notation ![](imgs/pinot.png)
+     *  the variable k is called the index of summation, and the choice of the letter k as the variable is arbitrary; 
+     * the index of summation runs through all integers starting with itslower limit k and ending with its upper limit 7.
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
