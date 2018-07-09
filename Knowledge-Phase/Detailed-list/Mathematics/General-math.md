@@ -33,9 +33,9 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Sup Topic Name** |[A & A](http://www.differencebetween.info/difference-between-algebra-and-arithmetic)<br>[]()<br> |
-**Sup Topic Name** |[]()<br>[]()<br> |
-**Sup Topic Name** |[]()<br>[]()<br> |
+**Arithmetic** |[Algebra & Arithmetic](http://www.differencebetween.info/difference-between-algebra-and-arithmetic)<br>[Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)<br>[Floating functions](https://www.geeksforgeeks.org/precision-of-floating-point-numbers-in-c-floor-ceil-trunc-round-and-setprecision/) |
+**Algebra** |[]()<br>[]()<br> |
+**SOther** |[]()<br>[]()<br> |
 
 ## Tags
 -
@@ -49,8 +49,21 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## High Precision Arithmetic
 - Operations madde to the (big int) like (+, - , *, /)
 ## Numerical Bases and Conversion
+*  The digit representation of a given radix-number is a function of which numerical base is used
+   * **Binary** Base-2 numbers are made up of the digits 0 and 1. They provide theinteger representation used within computers, because these digits map naturally to on/off or high/low states.
+   * **Octal** Base-8 numbers are useful as a shorthand to make it easier to read binary numbers, since the bits can be read off from the right in groups of three.
+   * **Decimal** We use base-10 numbers because we learned to count on our tenfingers. 
+   * **Hexadecimal** Base-16 numbers are an even easier shorthand to represent binarynumbers, once you get over the fact that the digits representing 10 through 15 are “A” to ‘’F.”
+   * **Alphanumeric** Occasionally, one sees even higher numerical bases. Base-36 numbers are the highest you can represent using the 10 numerical digits with the 26 letters of the alphabet.
 ## Real Numbers
-
+- **Integers** These are the counting numbers, −∞,..., −2, −1, 0, 1, 2,...,∞. Subsets of the integers include the natural numbers (integers starting from 0) and the positive integers (those starting from 1), there is always a rational number between any two rationals x and y ( (x+y)/2 is a good example).
+- **Rational Numbers** These are the numbers which can be expressed as the ratio of two integers, c is rational if c = a/b for integers a and b. Every integer can be represented by a rational, namely, c/1. 
+- **Irrational Numbers** are numbers that cannot be expressed as a fraction for any integers (there is no x/y equals any of these numbers). Irrational numbers have decimal expansions that neither terminate nor become periodic. There are many interesting numbers which are not rational numbers. Examples include π = 3.1415926..., √2 = 1.41421..., and e = 2.71828..., represnt them in a computer by  suffices to approximate them using the ten digits or so.
+- **Fractions** Exact rational numbers x/y are best represented by pairs of integers x, y, where x is the numerator and y is the denominator of the fraction. The basic arithmetic operations on rationals c = x1/y1 and d = x2/y2 are easy to program:
+![](imgs/add.png)
+![](imgs/m&d.png)
+- **Hints**
+  * Never test whether a float is equal to zero, or any other float for that matter. Instead, test if it lies within an  value plus or minus of the target.
 # Algebra
 ## Sets And Numbers And Functions
 ### Definitions:
