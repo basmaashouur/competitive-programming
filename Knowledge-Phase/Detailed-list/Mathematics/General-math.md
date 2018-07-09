@@ -60,8 +60,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **Rational Numbers** These are the numbers which can be expressed as the ratio of two integers, c is rational if c = a/b for integers a and b. Every integer can be represented by a rational, namely, c/1. 
 - **Irrational Numbers** are numbers that cannot be expressed as a fraction for any integers (there is no x/y equals any of these numbers). Irrational numbers have decimal expansions that neither terminate nor become periodic. There are many interesting numbers which are not rational numbers. Examples include π = 3.1415926..., √2 = 1.41421..., and e = 2.71828..., represnt them in a computer by  suffices to approximate them using the ten digits or so.
 - **Fractions** Exact rational numbers x/y are best represented by pairs of integers x, y, where x is the numerator and y is the denominator of the fraction. The basic arithmetic operations on rationals c = x1/y1 and d = x2/y2 are easy to program:
-![](imgs/add.png)
-![](imgs/m&d.png)
+- ![](imgs/add.png)
+- ![](imgs/m&d.png)
 - **Hints**
   * Never test whether a float is equal to zero, or any other float for that matter. Instead, test if it lies within an  value plus or minus of the target.
 # Algebra
