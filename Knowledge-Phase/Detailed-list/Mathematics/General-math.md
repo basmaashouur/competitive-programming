@@ -96,6 +96,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * the variable j is called the index of summation, and the choice of the letter j as the variable is arbitrary; 
      * the index of summation runs through all integers starting with itslower limit m and ending with its upper limit n.
     * ![](imgs/sumrules.png)
+    * **SUM OF EVEN NUMBERS:** Formula: N(N+1), How to Find N = (First Even + Last Even)/2 - 1 
+    * **SUM OF ODD NUMBERS:** Formula: N^2, How to Find N = (First Odd + Last Odd)/2 
 - **Product Notation**
   * A large uppercase Greek letter, π (pi) is used to denote product 
   * ak, ak+1,...,an. from the sequence {an}. We use the notation ![](imgs/pinot.png)
