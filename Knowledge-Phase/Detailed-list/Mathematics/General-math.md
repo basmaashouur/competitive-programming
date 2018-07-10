@@ -106,7 +106,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Polynomials
 ### Definition:
 - **Polynomials** is a mathematical expression consisting of a sum of terms, each term including a variable or variables raised to a power and multiplied by a coefficient.
+- Polynomial degree is the highest term in it.
 - **Form:**![](imgs/poly.png)
+- **Polynomial Operations** 
+  * **Solve Polynomial** Find (roots) values which make f(x) = 0, (evaluate the values that make it = 0).
+  * ![](imgs/quadfor.png)
+  * **Evaluation**  Computing P(x) for some given value x.
+  * **Addition/Subtraction** Simply add or subtract the coefficients of the ith terms(must add terms that have the same degree and the same vars) for all i from zero to the maximum degree.
+  * **Multiplication** The product of polynomials P(x) and Q(x) is the sum of the product of every pair of terms, where each term comes from a different polynomial.
 ## Root Finding 
 ## Logarithms
 ## Exponentiations
