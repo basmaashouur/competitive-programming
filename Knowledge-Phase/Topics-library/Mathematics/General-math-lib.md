@@ -133,6 +133,8 @@ cout << trunc(1.411) << endl; // 1
 // Rounds given number to the closest integer
 cout << round(1.411) << endl; // 1 
 cout << round(1.500) << endl; // 2
+// Round x to be divisible by m
+round(x / m) * m; //round(x,m)
 
 // Setprecision when used along with ‘fixed’ provides precision to floating 
 // point numbers correct to decimal numbers mentioned in the brackets of the setprecison
