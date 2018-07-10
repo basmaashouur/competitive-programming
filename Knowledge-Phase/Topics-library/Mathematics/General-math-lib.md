@@ -6,9 +6,6 @@ Table of Contents
     * [Numerical Bases And Conversion](#numerical-bases-and-conversion)
     * [Real Numbers](#real-numbers)
  - [Algebra](#sup-topic-name)
-    * [Sets And Numbers And Functions](#sets-and-numbers-and-functions)
-    * [Algebraic Manipulation Revisited](#algebraic-manipulation-revisited)
-    * [Sequences And Summations And Product](#sequences-and-summations-and-product)
     * [Polynomials](#polynomials)
     * [Inequalities](#inequalities)
     * [Root Finding](#root-finding)
@@ -140,4 +137,10 @@ round(x / m) * m; //round(x,m)
 // point numbers correct to decimal numbers mentioned in the brackets of the setprecison
   cout << fixed << setprecision(2) << 3.14159265 <<endl; // 3.41
 
+```
+
+## Algebra
+### Polynomials
+- 
+```cpp
 ```
