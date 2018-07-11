@@ -158,6 +158,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Root and Power**
    * ![](imgs/abseven.png)
    * ![](imgs/absodd.png)
+   * ![](imgs/no1.gif)
+   * ![](imgs/no2.gif)
 * **Convert into a Power**
    * ![](imgs/rootexp.png)
    * ![](imgs/rootexp2.png)
