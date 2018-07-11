@@ -114,6 +114,39 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * **Evaluation**  Computing P(x) for some given value x.
   * **Addition/Subtraction** Simply add or subtract the coefficients of the ith terms(must add terms that have the same degree and the same vars) for all i from zero to the maximum degree.
   * **Multiplication** The product of polynomials P(x) and Q(x) is the sum of the product of every pair of terms, where each term comes from a different polynomial.
+## Inequalities
+- Inequalities are important because many mathematical investigations involve estimations, optimizations, best-case and worst-case scenarios.
+- **Basic Arithmetic**
+   * **Transitivity**
+     * For any real numbers a, b, c:
+     * If a ≥ b and b ≥ c, then a ≥ c
+     * If a ≤ b and b ≤ c, then a ≤ c
+     * If a ≥ b and b > c, then a > c
+     * If a > b and b ≥ c, then a > c
+     * If a = b and b > c, then a > c
+     * If a > b and b = c, then a > c 
+  * **Converse**
+    * If a ≤ b, then b ≥ a
+    * f a ≥ b, then b ≤ a
+   * **Addition and subtraction** 
+     * If a ≥ b and c ≥ d, then a + c ≥ b + d
+     * If a ≥ b, then a + c ≥ b + c and a − c ≥ b − c.
+   * **Multiplication and division** 
+     * If a ≥ b and c > 0, then ac ≥ bc and a/c ≥ b/c
+     * If a ≤ b and c > 0, then ac ≤ bc and a/c ≤ b/c
+     * If a ≥ b and c < 0, then ac ≤ bc and a/c ≤ b/c
+     * If a ≤ b and c < 0, then ac ≥ bc and a/c ≥ b/c
+   * **Additive inverse**
+     * If a ≤ b, then −a ≥ −b
+   * **Multiplicative inverse**
+     * If a ≤ b, then 1/a ≥ 1/b, provided that both a and b have the same sign. 
+     * **In chained notation**
+       * If 0 < a ≤ b, then 1/a ≥ 1/b > 0.
+       * If a ≤ b < 0, then 0 > 1/a ≥ 1/b.
+       * If a < 0 < b, then 1/a < 0 < 1/b.
+       * If 0 > a ≥ b, then 1/a ≤ 1/b < 0.
+       * If a ≥ b > 0, then 0 < 1/a ≤ 1/b.
+       * If a > 0 > b, then 1/a > 0 > 1/b.
 ## Root Finding 
 ## Logarithms
 ## Exponentiations
