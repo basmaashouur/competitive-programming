@@ -17,7 +17,7 @@ Table of Contents
     + [Sequences And Summations And Product](#sequences-and-summations-and-product)
     + [Polynomials](#polynomials)
     + [Inequalities](#inequalities)
-    + [Root Finding](#root-finding)
+    + [Square Root](#square-root)
     + [Logarithms](#logarithms)
     + [Exponentiations](#exponentiations)
     + [Integer Functions](#integer-functions)
@@ -34,7 +34,7 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Arithmetic** |[Algebra & Arithmetic](http://www.differencebetween.info/difference-between-algebra-and-arithmetic)<br>[Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)<br>[Floating functions](https://www.geeksforgeeks.org/precision-of-floating-point-numbers-in-c-floor-ceil-trunc-round-and-setprecision/) |
-**Algebra** |[]()<br>[]()<br> |
+**Algebra** |[Root Finding](https://en.wikipedia.org/wiki/Root-finding_algorithm#Newton's_method_(and_similar_derivative-based_methods))<br>[]()<br> |
 **SOther** |[]()<br>[]()<br> |
 
 ## Tags
@@ -111,6 +111,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **Polynomial Operations** 
   * **Solve Polynomial** Find (roots) values which make f(x) = 0, (evaluate the values that make it = 0).
   * ![](imgs/quadfor.png)
+  * Beyond quadratic equations, numerical methods are typically used,  including Newton’s method and Newton-Raphson, But the basic idea is that of binary search, However, a simpler method to find the ith root of t uses exponential functions and logarithms to compute t^1/i.
   * **Evaluation**  Computing P(x) for some given value x.
   * **Addition/Subtraction** Simply add or subtract the coefficients of the ith terms(must add terms that have the same degree and the same vars) for all i from zero to the maximum degree.
   * **Multiplication** The product of polynomials P(x) and Q(x) is the sum of the product of every pair of terms, where each term comes from a different polynomial.
@@ -147,7 +148,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * If 0 > a ≥ b, then 1/a ≤ 1/b < 0.
        * If a ≥ b > 0, then 0 < 1/a ≤ 1/b.
        * If a > 0 > b, then 1/a > 0 > 1/b.
-## Root Finding 
+## Square Root 
+![](imgs/sqrt.gif)
 ## Logarithms
 ## Exponentiations
 ## Integer Functions
