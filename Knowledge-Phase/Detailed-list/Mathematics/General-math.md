@@ -149,7 +149,29 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
        * If a ≥ b > 0, then 0 < 1/a ≤ 1/b.
        * If a > 0 > b, then 1/a > 0 > 1/b.
 ## Square Root 
-![](imgs/sqrt.gif)
+* **Multiply Roots**
+   * ![](imgs/multiroots.png)
+* **Divide Roots**
+   * ![](imgs/divroots.png)
+* **Root of a Root**
+   * ![](imgs/rootofroot.png)
+* **Root and Power**
+   * ![](imgs/abseven.png)
+   * ![](imgs/absodd.png)
+* **Convert into a Power**
+   * ![](imgs/rootexp.png)
+   * ![](imgs/rootexp2.png)
+* **Distributing**
+   * ![](imgs/dis1.gif)
+   * ![](imgs/dis2.gif)
+   * ![](imgs/dis3.gif)
+   * ![](imgs/dis4.gif)
+* **Rationalizing the Denominator**
+   * ![](imgs/ra1.gif)
+   * ![](imgs/ra2.gif)
+   * ![](imgs/ra3.gif)
+   * ![](imgs/ra4.gif)
+   * ![](imgs/ra5.gif)
 ## Logarithms
 ## Exponentiations
 ## Integer Functions
