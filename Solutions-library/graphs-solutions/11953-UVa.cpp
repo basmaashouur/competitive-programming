@@ -4,8 +4,8 @@ Online Judge: UVa
 Tags: Flood Fill, Vectors, 2DArrays
 Complexity: O(N+N)
 Tutorial: "Still alive" ships means that at least a ship has one x that is a neighbor, so we need to count the number 
-of ships that are still alive, fill(x,y), and then we can only fill the neighbor cells that are 'x' or '@' only
-becauce it's mean they are part of the ship, and mark them as visited cells. 
+of ships that are still alive, fill(x,y) if (x,y) =='x', means that ship still alive,and then we can only fill the neighbor 
+cells that are 'x' or '@' only becauce it's mean they are part of the ship, and mark them as visited cells. 
 The number of still alive ships is the times that we called the fill function. 
 */
 
