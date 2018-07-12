@@ -141,6 +141,8 @@ Table of Contents
 	for (int i = 0; i < 4; i++)
 	   fill(x + moves[i][0], y + moves[i][1]);
     }
+    //clear using memset
+    memset(visited, 0, sizeof(visited[0][0]) * 100 * 100);
 
     ```
   ### Connected Components	
