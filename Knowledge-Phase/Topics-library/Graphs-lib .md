@@ -135,6 +135,7 @@ Table of Contents
        //cells that you can't visit it, here is the cell that equal 0 
 	if (matrix[x][y] == 0)return;
 	
+	// cells are square means they share 8-connections
 	//in case of 8-connections, to the points at both diagonals
 	//not only(up, down, right, left) sharing one side, make the loop i<8
 	for (int i = 0; i < 4; i++)
