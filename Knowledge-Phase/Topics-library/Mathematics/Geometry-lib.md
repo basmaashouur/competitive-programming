@@ -460,3 +460,13 @@ void closestPoint(line l, point p, point &ans)
 	areIntersect(l, perpendicular, ans);
 }
 ```
+- If I have only two corners (upper left and lower right corners) of the rectangle, I can find the other two
+```cpp
+vector<point> P;
+double x1, y1, x3, y3;
+cin >> x1 >> y1 >> x3 >> y3;
+P.push_back(point(x1,y1)); // upper left corner
+P.push_back(point(x3,y1)); // upper right corner
+P.push_back(point(x3,y3)); // lower right corner
+p.push_back(point(x1,y3)); // lower left corner
+```
