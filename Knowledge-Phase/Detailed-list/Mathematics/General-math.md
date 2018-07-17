@@ -175,6 +175,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * ![](imgs/ra4.gif)
    * ![](imgs/ra5.gif)
 ## Logarithms
+*
 ## Exponentiations
 ## Integer Functions
 ## Rrearrange The Equation
