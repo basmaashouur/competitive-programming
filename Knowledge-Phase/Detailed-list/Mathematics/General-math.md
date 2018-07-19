@@ -183,3 +183,4 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Grid
 ## Finding Pattern or Formula
 ## Mathematical Simulation
+-
