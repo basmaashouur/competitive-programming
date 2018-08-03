@@ -32,6 +32,12 @@ Table of Contents
    + [Intersect Lines](#intersect-lines)
    + [Intersect Lines Segment](#intersect-lines-segment)
    + [Closet Point To Line](#closet-point-to-line)
+ - [Segments](#segments)
+ - [Triangles](#triangles)
+ - [Rectangles](#rectangles)
+ - [Circles](#circles)
+ - [Quadlitrals](#quadlitrals)
+ - [Polygons](#polygons)
      
    
    
