@@ -150,6 +150,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * Find that point they cross in by sloving the two linear algebraic equations togther
  * **Intersect Lines Segments**
  * **Closet Point To Line**
+   * I have a point and a line and  I wanna find a point lie in that line that the closet to that point
    * If the line is vertical then the y of the closet point is the same as the line, and x = -c
    * If the line is horizontal then the x of the closet point is the same as the line, and y = -c
    * If the line is normal:
