@@ -11,6 +11,12 @@ Table of Contents
    * [Points](#points)
    * [Vectors](#vectors)
    * [Lines](#lines)
+   * [Segments](#segments)
+   * [Triangles](#triangles)
+   * [Rectangles](#rectangles)
+   * [Circles](#circles)
+   * [Quadlitrals](#quadlitrals)
+   * [Polygons](#polygons)
 
 
 ## Resources And Approximate Time
