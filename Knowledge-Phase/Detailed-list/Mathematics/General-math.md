@@ -178,7 +178,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * A logarithm is simply an inverse exponential function. Saying b^x = y is equivalent to saying that x = logb y.
 * log x always refers to log base 10, i.e., log x = log 10 x.
 * ln x is called the natural logarithm and is used to represent log ex, where the irrational number e ≈ 2.71828. Therefore, ln x = y if and only if e^y = x.
-* For any other base it is necessary to use the change of base formula: ![](imgs/logcon.png)
+* For any other base it is necessary to use the change of base formula: log a(b) = **ln b / ln a** or **log b / log a**
+* a^b = log(a^b) = b * log(a), so we if the number is very big we don't have to find a power and use log instead(rule 3)
+* 
 * **Properties of Logarithms** (logs are only defined for positive values of x)
   * ![](imgs/proplog.png)
   * ![](imgs/proplog2.png)
