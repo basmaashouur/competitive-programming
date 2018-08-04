@@ -35,7 +35,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Arithmetic** |[Algebra & Arithmetic](http://www.differencebetween.info/difference-between-algebra-and-arithmetic)<br>[Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)<br>[Floating functions](https://www.geeksforgeeks.org/precision-of-floating-point-numbers-in-c-floor-ceil-trunc-round-and-setprecision/) |
 **Algebra** |[Root Finding](https://en.wikipedia.org/wiki/Root-finding_algorithm#Newton's_method_(and_similar_derivative-based_methods))<br>[]()<br> |
-**SOther** |[]()<br>[]()<br> |
+**Other** |[]()<br>[]()<br> |
 
 ## Tags
 -
