@@ -175,8 +175,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * ![](imgs/ra4.gif)
    * ![](imgs/ra5.gif)
 ## Logarithms
-*
+* A logarithm is simply an inverse exponential function. Saying b^x = y is equivalent to saying that x = logb y.
+* log x always refers to log base 10, i.e., log x = log 10 x.
+* ln x is called the natural logarithm and is used to represent log ex, where the irrational number e ≈ 2.71828. Therefore, ln x = y if and only if e^y = x.
+* For any otherbase it is necessary to use the change of base formula: ![](imgs/logcon.png)
+* **Properties of Logarithms** (logs are only defined for positive values of x)
+  * ![](imgs/proplog2.png)
+  * ![](imgs/proplog2.png)
+* **Useful Identities for Logarithms**
+  * ![](imgs/idenlog.png)
 ## Exponentiations
+* Exponent is the base a raised to the power of n is equal to the multiplication of a, n times.
+* **Properties of Exponents** (where and b be real numbers and m and n be integers)
+* ![](imgs/exprules.png)
+* ![](imgs/exprules2.png)
 ## Integer Functions
 ## Rrearrange The Equation
 # Other
