@@ -11,7 +11,6 @@ Table of Contents
     * [Logarithms](#logarithms)
     * [Exponentiations](#exponentiations)
     * [Integer Functions](#integer-functions)
-    * [Rrearrange The Equation](#rearrange-the-equation)
  - [Other](other)
     * [Grid](#grid)
     * [Finding Pattern Or Formula](#finding-pattern-or-formula)
@@ -143,3 +142,26 @@ round(x / m) * m; //round(x,m)
 - 
 ```cpp
 ```
+### Square Root
+### Logarithms
+- 
+```cpp
+double log(double x); /* compute the base-e logarithm */
+double log10(double x); /* compute the base-10 logarithm */
+double log10(double b) / log10(double a) /* compute the base a logarithm */
+```
+### Exponentiations
+### Integer Functions
+-
+```cpp
+double floor(double x); /* chop off fractional part of x */
+double ceil (double x); /* raise x to next largest integer */
+double fabs(double x); /* compute the absolute value of x */
+double sqrt(double x); /* compute square roots */
+double exp(double x); /* compute eˆx */
+double pow(double x, double y); /* compute xˆy */
+```
+## Other
+### Grid
+### Finding Pattern or Formula
+### Mathematical Simulation
