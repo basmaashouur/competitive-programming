@@ -18,7 +18,6 @@ Table of Contents
    * [Quadlitrals](#quadlitrals)
    * [Polygons](#polygons)
 
-
 ## Resources And Approximate Time
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
@@ -46,31 +45,31 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-### Space
-#### Definitions
+## Space
+### Definitions
 * **Space** is a term used to describe an infinitely large area that spans in all directions forever, and is empty unless a scenario says otherwise.
 * **Euclidean space** it’s basic units are points, which we can construct from it(lines, planes and shapes), as sets of points having prescribed properties it comes in dimensions from 1 to n.
-### Planes
-#### Definitions
+## Planes
+### Definitions
 * **plane** is a flat (no width at all) body inside of space. it has infinite length in every direction.
 * **Euclidean plane**  Also called Euclidean geometry or synthetic geometry, is based on axioms, definitions, and theorems proved from them. It's an axiomatic theory.
 * **Cartesian Plane** Is a model or method of Euclidean geometry to represent points, and defined by two perpendicular number lines: the x-axis, which is horizontal, and the y-axis, which is vertical. Using these axes, we can describe any point in the plane using an ordered pair of numbers. where each point is named by a pair of real numbers (x,y), straight lines are given by linear equations, distance by the distance formula, circles are given by particular quadratic equations, and angles by angle formulas in terms of trigonometric functions.
 * **Note**  Euclidean Plane means we have only some set of axiom, Cartesian plane means Euclidean plane + One fixed method of representing points.
 * **Coplanar** Objects are coplanar if they all lie in the same plane.
-#### Properties
+### Properties
 * Two distinct planes are either parallel or they intersect in a line.
 * A line is either parallel to a plane, intersects it at a single point, or is contained in the plane.
 * Two distinct lines perpendicular to the same plane must be parallel to each other.
 * Two distinct planes perpendicular to the same line must be parallel to each other.
-### Points
-#### Definitions
+## Points
+### Definitions
 * **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are. * **Collinear** Points that lie on the same straight line.
-#### Methods & Operations
+### Methods & Operations
 * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
 * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (*x',*y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
   ![](imgs/prot.png)
-#### Algorithms
+### Algorithms
 * **Reflection Point** 
 * **Distance To Line**
   * Find the closet point but using vector instead of the normal equations
@@ -81,13 +80,13 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
 * **Collinear**
 * **Counter Clockwise**
- ### Vectors
-#### Definitions
+ ## Vectors
+### Definitions
 * **Vector** is a displacement in a space, a displacement is how to get from one location to another. They have both magnitude (how far to go) and a direction (positive or negative), the first coordinate represent how much we move horizontally, and the second coordinate represent how much we moving vertically.
 * **Magnitude** The magnitude of a vector written as |a|, and calculate by pythagorean theorem ![](imgs/magnitude.png)
 * **Scalar** A scalar has magnitude (size) only.
 * **Unit Vector** Are vectors which magnitude is exactly 1 unit.
-#### Methods & Operations
+### Methods & Operations
 * **Vector Addition & subtraction**
   * Vector ± Vector: A ± B = (ai ± bi)
   * Vector ± Point: P ± V = (pi ± vi)
@@ -96,7 +95,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Vector Multiplying by vector**
   * Scalar or dot product:  ![](imgs/dotpr.png)
   * Vector or cross product:
-#### Algorithms 
+### Algorithms 
 * **Point To Vector**
   * A vector is a line segment (thus it has two end points and length/magnitude, so if we have two points and want to convert to a vector then find the distance between them.
 * **Scale Vector**
@@ -108,8 +107,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      * •<0 if the angle is obtuse,
      * •>0 if the angle is acute,
      * •=0 if the a and b are orthogonal.
-### Lines
-#### Definitions
+## Lines
+### Definitions
 * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
 * **Line segment** A straight line which links two points without extending beyond them (has two ends) ![](imgs/segment.png)
 * **Congruent line segments** When Two line segments have the same length ![](imgs/congse.png)
@@ -123,7 +122,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Coincident lines** two lines that lie one on top of the other.
 * **Vertical lines** slope is undefined
 * **Horizontal lines** slope = 0
-#### Methods & Operations
+### Methods & Operations
 ![](imgs/line.png)
 * **Linear Equation Slope-intercept** A linear equation can be written in the form y = mx + b; m ≠ 0, m is the slope of the line and b is the y-intercept.
 * **Standard form of a line** AX + BY = C; A, B, C, where A is the slope and C is y-intercept.
@@ -132,7 +131,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **The Point-Slope Formula**  one point and the slope, the point-slope formula will lead to the equation of a line: y − y1 = m(x − x1).
 * **Compute the line equation** We can compute the line equation if we are given at least two points that pass through that line
 * **Determine if a point lies in a line** substitute the values of the point  into the equation of the line y=mx+b, where m & b are known, then If the point satisfies the equation of the line (results in a true equality), then the point is on the line, If you want to know whether the point (x,y)(x,y) is "in between" the two endpoints, make sure that  x1 ≤ x≤ x2 and y1 ≤ y ≤ y2.
-#### Algorithms
+### Algorithms
 * **Points To Line** You have two points and want to  compute the required line equation
    * Find the slope, m = ∆y / ∆x 
    * If the line is vertical then the slope is undifend, then the equation would be x = x constant, **Special case**
@@ -165,3 +164,9 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
    * If the line is normal:
      * Draw a line from that point to the line which is perpendicular, we know the point and the slope
      * Then find the intersection of that perpendicular line and the other line and that would be the closet point
+## Segments
+## Triangles
+## Rectangles
+## Circles
+## Quadlitrals
+## Polygons
