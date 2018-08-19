@@ -9,7 +9,6 @@ Table of Contents
   + [Input Parsing](#input-parsing)
   + [Output Formatting](#output-formatting)
   + [String Comparison](#string-comparison) 
-  + [Just Ad Hoc](#just-ad-hoc)
 - [String Matching](#string-matching)
 - [Suffix Structures](#suffix-structures)	
    
@@ -92,4 +91,39 @@ string::first()
 string::last() /* get characters, also there are iterators */
 ```
 ## String Algorithms
+### Input Parsing
+- Removing spaces from a string
+```cpp
+string str = "12341 414112 absca", temp;
+stringstream ss; ss << str;
 
+	while (!ss.eof())
+	{
+		ss >> temp;
+		cout << temp << endl;
+
+	}
+```
+- Splitting a string
+```cpp
+	char str[] = "- This, a sample string.";
+	char * pch;
+  // put all the chars that when see it then take all the chars behind it
+	pch = strtok (str, " ,.-");
+	while (pch != NULL)
+	{
+		printf ("%s\n", pch);
+		pch = strtok (NULL, " ,.-");
+	}
+```
+### Output Formatting
+### String Comparison
+- strcmp() compares the two strings lexicographically
+```cpp
+char leftStr[] = "g f g";
+char rightStr[] = "g f g";
+int res = strcmp(leftStr, rightStr);
+if (res==0) // equa
+else if (res > 0)// not equal and leftStr have the greater ASCII value
+else if (res < 0)// not equal and rightStr have the greater ASCII value
+```
