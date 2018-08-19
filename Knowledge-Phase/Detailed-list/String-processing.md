@@ -21,7 +21,7 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **String Terminology** |[String](https://en.wikipedia.org/wiki/String_(computer_science))<br> | 4Days
-**String Algorithms**<br>tag<br>tag <br> |[Regex](http://www.vogella.com/tutorials/JavaRegularExpressions/article.html)<br>[CPP Regex](http://www.cplusplus.com/reference/regex/)<br> | 4Days
+**String Algorithms**<br>tag<br>tag <br> |[Regex](http://www.vogella.com/tutorials/JavaRegularExpressions/article.html)<br>[CPP Regex](http://www.cplusplus.com/reference/regex/)<br>[I/O](http://www.augustcouncil.com/~tgibson/tutorial/iotips.html)<br>[C++ I/O](https://marcoarena.wordpress.com/2016/03/13/cpp-competitive-programming-io/)<br>[Output formatting](http://faculty.cs.niu.edu/~mcmahon/CS241/c241man/node83.html) | 4Days
 **String Matching**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 **Suffix Structures**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
@@ -39,30 +39,38 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **Period** is a prefix of a string such that the string can be constructed by repeating the period. The last repetition may be partial and contain only a prefix of the period. For example, the shortest period of ABCABCA is ABC.
 - **Border** is a string that is both a prefix and a suffix of a string. For example, the borders of ABACABA are A, ABA and ABACABA.
 ## Representing Strings
+1. Null-terminated Arrays (C++ strings), The string ends the instant it hits the null character “\0”, i.e., zero .
+2. Array Of chars Plus Length (array of chars) to add Null at the end.
+3. Linked Lists of Characters.
 ## Character Codes
+- Character codes are mappings between numbers and the symbols which make up a particular alphabet.
+- ASCII code is the numerical representation of a character code such as 'a' or '@' or an action of some sort.
 ## String Functions
+- Is a list of built in c/c++ library functions.
 ## String Algorithms
 ### Ciphering
 - Is an algorithm for performing encryption or decryption, a series of well-defined steps that can be followed as a procedure. many of the simpler cipher problem end up as Ad Hoc solution, each with its own encoding/decoding rules.
 - **Types:**
   *  **Caesar Cipher** It is a type of substitution cipher in which each letter in the plaintext is 'shifted' a certain number of places down the alphabet. For example, with a shift of 1, A would be replaced by B, B would become C, and so on.
 ### Frequency Counting
-- Is an algorithm to count the frequency of a letter or a word
+- Is an algorithm to count the frequency of a letter or a word.
 ### Regex	
 - The abbreviation for regular expression is regex. A regular expression defines a search pattern for strings.  
 - The search pattern can be anything from a simple character, a fixed string or a complex expression containing special characters describing the pattern. The pattern defined by the regex may match one or several times or not at all for a given string.
 - Regular expressions can be used to search, edit and manipulate text.
 ### Input Parsing
+- Parsing problems range from the simpler ones that can be dealt with an iterative parser and the more complex ones involving some grammars that requires recursive descent parser or Regex.
 ### Output Formatting
+- Formatting in the standard C++ libraries is done through the use of manipulators, special variables or objects that are placed on the output stream.
 ### String Comparison
-### Just Ad Hoc
+- is to compare strings with various criteria. This sub-category is similar to the string matching problems but these problems mostly use strcmp-related functions.
+### Searching for Patterns
+### Manipulating Strings
 ### Subsequences
 ### String Hashing
-###  Searching for Patterns
-### Manipulating Strings
 ### Prefixes and suffixes
-### 
-
-
+### Just Ad Hoc
+-These are other Ad Hoc string related problems that cannot be classified as one of the
+other sub categories above.
 ## String Matching
 ## Suffix Structures
