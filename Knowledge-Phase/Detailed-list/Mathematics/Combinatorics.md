@@ -9,28 +9,31 @@ Table of Contents
   * [Introduction To Counting](#Introduction-to-counting)
     + [Permutations And Combinations](#permutations-and-combinations)
     + [Combinatorial Arguments](#combinatorial-arguments)
-    + [Pascal's Triangle](#pascal's-triangle)
+    + [Pascals Triangle](#pascals-triangle)
     + [Binomial Coefficients](#binomial-coefficients)
     + [The Pigeonhole Principle](#the-pigeonhole-principle)
   * [Partitions And Bijections](#partitions-and-bijections)
-    + [](#)
+    + [Counting Subsets](#counting-subsets)
   * [The Principle Of Inclusion Exclusion](#the-principle-of-inclusion-exclusion)
-    + [](#)
-  * [Recurrence](#recurrence)
-    + [](#)
+    + [Count the Complement](#count-the-complement)
   * [Counting Sequences](#counting-sequences)
     + [Fibonacci Numbers](#fibonacci-numbers)
     + [Catalan Numbers](#catalan-numbers)
-  * [Burnside’s Lemma](#burnside’s-lemma)
-  * [Cayley’s Formula](#cayley’s-formula)
+  * [Recurrence](#recurrence)
+  * [Burnsides Lemma](#burnsides-lemma)
+  * [Cayleys Formula](#cayleys-formula)
 
 ## Resources And Approximate Time
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Introduction To Counting**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Partitions And Bijections**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**The Principle Of Inclusion Exclusion**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Recurrence**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Counting Sequences**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Burnsides Lemma**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Cayleys Formula**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
 
 ## Resources from books
 - **Competitive Programming 3**
