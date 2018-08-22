@@ -450,6 +450,7 @@ class UnionFind
 {
 
 private:
+        // p is parent & rank it's number of levels
 	vi p, rank, setSize;
 	int numSets;
 
