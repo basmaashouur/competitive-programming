@@ -1,12 +1,13 @@
 # Data Structure Library
 
 Table of Contents
-================= 
+=================  
 
 - [Linear DS](#linear-ds)
   * [Static Arrays](#static-arrays)
     + [1D Array](#1d-array)
     + [2D Array](#2d-array)
+    + [Frequency Array](#frequency-array)
   * [STL Algorthims](#stl-algorthims)
     + [Next Permutation](#next-permutation)
   * [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
@@ -94,6 +95,20 @@ Table of Contents
    // Accessing Complexity is O(1) [direct access]
    cout << arr[row][col]; // will print the value in this index
    
+   ```
+  #### Frequency Array
+   ```cpp
+   /*
+   We use array if the max number is nt bigger than 10^5
+   but if the max number is bigger than that then we gonna use map
+   */
+  	int arr [100001] = {0};
+	int n, v; cin >> n;
+	for (int x = 0; x < n; x++)
+	{
+		cin >> v;
+		arr [v]++;
+	}
    ```
  ### STL Algorthims
  #### Next permutation
