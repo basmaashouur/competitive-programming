@@ -11,16 +11,12 @@ Table of Contents
     + [Next Permutation](#next-permutation)
   * [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
     + [Vector](#vector)
-  * [Bitmasks](#bitmasks)
-    + [Bitmask](#bitmask)
-  * [LinkedList](#linkedlist)
-    + [List](#list)
-  * [Stacks](#stacks)
-    + [Stack](#stack)
-  * [Queues](#queues)
-    + [Queue](#queue)
-  * [Dequeues](#dequeues)
-    + [Dequeue](#dequeue)
+   * [Dynamically Resizable Data Structure](#dynamically-resizable-data-structure)
+     + [Bitmask](#bitmask)
+     + [List](#list)
+     + [Stack](#stack)
+     + [Queue](#queue)
+     + [Dequeue](#dequeue)
 - [Non Linear DS](#non-linear-ds)
   * [Balanced Binary Search Tree](#balanced-binary-search-tree)
     + [Map](#map)
@@ -167,7 +163,7 @@ Table of Contents
    
     ```
 
-### Bitmasks
+### Dynamically Resizable Data Structure
 #### Bitmask
   * Bitwise Manipulation
   - turn on j-th: {00001} --> shift left by j-th times
@@ -235,7 +231,6 @@ Table of Contents
   
   ```
 
-### LinkedList
 #### List
   - Basic code
   ``` cpp
@@ -264,7 +259,6 @@ Table of Contents
         
   ```
 
-### Stacks
 #### Stack
   - Basic Code
   ``` cpp
@@ -280,7 +274,6 @@ Table of Contents
         
   ```
   
-### Queues
 #### Queue
  - Basic code
   ``` cpp
@@ -297,8 +290,6 @@ Table of Contents
         
   ```
  
-
-### Dequeues
 #### Dequeue
  - Basic code
   ``` cpp
