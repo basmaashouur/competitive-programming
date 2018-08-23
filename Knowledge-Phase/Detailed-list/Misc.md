@@ -1,0 +1,33 @@
+# List of topic Sup topic's Resources, Tags, Terminologies and Explanations 
+
+Table of Contents
+================= 
+
+- [Resources And Approximate Time](#resources-and-approximate-time)
+- [Tags](#tags)
+- [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
+  * [Sup Topic Name](#sup-topic-name)
+    + [Sup Sup Topic Name](#sup-sup-topic-name)
+  * [Sup Topic Name](#sup-topic-name)
+    + [Sup Sup Topic Name](#sup-sup-topic-name)
+   
+   
+
+## Resources And Approximate Time
+
+Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
+-------------| -------------   |-------------   
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+
+## Tags
+-
+-
+
+## Sup Topic Terminologies And Explanations
+
+### Sup Topic Name
+#### Sup Sup Topic Name
+### Sup Topic Name
+#### Sup Sup Topic Name
