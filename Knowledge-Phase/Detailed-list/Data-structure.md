@@ -10,6 +10,7 @@ Table of Contents
     + [Static Array](#static-array)
     + [Stl Algorithms](#stl-algorithms)
     + [Dynamically Resizable Arrays](#dynamically-resizable-arrays)
+    + [Dynamically Resizable Data Structure](#dynamically-resizable-data-structure)
   * [Non Linear DS](#non-linear-ds)
     + [Balanced Binary Search Tree](#balanced-binary-search-tree)
     + [Heap](#heap)
@@ -63,10 +64,12 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **2D Array || Matrix** multi-dimensional array is an array of arrays, for an array of size N×M, the rows and columns are numbered from 0 to N−1 and columns are numbered from 0 to M−1.
 * **ND Array**
 * **Memset** use it to initialize all elements of an integer array to 0 or -1 but not the other values.
+*  **Frequency array** is how many times a particular item occurs in a data set
 #### Stl Algorithms
 * **Next permutation** Given a word, find lexicographically greater permutation of it.
 #### Dynamically Resizable Arrays
 * **Vector** are similar to an array but are dynamically sized.
+#### Dynamically Resizable Data Structure
 * **Bitset** an array of booleans with useful opeartions like rest() and set().
 * **Bitmask** are technique of representing a subset of a set using a bit vector, where ith bit of the vector is set iff the corresponding element belongs to the subset. Eg, S={a,b,c,d}, then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}. An int is stored is in a string of bits AKA (bitmask), we can use bit manipulation whick make it more efficient than bitset or vector<bool>.
 * **Bitwise Manipulation** is the act of algorithmically manipulating bits using bits operators(&, |, ^, ~, <<, >>)
