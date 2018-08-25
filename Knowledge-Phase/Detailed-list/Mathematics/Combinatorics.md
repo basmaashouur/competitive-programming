@@ -85,7 +85,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Sum Rule
 - Suppose If a task can be done either in one of |n1| ways or in one of |n2| ways(possibilities), assuming the elements of n1 and n2 are distinct., then there are |n1| + |n2| ways(possibilities) to do the task.
 ### Inclusion Exclusion
-![](img/in-ex.png)
+![](imgs/in-ex.png)
 - 
 ### Divide Rule
 ### Permutations And Combinations
