@@ -30,12 +30,12 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Introduction To Counting**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**Partitions And Bijections**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**The Principle Of Inclusion Exclusion**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**Recurrence**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**Counting Sequences**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**Burnsides Lemma**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
-**Cayleys Formula**<br>tag<br>tag <br> |[]()<br>[]()<br> | #
+**Partitions And Bijections**<br>Product Rule<br>Sum Rule<br> Inclusion Exclusion<br> Divide Rule<br>Permutations And Combinations <br> Combinatorial Arguments<br> Pascals Triangle <br>Binomial <br> Coefficients
+### The Pigeonhole Principle> |[]()<br>[]()<br> | #
+**Recurrence** |[]()<br>[]()<br> | #
+**Counting Sequences**|[]()<br>[]()<br> | #
+**Burnsides Lemma** |[]()<br>[]()<br> | #
+**Cayleys Formula** |[]()<br>[]()<br> | #
 
 ## Resources from books
 - **Competitive Programming 3**
