@@ -30,7 +30,7 @@ Table of Contents
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
 **Introduction To Counting**<br>Product Rule<br>Sum Rule<br> Inclusion Exclusion<br> Divide Rule<br>Permutations And Combinations <br> Combinatorial Arguments<br> Pascals Triangle <br>Binomial <br> Coefficients<br> The Pigeonhole Principle| |#
-**Partitions And Bijections**|[]()<br>[]()<br> | #
+**Partitions And Bijections**| | #
 **Recurrence** | | #
 **Counting Sequences**| | #
 **Burnsides Lemma** | | #
