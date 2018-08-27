@@ -55,14 +55,14 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   - Counting Sequences
   - Recursion and Induction
 - **THE ART AND CRAFT OF PROBLEM SOLVING**
-  - Introduction to Counting
+  - Introduction to Counting   (finish P&C)
   - Partitions and Bijections 
   - The Principle of Inclusion-Exclusion  (finish)
   - Recurrence
 - **Discrete Mathematics and Its Applications**
   - The Basics of Counting  (finish)
   - The Pigeonhole Principle 
-  - Permutations and Combinations
+  - Permutations and Combinations   (finish)
   - Binomial Coefficients and Identities
   - Generalized Permutations and Combinations
   - Generating Permutations and Combinations 
