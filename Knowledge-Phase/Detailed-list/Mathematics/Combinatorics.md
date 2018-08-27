@@ -88,6 +88,15 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ![](imgs/in-ex.png)
 ![](imgs/in-ex2.png)
 - **AKA The Subtractoon Rule** If a task can be done in either |n1| ways or |n2| ways, then the number of ways to do the task is |n1| + |n2| minus the number of ways to do the task that are common to the two different ways.
+- **General Computations for Inclusion Exclusion**
+  - Enumerate all subset
+  - Compute each intersection subset
+  - If odd subset add (include) it -> S(1) s(1, 2, 3)
+  - If even subset subtract (exclude) it -> S(1, 2) s(1, 2, 3, 4)
+- To find the number of numbers divde by 2 or 3 to 100
+  - 100/3 = 33, means 33 numbs dividd by 3, that we walk 3 and 3 and 3
+  - 100/2 = 50, means 50 numbs duvded by 2
+  - now find the common and remove it, 100/(2*3)
 - **List of sets which we know how to count, so we can map other objects to them:** 
   - **Permutations** A permutation is an arrangement of n items, where every item appears exactly once. There are n! different permutations. The 3! = 6 permutations of three items are 123, 132, 213, 231, 312, and 321.
   - **Subsets** A subset is a selection of elements from n possible items. There are 2^n distinct subsets of n things. Thus there are 2^3 = 8 subsets of three items, namely, 1, 2, 3, 12, 13, 23, 123, and the empty set.
