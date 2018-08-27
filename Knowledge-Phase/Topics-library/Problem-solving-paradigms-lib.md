@@ -28,18 +28,16 @@ Table of Contents
   ```cpp 
   int main()
   {
-        string all, fi;
-        cin >> all;
-        fi += all[0];
-        vector<string>subset;
-        subset.push_back(fi);
-        subset.push_back("");
-        for (int x = 1; x < all.length(); x++)
-        {
-                int t = subset.size();
-                for (int y = 0; y < t; y++)
-                        subset.push_back(subset[y] + all[x]);
-        }
+        string all;
+	cin >> all;
+	vector<string>subset;
+	subset.push_back("");
+	for (int x = 0; x < all.length(); x++)
+	{
+		int t = subset.size();
+		for (int y = 0; y < t; y++)
+			subset.push_back(subset[y] + all[x]);
+	}
         for (int x = 0; x < subset.size(); x++)
                 cout << subset[x] << endl;
         return 0;
