@@ -28,7 +28,7 @@ Table of Contents
   ```cpp 
   int main()
   {
-        string all;
+	string all
 	cin >> all;
 	vector<string>subset;
 	subset.push_back("");
