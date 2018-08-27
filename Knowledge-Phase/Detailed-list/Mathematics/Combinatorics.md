@@ -104,6 +104,10 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Divide Rule
 - Suppose There are n/d ways to do a task if it can be done using a procedure that can be carried out in n ways, and for every way w, exactly d of the n ways correspond to way w.
 ### Permutations And Combinations
+- **Permutation** of a set of distinct objects is an ordered arrangement of these objects. We also are interested in ordered arrangements of some of the elements of a set **Order Matters**. An ordered arrangement of r elements of a set is called an r-permutation. permutation is **Counting One-to-One Functions**
+- We use the principle of Inclusion Exclusion in COROLLARY 1 
+![](imgs/perm1.png)
+![](imgs/perm2.png)
 ### Combinatorial Arguments
 ### Pascals Triangle
 ### Binomial Coefficients
