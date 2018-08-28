@@ -96,3 +96,17 @@ Table of Contents
 	cout << ans << " " << ans2 << endl;
 ```
   
+### Permutations And Combinations
+- Permutations
+```cpp
+        // find all the prmutations of length of that string
+	string str; cin >> str;
+	sort(str.begin(), str.end());
+	do
+	{
+		cout << str << "\n";
+	} while (next_permutation(begin(str), end(str)));
+```
+- Combinations
+```cpp
+```
