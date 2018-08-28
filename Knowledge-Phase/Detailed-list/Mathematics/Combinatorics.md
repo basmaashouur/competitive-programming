@@ -112,6 +112,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 with some length of that subset.
 ![](imgs/comb1.png)
 ![](imgs/comb2.png)
+![](imgs/comb.png)
 ### Combinatorial Arguments
 ### Pascals Triangle
 ### Binomial Coefficients
