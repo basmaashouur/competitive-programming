@@ -108,6 +108,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - We use the principle of Inclusion Exclusion in COROLLARY 1 
 ![](imgs/perm1.png)
 ![](imgs/perm2.png)
+- Permutations with repetition  ![](imgs/perm3.png)
 - **Combination** n of elements of a set is an unordered selection of r elements from the set. Thus, an r-combination is simply a subset of the set with r elements. means if we find all the subsets of a set a Combination wiil be a subset of them
 with some length of that subset.
 ![](imgs/comb1.png)
