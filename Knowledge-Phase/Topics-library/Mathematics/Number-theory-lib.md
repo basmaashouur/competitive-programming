@@ -35,6 +35,8 @@ int modpow(int x, int n, int m)
 ```
 - Find the last digit of a number ^ exp (exp no bigger than 10^4)
 - If exp is bigger than 10^4 then find the cycle of last digit and put it in array, then if the cycle is n and repeted again then the last digit is arr[(exp %n)]
+- If we wanna find the n last digit make n %m
+- If we wanna find the last digit that not zero use while (ans % 10 == 0) ans /= 10;
 ```cpp
   int numb, exp, ans = 1;
 	cin >> numb >> exp;
