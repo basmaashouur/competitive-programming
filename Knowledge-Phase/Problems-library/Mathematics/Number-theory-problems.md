@@ -3,7 +3,7 @@
 Table of Contents
 =================
 - [Factors](#Factors)
-- [Congruences](#Congruences)
+- [Congruences](#congruences)
 - [Diophantine Equations](#diophantine-equations)
 
 
