@@ -16,8 +16,6 @@ Table of Contents
      + [BS Built In](#bs-built-in)
      + [Bisection Method](#bisection-method)
      + [BS The Answer](#bs-the-answer)
-     + [Find Min Value](#find-min-value)
-     + [Find Max Value](#find-max-value)
 - [Sliding Window](#sliding-window)
    
    
@@ -98,6 +96,11 @@ size- the size of the vector
 Returns:
 -if we find the value it returns it's position(index).
 -if we didn't find it returns -1.
+
+
+Note:
+- Use -> mid = (start+end+1)/2 for not give inifity loop
+- if start = 5, end = 5 will give TLE(infinite loop)
 
 */
 int BinarySearch(vector<int> vec, int value, int size)
@@ -198,19 +201,32 @@ void bisection(double a, double b)
 bool can(double f)
 {
 }
-
 int main()
 {
 	double start = 0.0, end = 10000.0, mid = 0.0, ans = 0.0;
+	
+	// Find Min Value, minmize the ans is valid
+        // wanna find the first one
+	// [0,0,0,1,1,1] -> monotonic
 	while (fabs(end - start) > EPS)
 	{
 		mid = start + (end - start) / 2.0;
 		if (can(mid))ans = mid, end = mid;
 		else start = mid;
 	}
+	
+	// Find Min Value, maxmize the ans that is valid
+	// wanna find the thirs one
+	// [1,1,1,0,0,0] -> monotonic
+	while (fabs(end - start) > EPS)
+	{
+		mid = start + (end - start) / 2.0;
+		if (can(mid))ans = mid, start = mid;
+		else start = mid;
+	}
+	
 	cout << ans << endl;
+	
 	return 0;
 }
 ```
-#### Find Min Value
-#### Find Max Value
