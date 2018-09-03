@@ -220,7 +220,7 @@ int main()
 	// [1,1,1,0,0,0] -> monotonic
 	while (fabs(end - start) > EPS)
 	{
-		mid = start + (end - start) / 2.0;
+		mid = (start + end +1) / 2.0;
 		if (can(mid))ans = mid, start = mid;
 		else start = mid;
 	}
