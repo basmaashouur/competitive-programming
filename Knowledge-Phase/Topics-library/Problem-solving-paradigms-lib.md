@@ -197,6 +197,7 @@ void bisection(double a, double b)
 #### BS The Answer
 - While loop implementation with EPS
 ```cpp
+- use in BS(start < end)
 #define EPS 1e-9
 bool can(double f)
 {
