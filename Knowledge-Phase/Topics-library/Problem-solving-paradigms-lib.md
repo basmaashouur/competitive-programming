@@ -42,6 +42,26 @@ Table of Contents
                                        
    }
   ```
+  - Find all the possible sum of an elements in an array
+  ```cpp
+  	int p, v, cin >> p;
+	vector<int>vec;
+	vector<int>subset;
+
+	for (int x = 0; x < p; x++)
+	{
+		cin >> v;
+		vec.push_back(v);
+	}
+	subset.push_back(0);
+	for (int x = 0; x < p; x++)
+	{
+		int t = subset.size();
+		for (int y = 0; y < t; y++)
+			subset.push_back(subset[y] + vec[x]);
+	}
+
+  ```
 
 ### Recursive
 #### Recursively Subsets
