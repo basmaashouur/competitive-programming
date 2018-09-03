@@ -1,26 +1,25 @@
-# Topic
+# Misc
 
 Table of Contents
 ================= 
-
-- [Sup Topic](#sup-topic)
-  * [Sup Sup Topic](#sup-sup-topic)
-    + [Tag](#tag)
- - [Sup Topic](#sup-topic)
-   * [Sup Sup Topic](#sup-sup-topic)
-     + [Tag](#tag)
-   
-## Sup Topic
-### Sup Sup Topic
-#### Tag
-- Basic code
-  ```cpp
-  ```
+  * [Cumulative Sum](#cumulative-sum)
+  + [1D](#1d)
+  + [2D](#2d)
+  * [Partial Sum](#partial-sum)
+  * [Two Pointers](#two-pointers)
 
 
-## Sup Topic
-### Sup Sup Topic
-#### Tag
-- Basic code
-  ```cpp
-  ```
+## Cumulative Sum
+### 1D
+```cpp
+```
+### 2D
+```cpp
+```
+
+## Partial Sum
+```cpp
+```
+## Two Pointers
+```cpp
+```
