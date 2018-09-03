@@ -160,5 +160,6 @@ i. Sometimes in general cases
 - The method is based on The **Intermediate Value Theorem** which states that if f(x) is a continuous function and there are two real numbers a and b such that f(a)*f(b) 0 and f(b) < 0), then it is guaranteed that it has at least one root between them.
 #### BS the Answer
 - Search for an answer that make the equation true between two intervals.
+- dont try to max or min just ask your self how can I find some answer
 ## Sliding Window
 ### Sup Sup Topic Name
