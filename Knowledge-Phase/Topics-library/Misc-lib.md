@@ -3,8 +3,8 @@
 Table of Contents
 ================= 
   * [Cumulative Sum](#cumulative-sum)
-  + [1D](#1d)
-  + [2D](#2d)
+    + [1D](#1d)
+    + [2D](#2d)
   * [Partial Sum](#partial-sum)
   * [Two Pointers](#two-pointers)
 
