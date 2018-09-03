@@ -211,8 +211,8 @@ int main()
 	while (fabs(end - start) > EPS)
 	{
 		mid = start + (end - start) / 2.0;
-		if (can(mid))ans = mid, end = mid;
-		else start = mid;
+		if (can(mid))ans = mid, end = mid -1;
+		else start = mid + 1;
 	}
 	
 	// Find Min Value, maxmize the ans that is valid
@@ -221,8 +221,8 @@ int main()
 	while (fabs(end - start) > EPS)
 	{
 		mid = (start + end +1) / 2.0;
-		if (can(mid))ans = mid, start = mid;
-		else start = mid;
+		if (can(mid))ans = mid, start = mid + 1;
+		else start = mid-1;
 	}
 	
 	cout << ans << endl;
