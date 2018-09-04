@@ -8,7 +8,7 @@ Table of Contents
      + [Prime Factors](#prime-factors)
      + [Factorization](#factorization)
      + [Exponentiation](#exponentiation)
-   * [Congruences](#congruences)
+ * [Congruences](#congruences)
      + [Modular Arithmetic](#modular-arithmetic)
      + [Solving Modular Arithmetic](#solving-modular-arithmetic)
      + [Reminder](#reminder)
