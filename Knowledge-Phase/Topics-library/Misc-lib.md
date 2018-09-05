@@ -10,8 +10,9 @@ Table of Contents
   * [Partial Sum](#partial-sum)
   * [Equal Sum](#equal-sum)
   * [Closet Sum](#closet-sum)
-  * [Biggest Sum](#biggest-sum)
-  * [Smallest Sum](#smallest-sum)
+  * [Max Sum](#max-sum)
+  * [Min Sum](#min-sum)
+  
 -[Subsequence](#subsequence)
 
 # Two Pointers
