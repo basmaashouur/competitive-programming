@@ -12,8 +12,7 @@ Table of Contents
   * [Closet Sum](#closet-sum)
   * [Max Sum](#max-sum)
   * [Min Sum](#min-sum)
-  
--[Subsequence](#subsequence)
+- [Subsequence](#subsequence)
 
 # Two Pointers
 ```cpp
