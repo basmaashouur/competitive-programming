@@ -2,13 +2,22 @@
 
 Table of Contents
 ================= 
+- [Two Pointers](#two-pointers)
+- [Subarray](#subaaray)
   * [Cumulative Sum](#cumulative-sum)
     + [1D](#1d)
     + [2D](#2d)
   * [Partial Sum](#partial-sum)
-  * [Two Pointers](#two-pointers)
+  * [Equal Sum](#equal-sum)
+  * [Closet Sum](#closet-sum)
+  * [Biggest Sum](#biggest-sum)
+  * [Smallest Sum](#smallest-sum)
+-[Subsequence](#subsequence)
 
-
+# Two Pointers
+```cpp
+```
+# Subarray
 ## Cumulative Sum
 ### 1D Use one based
 ```cpp
@@ -37,6 +46,4 @@ int n; cin >> n;
 ## Partial Sum
 ```cpp
 ```
-## Two Pointers
-```cpp
-```
+
