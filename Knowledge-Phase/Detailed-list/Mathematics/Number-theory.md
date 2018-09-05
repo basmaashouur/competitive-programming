@@ -95,6 +95,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Prime And Composite
 - **Prime Numbers** 
 - If a number n is not prime, it can be represented as a product a· b, where a ≤ sqrt(n) or b ≤ sqrt(n), so it certainly has a factor between 2 and and sqrt(n), becuase if a ≥ sqrt(n) and b ≥ sqrt(n), then a * b ≥ n
+- the sequare of prime number have only three divsior, itself and the prime and 1
 ### Prime Factors
 ### Factorization
 ### Exponentiation
