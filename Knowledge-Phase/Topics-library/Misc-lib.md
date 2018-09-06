@@ -5,7 +5,7 @@ Table of Contents
 - [Two Pointers](#two-pointers)
 - [Contiguous Subarray](#contiguous-subaaray)
   * [Cumulative Sum](#cumulative-sum)
-    + [One D](#one-d)
+    + [1D](#1d)
     + [Two D](#two-d)
   * [Partial Sum](#partial-sum)
   * [Equal Sum](#equal-sum)
@@ -26,7 +26,8 @@ Table of Contents
 ```
 # Subarray
 ## Cumulative Sum
-### One D Use one based
+### 1D
+- Use one based
 ```cpp
         int n; cin >> n;
 	vector<int> cm(n + 1);
@@ -43,7 +44,8 @@ Table of Contents
 	ans = cm[r] - cm[l - 1];
 	cout << ans << endl;
 ```
-### Two D Use one based
+### Two D
+- Use one based
 ```cpp
 	int n, m, v;
 	cin >> n >> m;
