@@ -1,4 +1,4 @@
-# List of Computational Geometry Sup topic's Resources, Tags, Terminologies and Explanations
+# List of Computational Geometry Resources, Tags, Terminologies and Explanations
 
 Table of Contents
 =================
@@ -12,25 +12,25 @@ Table of Contents
    * [Vectors](#vectors)
    * [Lines](#lines)
    * [Segments](#segments)
-   * [Triangles](#triangles)
    * [Rectangles](#rectangles)
+   * [Triangles](#triangles)
    * [Circles](#circles)
-   * [Quadlitrals](#quadlitrals)
+   * [Quadrilaterals](#quadrilaterals)
    * [Polygons](#polygons)
 
 ## Resources And Approximate Time
 
-Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
+Sup Topic Name   | Resources   | Approximate studying <br> & solving time
 -------------| -------------   |-------------   
 **Space**|[Fondation](https://math.colorado.edu/courses/CalculusIII/spaces.pdf)<br>[Geometry Symbols](https://www.rapidtables.com/math/symbols/Geometry_Symbols.html) <br>| #
 **Points** | [Points, lines and planes](https://www.mathopenref.com/tocs/pointstoc.html)<br>  [Points and vectors](http://geomalgorithms.com/points_and_vectors.html)<br>[Difference between points and vectors](https://math.stackexchange.com/questions/645672/what-is-the-difference-between-a-point-and-a-vector)<br> [Point Rotation](https://academo.org/demos/rotation-about-point/)| #
 **Vectors**| [Vectors I](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)<br>[Vectors II](https://www.mathsisfun.com/algebra/vectors.html)<br> [Vector operations](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)<br>[Vectors and points](https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/Computational%20Geometry-02-Point_and_Vector.pdf)<br>[Vector and space](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)<br>[Dot & Cross](https://math.stackexchange.com/questions/77/understanding-dot-and-cross-product)| #
-**Lines**| | #
+**Lines**| [Angles](https://www.homeschoolmath.net/teaching/g/angles.php)| #
 **Segments**| | #
 **Triangles** | [Intro to Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html)| #
-**Rectangles** || #
-**Circles** || #
-**Quadlitrals** || #
+**Rectangles** |[Point inside rectangle](https://math.stackexchange.com/questions/190111/how-to-check-if-a-point-is-inside-a-rectangle)| #
+**Circles** |[Circle Division](http://mathworld.wolfram.com/CircleDivisionbyLines.html)| #
+**Quadrilaterals** || #
 **Polygons** || #
 
 
@@ -40,7 +40,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Triangles (Euclidean plane geometry)
 - Rectangles (Euclidean plane geometry)
 - Circles (Euclidean plane geometry)
-- Quadlitrals (Euclidean plane geometry)
+- Quadrilaterals (Euclidean plane geometry)
 - Polygons (Euclidean plane geometry)
 
 ## Sup Topic Terminologies And Explanations
@@ -63,21 +63,20 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * Two distinct planes perpendicular to the same line must be parallel to each other.
 ## Points
 ### Definitions
-* **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are. * **Collinear** Points that lie on the same straight line.
+* **Point** is an exact location in space, denoted by a dot and has no size, a location is where (or when) you are.
+* **Collinear** Points that lie on the same straight line.
 ### Methods & Operations
 * **Euclidean distance** Is the ordinary straight-line distance between two points in Euclidean space ![](imgs/eculid.png)
 * **Point rotation** to rotate the (x,y) around the origin, the coordinates of the new point would be located at (*x',*y'), where
   x′ = xcosθ − ysinθ and y′ = ycosθ + xsinθ, θ is the angle of rotation, in matrix notation:
   ![](imgs/prot.png)
 ### Algorithms
-* **Reflection Point** 
+* **Reflection Point**
 * **Distance To Line**
-  * Find the closet point but using vector instead of the normal equations
+  * Find the closest point but using vector instead of the normal equations
 * **Distance To Line Segment**
   * If the perpendicular line point from the point is on the line segment then find normal closet point
   * If the perp point not in the line segment then the answer would be the first point or the second of the segment
-* **Two Lines Angle**
-  * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)). 
 * **Collinear**
 * **Counter Clockwise**
  ## Vectors
@@ -95,24 +94,21 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Vector Multiplying by vector**
   * Scalar or dot product:  ![](imgs/dotpr.png)
   * Vector or cross product:
-### Algorithms 
+### Algorithms
 * **Point To Vector**
   * A vector is a line segment (thus it has two end points and length/magnitude, so if we have two points and want to convert to a vector then find the distance between them.
 * **Scale Vector**
-  * We can scale(change size) a vector by some value by multiplyng the vector by that scale.
+  * We can scale(change size) a vector by some value by multiplying the vector by that scale.
 * **Translate Point**
   * Change the place of the point according to a vector
 * **Dot Product**
-  * Computing the angle α between two vectors a and b, a⋅b=|a|⋅|b|⋅cos(α). 
+  * Computing the angle α between two vectors a and b, a⋅b=|a|⋅|b|⋅cos(α).
      * •<0 if the angle is obtuse,
      * •>0 if the angle is acute,
      * •=0 if the a and b are orthogonal.
 ## Lines
 ### Definitions
 * **Line** A geometric object that is straight, infinitely long and infinitely thin and the shortest distance between any two points, points also set of points whose coordinates satisfy a given linear equation ax + by + c = 0.
-* **Line segment** A straight line which links two points without extending beyond them (has two ends) ![](imgs/segment.png)
-* **Congruent line segments** When Two line segments have the same length ![](imgs/congse.png)
-* **Midpoint in line segments** The midpoint is halfway between the two endpoints  ![](imgs/midpoint.png)
 * **Ray** A portion of a line which starts at a point and goes off in a particular direction to infinity (has one end).
 * **Note** Rays and lines cannot be congruent because they do not have both endpoints defined, and so have no definite length.
 * **Perpendicular**  A line is perpendicular to another if it meets or crosses it at right angles (90°)![](imgs/perpen.png).
@@ -133,8 +129,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 * **Determine if a point lies in a line** substitute the values of the point  into the equation of the line y=mx+b, where m & b are known, then If the point satisfies the equation of the line (results in a true equality), then the point is on the line, If you want to know whether the point (x,y)(x,y) is "in between" the two endpoints, make sure that  x1 ≤ x≤ x2 and y1 ≤ y ≤ y2.
 ### Algorithms
 * **Points To Line** You have two points and want to  compute the required line equation
-   * Find the slope, m = ∆y / ∆x 
-   * If the line is vertical then the slope is undifend, then the equation would be x = x constant, **Special case**
+   * Find the slope, m = ∆y / ∆x
+   * If the line is vertical then the slope is undefined, then the equation would be x = x constant, **Special case**
    * If the line is horizontal then the slope is zero, then the equation would be y = y constant
    * Put the slope and one point into the "Point-Slope Formula y - y1 = m(x - x1)
    * Simplify to get the line equation ax + by + c
@@ -143,30 +139,59 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
       * ax = mx; a = -m
       * by = y; y = 1
       * c = mx1 - y1
- * **Point To Line**
+* **Point To Line**
    * If we have the line slope and one point then we will compute the line equation
- * **Parallel Lines**
+* **Parallel Lines**
     * Check if the have the same slope
     * Check if the don't cross
- * **Same Lines** 
+* **Same Lines**
     * Check if the have the same slope
     * Check if they cross
-    * Check if they have the same hight 
- * **Intersect Lines**
+    * Check if they have the same height
+* **Intersect Lines**
    * Check if they don't have the same slope (not Parallel)
    * Check they cross on a point
-   * Find that point they cross in by sloving the two linear algebraic equations togther
- * **Intersect Lines Segments**
- * **Closet Point To Line**
+   * Find that point they cross in by solving the two linear algebraic equations together
+* **closest Point To Line**
    * I have a point and a line and  I wanna find a point lie in that line that the closet to that point
    * If the line is vertical then the y of the closet point is the same as the line, and x = -c
    * If the line is horizontal then the x of the closet point is the same as the line, and y = -c
    * If the line is normal:
      * Draw a line from that point to the line which is perpendicular, we know the point and the slope
-     * Then find the intersection of that perpendicular line and the other line and that would be the closet point
+     * Then find the intersection of that perpendicular line and the other line and that would be the closest point
+* **Two Lines Angle**
+  * We can compute the angle aob given three points: a, o, and b, using dot product, Since oa · ob = |oa|×|ob| × cos(θ), we have theta = arccos(oa · ob/(|oa|×|ob|)).
+
 ## Segments
-## Triangles
+### Definitions
+* **Line segment** A straight line which links two points without extending beyond them (has two ends) ![](imgs/segment.png)
+* **Congruent line segments** When Two line segments have the same length ![](imgs/congse.png)
+* **Midpoint in line segments** The midpoint is halfway between the two endpoints  ![](imgs/midpoint.png)
+### Methods & Operations
+### Algorithms
+* **Intersect Lines Segments**
+
 ## Rectangles
+### Definitions
+### Methods & Operations
+### Algorithms
+
+## Triangles
+### Definitions
+### Methods & Operations
+### Algorithms
+
 ## Circles
-## Quadlitrals
+### Definitions
+### Methods & Operations
+### Algorithms
+
+## Quadrilaterals
+### Definitions
+### Methods & Operations
+### Algorithms
+
 ## Polygons
+### Definitions
+### Methods & Operations
+### Algorithms
