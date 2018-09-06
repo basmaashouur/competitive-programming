@@ -3,15 +3,14 @@
 Table of Contents
 ================= 
 - [Two Pointers](#two-pointers)
-- [Contiguous Subarray](#contiguous-subaaray)
+- [Contiguous Subarray Sum](#contiguous-subaaray)
   * [Cumulative Sum](#cumulative-sum)
     + [1D](#1d)
     + [2D](#2d)
   * [Partial Sum](#partial-sum)
   * [Equal Sum](#equal-sum)
-  * [Closet Sum](#closet-sum)
-  * [Max Sum](#max-sum)
-  * [Min Sum](#min-sum)
+  * [Closest Sum](#closest-sum)
+  * [Max And Min Sum](#max-and-min-sum)
   * [Zero Sum](#zero-sum)
   * [Equilibrium Index](#equilibrium-index)
   * [](#)
@@ -24,17 +23,17 @@ Table of Contents
 # Two Pointers
 ```cpp
 ```
-# Subarray
+# Contiguous Subarray Sum
 ## Cumulative Sum
 ### 1D
-- Use one based
+- Use one based, O(n)
 ```cpp
         int n; cin >> n;
 	vector<int> cm(n + 1);
 	for (int x = 1; x <= n; x++)
 		cin >> cm[x];
 
-	for (int x = 2; x <= n ; x++)
+	for (int x = 1; x <= n ; x++)
 		cm[x] += cm[x - 1];
 	
        // to find any sum of cell [L,R]
@@ -45,7 +44,7 @@ Table of Contents
 	cout << ans << endl;
 ```
 ### 2D
-- Use one based
+- Use one based, O(n * m)
 ```cpp
 	int n, m, v;
 	cin >> n >> m;
@@ -78,6 +77,65 @@ Table of Contents
 ```
 
 ## Partial Sum
+- Find the final sum of index after range of queries on it, O(n)
 ```cpp
+	int n, q, l, r, v;
+	cin >> n >> q;
+	vector<int>pr(n + 2, 0);
+	while (q--)
+	{
+		cin >> l >> r >> v;
+		pr[l] += v; pr[r + 1] += -v;
+	}
+	for (int x = 1; x <= n; x++)
+		pr[x] += pr[x - 1];
+    // now check every index to know the final sum of it
 ```
+## Equal Sum
+- O(nlogn)
+```cpp
+	int n, k, ans = 0;
+	cin >> n >> k;
+	vector<int> cm(n + 1);
+	map<int, int> eq;
+	for (int x = 1; x <= n; x++)
+		cin >> cm[x];
 
+	for (int x = 1; x <= n ; x++)
+	{
+		cm[x] += cm[x - 1];
+		auto itr = eq.find(cm[x] - k);
+		if (itr != eq.end())ans += itr->second;
+		eq[cm[x]]++;
+	}
+	cout << ans << "\n";
+```
+## Closest Sum
+- O(n)
+```cpp
+	int n, k, v;
+	int maxSum = 0, currSum = 0, currEl = 0, maxEl = 0, left = 0;
+	vector<int> closest;
+	cin >> n >> k;
+
+	for (int x = 0; x < n; x++)
+	{
+		cin >> v;
+		closest.push_back(v);
+	}
+	for (int right = 0; right < n; right++)
+	{
+		currSum += closest[right];
+		currEl++;
+		while (currSum > k)
+		{
+			currSum -= closest[left++];
+			currEl--;
+		}
+		if (currEl > maxEl) maxEl = currEl, maxSum = currSum;
+	}
+	cout << maxSum << " " << maxEl << endl;
+```
+## Max And Min Sum
+## Zero Sum
+## Equilibrium Index
