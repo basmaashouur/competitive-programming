@@ -6,7 +6,7 @@ Table of Contents
 - [Contiguous Subarray](#contiguous-subaaray)
   * [Cumulative Sum](#cumulative-sum)
     + [1D](#1d)
-    + [Two D](#two-d)
+    + [2D](#2d)
   * [Partial Sum](#partial-sum)
   * [Equal Sum](#equal-sum)
   * [Closet Sum](#closet-sum)
@@ -44,7 +44,7 @@ Table of Contents
 	ans = cm[r] - cm[l - 1];
 	cout << ans << endl;
 ```
-### Two D
+### 2D
 - Use one based
 ```cpp
 	int n, m, v;
