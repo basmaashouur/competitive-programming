@@ -7,7 +7,7 @@ Table of Contents
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
 - [Two Pointers](#two-pointers)
-- [Contiguous Subarray Sum](#contiguous-subaaray)
+- [Contiguous Subarray Sum](#contiguous-subaaray-sum)
   * [Cumulative Sum](#cumulative-sum)
   * [Partial Sum](#partial-sum)
   * [Equal Sum](#equal-sum)
@@ -56,7 +56,8 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - Find the max sum **closest sum** sub array and the sum less than or equal k
   - What you do is add the j-th value (right itr) to the current sum, and while the sum is larger than t, subtract the i-th value (left itr) and shift i one space forward. After each step is done, check whether the current interval size is larger than the maximum recorded so far and you're done.
 ### Max And Min Sum
-- 
+- The problem is to find the sum of the elements (possibly some of the elements negative) of the contiguous subarray having the smallest(minimum sum) or the biggest (maxmum sum).
+- We gonna use Kadane’s Algorithm it's a variant of Dynamic Programming
 ### Zero Sum
 - Given an array of positive and negative numbers, find if there is a subarray (of size at-least one) with 0 sum
   - While calculating the prefix sum If the prefix sum has found before means there is subarray equal zero, means if 
@@ -64,9 +65,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
   -  we can use hashing and add prefix sum to the mao and check if it's has found before.
 ### Equilibrium Index
 - Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes
-  - maketwo vars one have all the value on the left and the other on the right and always make bwteen them empty index
-  and itarte.
-  - if n = 5
+  - make two vars one have all the value on the left and the other all the values on the right and always make bwteen them empty index, if n = 5
      - left = 1, right = 3, 4, 5
      - left = 1, 2, right = 4, 5
      - left = 1, 2, 3, right = 5
