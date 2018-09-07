@@ -27,7 +27,7 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Contiguous Subarray Sum**|[Equal Sum](https://leetcode.com/problems/subarray-sum-equals-k/solution/)<br>[Max Subarray](https://en.wikipedia.org/wiki/Maximum_subarray_problem)<br> | #
+**Contiguous Subarray Sum**|[Equal Sum](https://leetcode.com/problems/subarray-sum-equals-k/solution/)<br>[Max Subarray](https://en.wikipedia.org/wiki/Maximum_subarray_problem)<br> [Cumulative Sum Apps](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)<br>| #
 **Subsequence**|[]()<br>[]()<br> | #
 **Two Pointers**|[]()<br>[]()<br> | #
 
