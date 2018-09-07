@@ -50,7 +50,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ### Equal Sum
 - Find how many sum that equals K
-  - If the (prefix sum - K) is exist before as prefix sum then K exist
+  - While calculating the prefix sum If the (prefix_sum - K) has found before, as prefix sum then K exist
   - Use HashMap and make map[prefixsum]++
 ### Closest Sum
 - Find the max sum **closest sum** sub array and the sum less than or equal k
@@ -58,5 +58,16 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Max And Min Sum
 - 
 ### Zero Sum
+- Given an array of positive and negative numbers, find if there is a subarray (of size at-least one) with 0 sum
+  - While calculating the prefix sum If the prefix sum has found before means there is subarray equal zero, means if 
+  now prefix sum = a, and a exist before -> a+b = a means b = 0
+  -  we can use hashing and add prefix sum to the mao and check if it's has found before.
 ### Equilibrium Index
+- Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes
+  - maketwo vars one have all the value on the left and the other on the right and always make bwteen them empty index
+  and itarte.
+  - if n = 5
+     - left = 1, right = 3, 4, 5
+     - left = 1, 2, right = 4, 5
+     - left = 1, 2, 3, right = 5
 
