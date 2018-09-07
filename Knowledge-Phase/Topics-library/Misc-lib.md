@@ -174,4 +174,6 @@ Table of Contents
 		rightSum -= cm[x + 1];
 		cout << leftSum << " " << rightSum << endl;
 		if (leftSum == rightSum && x + 1 < n)ans = x + 1;
+	}
+	cout << ans << "\n";
 ```
