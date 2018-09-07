@@ -97,7 +97,7 @@ Table of Contents
 	int n, k, ans = 0;
 	cin >> n >> k;
 	vector<int> cm(n + 1);
-	map<int, int> eq;
+	unordered_map<int, int> eq;
 	for (int x = 1; x <= n; x++)
 		cin >> cm[x];
 
@@ -138,4 +138,40 @@ Table of Contents
 ```
 ## Max And Min Sum
 ## Zero Sum
+- O(nlogn)
+```cpp
+	int n, ans = 0;
+	cin >> n;
+	vector<int> cm(n + 1);
+	unordered_map<int, int> zero;
+	for (int x = 1; x <= n; x++)
+		cin >> cm[x];
+
+	for (int x = 1; x <= n ; x++)
+	{
+		cm[x] += cm[x - 1];
+		auto itr = zero.find(cm[x]);
+		if ( cm[x] == 0 || itr != zero.end())ans = 1;
+		zero[cm[x]]++;
+	}
+	cout << ans << "\n";
+```
 ## Equilibrium Index
+- O(n), index is one based
+```cpp
+	int n, leftSum = 0, rightSum = 0, ans = -1;
+	cin >> n;
+	vector<int> cm(n + 2);
+	for (int x = 1; x <= n; x++)
+	{
+		cin >> cm[x];
+		if (x != 1)rightSum += cm[x];
+	}
+
+	for (int x = 1; x <= n ; x++)
+	{
+		leftSum += cm[x];
+		rightSum -= cm[x + 1];
+		cout << leftSum << " " << rightSum << endl;
+		if (leftSum == rightSum && x + 1 < n)ans = x + 1;
+```
