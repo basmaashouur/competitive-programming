@@ -21,6 +21,11 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 **Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 **Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
 
+## Resources from books
+- Book Name
+  * Subj
+  * Subj
+ 
 ## Tags
 -
 -
