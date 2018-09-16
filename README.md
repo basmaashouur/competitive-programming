@@ -1,4 +1,9 @@
+<div style="text-align:center"><img src ="https://github.com/basmaashouur/competitive-programming/blob/master/imgs/algo-og.jpg" /></div>
+
+
 # Competitive Programming
+
+> [competitive-programming](https://github.com/basmaashouur/competitive-programming) - **Reference to Competitive Programming**
 
 ### About
 - This Repo contains different stuff related to problem solving on the whole and competitive programming in particular. 
