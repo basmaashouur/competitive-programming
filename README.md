@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="https://github.com/basmaashouur/competitive-programming/blob/master/imgs/algo-og.jpg" /></div>
+<p align="center"><img width="1000" src ="https://github.com/basmaashouur/competitive-programming/blob/master/imgs/algo-og.jpg"></p>
 
 
 # Competitive Programming
