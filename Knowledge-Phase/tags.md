@@ -45,4 +45,3 @@
 - Hashing
 - Sorting
 - Counting
-- commutative sum (array)
