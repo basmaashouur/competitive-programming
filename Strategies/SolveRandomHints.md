@@ -1,4 +1,3 @@
 - speed problems
-- implempnt problems
+- implementation problems
 - know which topic
-- 
