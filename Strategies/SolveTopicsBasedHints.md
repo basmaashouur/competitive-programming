@@ -1,10 +1,1 @@
-- see what topic is it
-- if exist
-   - revision al the topics (code, summary)
-   - solve problem from the problems sheet that us unsolved
-- if not exist
-   - understand it from videos(mostafa saad) and reading from books tutorail
-   - make a summary
-   - make a code
-   - make a problems list(guc, uva)
-   - then solve some problems
+
