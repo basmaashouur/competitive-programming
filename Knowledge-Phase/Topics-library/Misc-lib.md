@@ -13,10 +13,7 @@ Table of Contents
   * [Max And Min Sum](#max-and-min-sum)
   * [Zero Sum](#zero-sum)
   * [Equilibrium Index](#equilibrium-index)
-  * [](#)
-  * [](#)
-  * [](#)
-  * [](#)
+  * [Longest Increasing Subarray](#longest-increasing-subarray)
   * [Max Element Range](#max-element-range)
 - [Subsequence](#subsequence)
 
