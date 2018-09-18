@@ -15,10 +15,7 @@ Table of Contents
   * [Max And Min Sum](#max-and-min-sum)
   * [Zero Sum](#zero-sum)
   * [Equilibrium Index](#equilibrium-index)
-  * [](#)
-  * [](#)
-  * [](#)
-  * [](#)
+  * [Longest Increasing Subarray](#longest-increasing-subarray)
 - [Subsequence](#subsequence)
    
    
@@ -69,4 +66,4 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
      - left = 1, right = 3, 4, 5
      - left = 1, 2, right = 4, 5
      - left = 1, 2, 3, right = 5
-
+### Longest Increasing Subarray
