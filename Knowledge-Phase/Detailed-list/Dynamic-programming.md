@@ -5,11 +5,24 @@ Table of Contents
 
 - [Resources And Approximate Time](#resources-and-approximate-time)
 - [Tags](#tags)
+- [Resources From Books](resources-from-books)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
-  * [Sup Topic Name](#sup-topic-name)
-    + [Sup Sup Topic Name](#sup-sup-topic-name)
-  * [Sup Topic Name](#sup-topic-name)
-    + [Sup Sup Topic Name](#sup-sup-topic-name)
+  * [DP Intro](#dp-intro)
+    + [](#)
+    + [](#)
+    + [](#)
+    + [](#)
+    + [](#)
+  * [Classical Problems](#classical-problems)
+    + [Coin Problem](#coin-problem)
+    + [Longest Increasing Subsequence](#longest-increasing-subsequence)
+    + [Knapsack Problems](#knapsack-problems)
+    + [](#)
+    + [](#)
+  * [Dont Be Greedy](#dont-be-greedy)
+  * [Edit Distance](#edit-distance)
+  * [Reconstructing The Path](#reconstructing-the-path)
+  * [Counting Tilings](#counting-tilings)
    
    
 
@@ -17,12 +30,12 @@ Table of Contents
 
 Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 -------------| -------------   |-------------   
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
-**Sup Topic Name**<br>tag<br>tag <br> |[]()<br>[]()<br> | 4Days
+**Sup Topic Name**|[]()<br>[]()<br> | #
+**Sup Topic Name** |[]()<br>[]()<br> | #
+**Sup Topic Name**|[]()<br>[]()<br> | #
 
 
-## Resources from books
+## Resources From Books
 - **Competitive Programming 3**
   - DP Illustration 
   - Classical Examples 
@@ -48,7 +61,18 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-### Sup Topic Name
-#### Sup Sup Topic Name
-### Sup Topic Name
-#### Sup Sup Topic Name
+## DP Intro
+### 
+###
+###
+###
+## Classical Problems
+### Coin Problem
+### Longest Increasing Subsequence
+### Knapsack Problems
+###
+## Dont Be Greedy
+## Edit Distance
+## Reconstructing The Path
+## Counting Tilings
+
