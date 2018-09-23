@@ -174,6 +174,10 @@ Note: We subtract the iterator from the pointer of the beginning of the vector t
 	auto low = lower_bound(vec.begin(), vec.end(), value);
 	auto up  = upper_bound(vec.begin(), vec.end(), value);
 	auto er  = equal_range(vec.begin(), vec.end(), value);
+	
+	// search a vlue in vetor of pair
+	#define pp pair<int,int>
+	 auto low = lower_bound(vec.begin(), vec.end(), pp(value, 0));
 ```
 #### Bisection Method
 - While loop implementation with EPS
