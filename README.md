@@ -23,7 +23,7 @@ A step-by-step guide that will walk you through the whole process of Competitive
 * Make a [Solutions library](https://github.com/basmaashouur/competitive-programming/tree/master/Solutions-library) that have a folder for each topic and the folder will contain the solutions of all the problems based on that topic.
 
 ## Solve on Random Phase
-* Regularly participate in live contests, use Codeforces' Virtual Contest or use [Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=123190759.
+* Regularly participate in live contests, use Codeforces Virtual Contest or use [Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=123190759)
 
 
 
