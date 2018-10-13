@@ -92,6 +92,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Factors
 ### Divisor
+![](imgs/div.png)
 ### Prime And Composite
 - **Prime Numbers** 
 - If a number n is not prime, it can be represented as a product a· b, where a ≤ sqrt(n) or b ≤ sqrt(n), so it certainly has a factor between 2 and and sqrt(n), becuase if a ≥ sqrt(n) and b ≥ sqrt(n), then a * b ≥ n
