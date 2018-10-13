@@ -189,6 +189,7 @@ Table of Contents
   to shift the bits in the integer left/right
   */
   S = S << 1; // multiply by 2
+  S = 1 << n; // 2^n
   S = S >> 2; // divide by 4
   S = S >> 1; // divide by 2
   
