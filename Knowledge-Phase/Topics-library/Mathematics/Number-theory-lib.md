@@ -19,7 +19,79 @@ Table of Contents
      + [Euler Theorem](#euler-theorem)
      + [Primitive Root](#primitive-root)
 
-   
+## Factors
+### Divisor
+- Get divisors
+```cpp
+vector<ll> getDivisors(ll n)
+{
+  vector<ll> ret;
+  for(int i=1; i*i<=n; i++)
+  {
+    if(n % i == 0)
+    {
+      ret.push_back(i);
+      if(n != i * i)
+        ret.push_back(n / i);
+    }
+  }
+  return ret;
+}
+```
+- GCD
+```cpp
+int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
+```
+- LCM
+```cpp
+int lcm(int a, int b) { return a * (b / gcd(a, b)); }
+```
+### Prime And Composite
+- Find primes 
+```cpp
+// Sieve
+const int N = 1e6;
+bool f[N + 5];
+vector < int > primes;
+
+void seive() 
+{
+  f[0] = f[1] = 1;
+  for (int i = 1; i <= N; i++) 
+  {
+    if (f[i])continue;
+    primes.push_back(i);
+    for (ll j = (ll) i * i; j <= N; j += i)
+      f[j] = 1;
+  }
+}
+```
+### Prime Factors
+- Get factors
+```cpp
+vector < ll > getFactors(ll n) 
+{ 
+  vector < ll > ret;
+  ll tmp = n, cnt = 1;
+  for (ll i = 2; i * i <= n; i++) 
+  {
+    ll x = 1;
+    while (tmp % i == 0) 
+    {
+      ret.push_back(i);
+      tmp /= i;
+      ++x;
+    }
+    cnt *= x;
+  }
+  if (tmp != 1) 
+  {
+    ret.push_back(tmp);
+    cnt *= 2;
+  }
+  return ret;
+}
+```
 ## Congruences
 ### Modular Arithmetic
 - Find Modular exponentiation 
