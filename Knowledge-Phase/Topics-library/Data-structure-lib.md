@@ -96,6 +96,11 @@ Table of Contents
    cout << arr[row][col]; // will print the value in this index
    
    ```
+   - Convert 2d index to 1d index
+   ```cpp
+   // [0, 5] -> 5
+   i =  currrow * col + currcol
+   ```
   #### Frequency Array
    ```cpp
    /*
