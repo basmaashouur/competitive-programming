@@ -15,7 +15,7 @@ A step-by-step guide that will walk you through the whole process of Competitive
 
 ## Solve on Topics Phase
 ### Learning Phase
-* Choose the topic that you want to study, better choose the topic based on a [Curriculum](https://github.com/AhmadElsagheer/Competitive-programming-library/tree/master/curriculum).
+* Choose the topic that you want to study, better choose the topic based on a [Curriculum](https://github.com/AhmadElsagheer/Competitive-programming-library/tree/master/curriculum) or [Topics](https://github.com/basmaashouur/competitive-programming/blob/master/Knowledge-Phase/year-topics.md).
 * Make a [Summary Sheet](https://github.com/basmaashouur/competitive-programming/tree/master/Knowledge-Phase/Detailed-list), that contains of resources, tags, terminologies and explanations of that topics.
 * Make a [Code Snippets File](https://github.com/basmaashouur/competitive-programming/tree/master/Knowledge-Phase/Topics-library) that contains of all the codes related to that topics.
 ### Solving Phase
