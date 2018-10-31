@@ -2,17 +2,8 @@
 > Check the progress of all the below stuff
 ## Progress
 ### Daily
-- Best 
-- Average
-- Worst
 ### Weekly
-- Best 
-- Average
-- Worst
 ### Monthly
-- Best 
-- Average
-- Worst
 
 ## Training Time
 ## Weekly knowledge
