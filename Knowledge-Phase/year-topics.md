@@ -1,16 +1,16 @@
 # Topics to study over a year 
 
 ## Month 1 [NOV]
-- Misc ()
-- Data Structure ()
-- Graphs ()
-- Problem Solving Paradigms ()
-- Dynamic Programming ()
+- Misc (2 pointers, Cumulative sum)
+- Data Structure (STL, Bitmasks)
+- Graphs (Intro, DFS, BFS, MST, SSSP)
+- Problem Solving Paradigms (Backtracking, BS, Greedy)
+- Dynamic Programming (DP1, DP2)
 - String Processing ()
 - Mathematics Fundamentals ()
-- Geometry ()
-- Number Theory ()
-- Combinatorics	()
+- Geometry (Intro, point & vector, complex numb, lines)
+- Number Theory (Modular, fib, gcd, lcm, pow, primes, factors)
+- Combinatorics	(counting, perm & comb)
 - Probability ()
 ## Month 2 [DEC]
 ### Knowldge
