@@ -9,12 +9,16 @@
 ## Weekly knowledge
 ## Weekly solving
 ## Weekly Contest
-## Speed Solving (ace Problems)
+## Speed Solving (Ace Problems)
 
 ## General 
 - Investigate Problem (Reading)
+  - Approaching problem statement
 - Identify it's type (Reading)
+  - Problem simplification
+  - Brainstorm
 - Think about the problem (Thinking)
+  - Focused and diffuesed thinking
 - Hint or check the answer
 - Solve the Problem (Coding)
 - Add corner test cases and debug (Testing)
