@@ -174,7 +174,7 @@ Table of Contents
 	}
 	cout << ans << "\n";
 ```
-# Check overlap between two intervals
+## Check overlap between two intervals
 ```cpp
 /*
 What does it mean for the ranges to overlap? It means there exists some number C which is in both ranges, i.e.
