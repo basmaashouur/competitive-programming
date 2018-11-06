@@ -251,6 +251,69 @@ Table of Contents
   #define setAll(S, n) (S = (1 << n) - 1)
   
   ```
+  * Find all subsets **Power Set** using Bitmask, O(2^n)
+  ```cpp
+  /*
+Set  = [a,b,c]
+power_set_size = pow(2, 3) = 8
+Run for binary counter = 000 to 111
+
+Value of Counter            Subset
+    000                    -> Empty set
+    001                    -> a
+    010                    -> b
+    011                    -> ab
+    100                    -> c
+    101                    -> ac
+    110                    -> bc
+    111                    -> abc
+*/
+vector<string> subsets;
+void PowerSet(string set, int set_size)
+{
+    unsigned int pow_set_size = pow(2, set_size);
+
+    for(int counter = 0; counter < pow_set_size; counter++)
+    {
+      string temp;
+      for(int j = 0; j < set_size; j++)
+       {
+           // bit is 1 then print
+          if(counter & (1<<j))
+           temp.push_back(set[j]);
+       }
+       subsets.push_back(temp);O(n2^n)
+    }
+}
+  ```
+  * Generate all possible combinations of 0s & 1s, for any length of digits
+  ```cpp
+  /*
+n is the length of digits
+power_size = pow(2, n) = 8
+
+Value of Counter            
+    000                    
+    001                    
+    010                    
+    011                    
+    100                  
+    101                  
+    110                    
+    111
+*/
+vector<string> subsets;
+void onezero(int n)
+{
+    unsigned int pow_size = pow(2, n);
+    for(int counter = 0; counter < pow_size; counter++)
+    {
+      string bi = std::bitset<32>(counter).to_string();
+      cout << bi << endl;
+      subsets.push_back(bi);
+    }
+}
+  ```
 
 #### List
   - Basic code
