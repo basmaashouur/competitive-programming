@@ -7,7 +7,7 @@
 - Problem Solving Paradigms (Backtracking, BS, Greedy)
 - Dynamic Programming (DP1, DP2)
 - String Processing ()
-- Mathematics Fundamentals ()
+- Mathematics Fundamentals (Elementary math)
 - Geometry (Intro, point & vector, complex numb, lines)
 - Number Theory (Modular, fib, gcd, lcm, pow, primes, factors)
 - Combinatorics	(counting, perm & comb)
