@@ -308,9 +308,12 @@ void OneZero(int n)
     unsigned int pow_size = pow(2, n);
     for(int counter = 0; counter < pow_size; counter++)
     {
-      string bi = std::bitset<32>(counter).to_string();
-      cout << bi << endl;
-      subsets.push_back(bi);
+      string bi = std::bitset<32>(counter).to_string(), fin;
+      // delete the extra zero digits, must have only n digits
+      for(int x = 32 - n; x < 32; x++)
+        fin.push_back(bi[x]);
+      cout << fin << endl;
+      subsets.push_back(fin);
     }
 }
   ```
