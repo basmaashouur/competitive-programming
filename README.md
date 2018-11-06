@@ -27,7 +27,7 @@ A step-by-step guide that will walk you through the whole process of Competitive
 * Use [Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=123190759)
 
 
-## strategies (Attuides)
+## Strategies (Attuides)
 * Genreal habits
 * Solve topic based 
 * Solve random
