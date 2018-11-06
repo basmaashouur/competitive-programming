@@ -174,3 +174,17 @@ Table of Contents
 	}
 	cout << ans << "\n";
 ```
+# Check overlap between two intervals
+```cpp
+/*
+What does it mean for the ranges to overlap? It means there exists some number C which is in both ranges, i.e.
+
+x1 <= C <= y1
+and
+
+x2 <= C <= y2
+Now, if we are allowed to assume that the ranges are well-formed (so that x1 <= x2 and y1 <= y2) then it is sufficient to test
+*/
+
+if(x1 <= y2 && x2 <= y1){//overlap}
+```
