@@ -303,7 +303,7 @@ Value of Counter
     111
 */
 vector<string> subsets;
-void onezero(int n)
+void OneZero(int n)
 {
     unsigned int pow_size = pow(2, n);
     for(int counter = 0; counter < pow_size; counter++)
