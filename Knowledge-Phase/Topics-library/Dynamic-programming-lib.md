@@ -9,7 +9,7 @@ Table of Contents
 * [Dont Be Greedy](#dont-be-greedy)
 * [Edit Distance](#edit-distance)
 * [Reconstructing The Path](#reconstructing-the-path)
-* [Counting Tilings](#counting-tilings)pic](#sup-sup-topic)
+* [Counting Tilings](#counting-tilings)
 
    
 ## Classical Problems
