@@ -8,11 +8,11 @@ Table of Contents
 - [Resources From Books](resources-from-books)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
   * [DP Intro](#dp-intro)
-    + [](#)
-    + [](#)
-    + [](#)
-    + [](#)
-    + [](#)
+    + [Intro](#intro)
+    + [Memoization](#memoization)
+    + [Tableuztion](#tableuztion)
+    + [Find Formula](#find-formula)
+    + [Breaking Down Formula](#breaking-down-formula)
   * [Classical Problems](#classical-problems)
     + [Coin Problem](#coin-problem)
     + [Longest Increasing Subsequence](#longest-increasing-subsequence)
@@ -62,10 +62,26 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Sup Topic Terminologies And Explanations
 
 ## DP Intro
-### 
-###
-###
-###
+### Intro
+- When we use DP
+  - When we solve a recursive problem that its sub-problems overlaps, hence calling sub-problems More than once and repeating its calculation in nature that typically makes the order exponentials!
+  - When the original space is small enough to be memorized, then saving these sub-problems makes order small too, as sub-problems calculated once.
+  - Dynamic Programming most typical cases: Minimization, Maximization and Counting. But could have adhock usages.
+- Search space
+  - Is the number of recursive calls, or how many times we are branching every time.
+- Rules of DP
+  - Recursive Function
+  - Sub-calls Overlap
+  - Small Search Space, so putting in memory is doable
+### Memoization
+- It is a technique when we have a recurive function and save calls
+- We use it when we have **Sparse Calls**
+- It's a top down approach
+### Tableuztion
+- We use it whenw e have **Calls**
+-It's a bottom up approach
+### Find Formula
+### Breaking Down Formula
 ## Classical Problems
 ### Coin Problem
 ### Longest Increasing Subsequence
