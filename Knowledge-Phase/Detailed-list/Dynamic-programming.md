@@ -14,10 +14,12 @@ Table of Contents
     + [Find Formula](#find-formula)
     + [Breaking Down Formula](#breaking-down-formula)
   * [Classical Problems](#classical-problems)
+    + [Max 1D Range Sum](#max-1d-range-sum)
+    + [Max 2D Range Sum](#max-2d-range-sum)
     + [Coin Problem](#coin-problem)
     + [Longest Increasing Subsequence](#longest-increasing-subsequence)
     + [Knapsack Problems](#knapsack-problems)
-    + [](#)
+    + [Traveling Salesman Problem](#traveling-salesman-problem)
     + [](#)
   * [Dont Be Greedy](#dont-be-greedy)
   * [Edit Distance](#edit-distance)
@@ -79,14 +81,16 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - It's a top down approach
 ### Tableuztion
 - We use it whenw e have **Calls**
--It's a bottom up approach
+- It's a bottom up approach
 ### Find Formula
 ### Breaking Down Formula
 ## Classical Problems
+### Max 1D Range Sum
+### Max 2D Range Sum
 ### Coin Problem
 ### Longest Increasing Subsequence
 ### Knapsack Problems
-###
+###  Traveling Salesman Problem
 ## Dont Be Greedy
 ## Edit Distance
 ## Reconstructing The Path
