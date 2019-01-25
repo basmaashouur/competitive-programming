@@ -84,7 +84,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - We use it when we have [Dense Calls](https://stats.stackexchange.com/questions/266996/what-do-the-terms-dense-and-sparse-mean-in-the-context-of-neural-networks)
 - It's a bottom up approach
 - In the bottom-up DP, we used a correct ‘DP table filling order’ to compute the values such that the previous values needed to process the current cell have already been obtained. This table filling order is the topological order of the implicit DAG
-- [!imgs/dp.png]()
+- [](!imgs/dp.png)
 ### Find Formula
 ### Breaking Down Formula
 ## Classical Problems
