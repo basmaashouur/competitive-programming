@@ -86,6 +86,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - In the bottom-up DP, we used a correct ‘DP table filling order’ to compute the values such that the previous values needed to process the current cell have already been obtained. This table filling order is the topological order of the implicit DAG
 ### ![](imgs/dp.png)
 ### Find Formula
+- Induction formula
 ### Breaking Down Formula
 ## Classical Problems
 ### Max 1D Range Sum
