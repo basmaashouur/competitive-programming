@@ -92,6 +92,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ### Max 1D Range Sum
 ### Max 2D Range Sum
 ### Coin Problem
+- 
 ### Longest Increasing Subsequence
 ### Knapsack Problems
 ###  Traveling Salesman Problem
