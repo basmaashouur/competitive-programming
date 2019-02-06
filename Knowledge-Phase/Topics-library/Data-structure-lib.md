@@ -20,6 +20,7 @@ Table of Contents
      + [Dequeue](#dequeue)
 - [Non Linear DS](#non-linear-ds)
   * [Balanced Binary Search Tree](#balanced-binary-search-tree)
+    + [Bs][#bs)
     + [Map](#map)
     + [Multimap](#multimap)
     + [Set](#set)
@@ -400,6 +401,10 @@ void OneZero(int n)
 ## Non Linear DS
 
 ### Balanced Binary Search Tree
+#### Bs
+- Bacis code
+```cpp
+```
 #### Map
 - Basic code
   ``` cpp
