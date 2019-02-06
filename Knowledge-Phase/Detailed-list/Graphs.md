@@ -43,6 +43,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 ## Sup Topic Terminologies And Explanations
 
 ### Graphs Terminologies
+* ![](imgs/t&g.png)
 * **Graphs** which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. graph (G = (V,E)) in its basic form is simply a set of vertices (V ) and edges (E storing
 connectivity information between vertices in V).
 * **Type of Graphs**
