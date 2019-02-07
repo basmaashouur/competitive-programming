@@ -189,13 +189,10 @@ Now, if we are allowed to assume that the ranges are well-formed (so that x1 <= 
 if(x1 <= y2 && x2 <= y1){//overlap}
 ```
 ## Merge all overlapping intervals 
-1. Sort the intervals based on increasing order of 
-    starting time.
-2. Push the first interval on to a stack.
-3. For each interval do the following
-   a. If the current interval does not overlap with the stack 
-       top, push it.
-   b. If the current interval overlaps with stack top and ending
-       time of current interval is more than that of stack top, 
-       update stack top with the ending  time of current interval.
-4. At the end stack contains the merged intervals. 
+- Sort the intervals based on increasing order of starting time.
+- Push the first interval on to a stack.
+- For each interval do the following
+   * If the current interval does not overlap with the stack top, push it.
+   * If the current interval overlaps with stack top and endingtime of current interval is more than that of stack top,
+   update stack top with the ending  time of current interval.
+- At the end stack contains the merged intervals. 
