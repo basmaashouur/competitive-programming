@@ -283,7 +283,7 @@ void PowerSet(string set, int set_size)
           if(counter & (1<<j))
            temp.push_back(set[j]);
        }
-       subsets.push_back(temp);O(n2^n)
+       subsets.push_back(temp); // O(n2^n)
     }
 }
   ```
