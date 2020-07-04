@@ -103,6 +103,11 @@ stringstream ss; ss << str;
 		cout << temp << endl;
 
 	}
+		
+  // or
+  	istringstream iss(ln);
+	for (string s; iss >> s;)
+	    cout << s << endl;
 ```
 - Splitting a string
 ```cpp
@@ -115,11 +120,6 @@ stringstream ss; ss << str;
 		printf ("%s\n", pch);
 		pch = strtok (NULL, " ,.-");
 	}
-	
-  // or
-  	istringstream iss(ln);
-	for (string s; iss >> s;)
-	    cout << s << endl;
 ```
 ### Output Formatting
 ### String Comparison
