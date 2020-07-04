@@ -115,6 +115,11 @@ stringstream ss; ss << str;
 		printf ("%s\n", pch);
 		pch = strtok (NULL, " ,.-");
 	}
+	
+  // or
+  	istringstream iss(ln);
+	for (string s; iss >> s;)
+	    cout << s << endl;
 ```
 ### Output Formatting
 ### String Comparison
