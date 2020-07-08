@@ -30,3 +30,38 @@ int main()
         }
         return 0;
 }
+
+
+// another sloution 
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n, t;
+	string p;
+	cin >> t;
+
+	for (int i = 1; i <= t; i++)
+	{
+		cin >> n >> p;
+		int ans = 0;
+		p += "..";
+		for (int x = 0; x < n; x++)
+		{
+			if (p[x] == '.')
+			{
+				ans++;
+				p[x] = '#';
+				p[x + 1] = '#';
+				p[x + 2] = '#';
+			}
+		}
+
+		cout << "Case " << i << ": " << ans << endl;
+	}
+	return 0;
+}
