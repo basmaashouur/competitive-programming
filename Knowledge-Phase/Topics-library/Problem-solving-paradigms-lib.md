@@ -247,7 +247,7 @@ int main()
 	{
 		mid = (start + end +1) / 2.0;
 		if (can(mid))ans = mid, start = mid + 1;
-		else start = mid-1;
+		else end = mid-1;
 	}
 	
 	cout << ans << endl;
