@@ -6,7 +6,7 @@ Table of Contents
 - [Resources And Approximate Time](#resources-and-approximate-time)
 - [Tags](#tags)
 - [Sup Topic Terminologies And Explanations](#sup-topic-terminologies-and-explanations)
-  * [Brute Force](#brute-force) **Complete Search**
+  * [Brute Force](#brute-force) AKA (Complete Search)
     + [When Use Brute Force](#when-use-brute-force)
     + [When Brute Force Fails](#when-brute-force-fails)
     + [Brute Force Techniques](#brute-force-techniques)
@@ -42,7 +42,7 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 
 ## Sup Topic Terminologies And Explanations
 
-## Brute Force **Complete Search**
+## Brute Force 
 * Is a general method that can be used to solve almost any algorithm problem, it's solving a problem by traversing the entire (or part of the) search space to obtainthe required solution. During the search, we are allowed to prune (that is, choose not to explore) parts of the search space if we have determined that these parts have no possibility of containing the required solution.
 * **Speeding up brute-force searches** 
   * [Heuristic technique](https://en.wikipedia.org/wiki/Heuristic)
