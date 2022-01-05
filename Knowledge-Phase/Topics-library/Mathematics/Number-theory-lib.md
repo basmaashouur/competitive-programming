@@ -57,8 +57,10 @@ vector < int > primes;
 void seive() 
 {
   f[0] = f[1] = 1;
+  // we can go sqrt(N) since any nymber divided by N or any number less than N is gonna be in the bound from (2, sqrt(N)) since sqrt(N) * sqrt(N) = N
   for (int i = 1; i <= N; i++) 
   {
+  // means its not a prime number, and all its multiplication has been marked beofre from its divisor
     if (f[i])continue;
     primes.push_back(i);
     for (ll j = (ll) i * i; j <= N; j += i)
