@@ -97,6 +97,21 @@ Sup Topic Name   | Resources   | Approximate stydying <br> & solving time
 - **Prime Numbers** 
 - If a number n is not prime, it can be represented as a product a· b, where a ≤ sqrt(n) or b ≤ sqrt(n), so it certainly has a factor between 2 and and sqrt(n), becuase if a ≥ sqrt(n) and b ≥ sqrt(n), then a * b ≥ n
 - the sequare of prime number have only three divsior, itself and the prime and 1
+- Sieve Algo
+  - Now that the outer loop's boundaries are defined, let's define the boundaries of the inner loop. We will invariantly pick the next available prime number (a number/index not yet marked in the array as a composite) before entering the inner loop. Say the index we picked from the outer loop is i, then the inner loop will start at i*i and increase by increments of i until it surpasses n. In short, we iterate over every multiple of i between i and n.
+
+  - The question now is why should we start at i*i. Why not start at 2*i to keep things simple? The reason is that all of the previous multiples would already have been covered by previous primes. In number theory, the fundamental theorem of arithmetic, also called the unique factorization theorem or the unique prime factorization theorem, states that every integer greater than 1 either is a prime number itself or can be represented as the product of prime numbers. So the prime numbers smaller than i would have already covered the multiples smaller than i*i. Let's look at the prime number 7 to see how all the multiples up to 7*7 are already covered by primes smaller than '7'.
+
+
+```
+Let's assume that n is 50 (a value greater than 7*7) to demonstrate this claim. 
+
+7 * 2 = 14 = 2 * 7
+7 * 3 = 21 = 3 * 7
+7 * 4 = 28 = 2 * 2 * 7 = 2 * 14
+7 * 5 = 35 = 5 * 7
+7 * 6 = 42 = 2 * 3 * 7 = 2 * 21   
+```
 ### Prime Factors
 ### Factorization
 ### Exponentiation
