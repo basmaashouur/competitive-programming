@@ -144,7 +144,7 @@ public:
     string longestPalindrome(string s) {
         string ans = "";
         if(s.length() != 0)ans = s[0];
-        // search around the center, means i choose a center everytime
+        // search or expand around the center, means i choose a center everytime
         //then try to build around left and right and 
         // check if its palindrome or not
         
