@@ -26,6 +26,8 @@ Table of Contents
     + [Grid](#grid)
     + [Finding Pattern Or Formula](#finding-pattern-or-formula)
     + [Mathematical Simulation](#mathematical-simulation)
+  * [Logic](#logic)
+    + [Logical Induction And Deduction](#logical-induction-and-deduction)
    
    
 
