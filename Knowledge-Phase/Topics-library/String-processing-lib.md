@@ -10,7 +10,9 @@ Table of Contents
   + [Output Formatting](#output-formatting)
   + [String Comparison](#string-comparison) 
 - [String Matching](#string-matching)
-- [Suffix Structures](#suffix-structures)	
+- [Suffix Structures](#suffix-structures)
+- [Related To Strings](#related-to-strings)
+  + [Longest Palindromic Substring](#longest-palindromic-substring)	
    
 ## Representing Strings
 1. Strings
@@ -131,4 +133,60 @@ int res = strcmp(leftStr, rightStr);
 if (res==0) // equa
 else if (res > 0)// not equal and leftStr have the greater ASCII value
 else if (res < 0)// not equal and rightStr have the greater ASCII value
+```
+
+## Related To Strings
+###  Longest Palindromic Substring
+```cpp
+
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        string ans = "";
+        if(s.length() != 0)ans = s[0];
+        // search around the center, means i choose a center everytime
+        //then try to build around left and right and 
+        // check if its palindrome or not
+        
+        for(int x = 0; x < s.length(); x++){
+            string temp = "";
+            
+            // center is the x means odd string
+            int low = x-1, hi = x+1;
+            while(true){
+                if(low < 0 || hi >= s.length()){
+                    low++, hi--;
+                    break;
+                }
+                if(s[low] != s[hi]){
+                    low++, hi--;
+                    break;
+                }
+                low--; hi++;
+            }
+            temp = s.substr(low, hi-low+1);
+            if(temp.length() > ans.length())ans = temp;
+            
+            // center is between x and x+1 means even string
+            low = x; hi = x+1;
+            while(true){
+                if(low < 0 || hi >= s.length()){
+                    low++, hi--;
+                    break;
+                }
+                if(s[low] != s[hi]){
+                    low++, hi--;
+                    break;
+                }
+                low--; hi++;
+            }
+            temp = s.substr(low, hi-low+1);
+            if(temp.length() > ans.length())ans = temp;
+
+        }
+        
+        return ans;
+    }
+
+};
 ```
