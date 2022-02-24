@@ -413,6 +413,11 @@ void OneZero(int n)
     
    // Initialization
    m.insert(make_pair("hello",9));
+  // map.insert() only inserts if the container doesn't already contain an element with an equivalent key.
+
+  // You should use operator[] instead:
+
+   m[p2.first] = p2.second;
    
    // Check if a key exist incement it, if not insert it then incrment
    // it will also find how many values of that key exist
