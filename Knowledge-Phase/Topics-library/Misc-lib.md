@@ -3,6 +3,7 @@
 Table of Contents
 ================= 
 - [Two Pointers](#two-pointers)
+  * [Pair That Sums To K](#pair-that-sums-to-k)
 - [Contiguous Subarray Sum](#contiguous-subaaray)
   * [Cumulative Sum](#cumulative-sum)
     + [1D](#1d)
@@ -18,7 +19,23 @@ Table of Contents
 - [Subsequence](#subsequence)
 
 # Two Pointers
+## Pair That Sums To K
 ```cpp
+  // vec is a sorted array
+  int n, k; 
+  cin >> n >> k;
+  bool ans = false;
+  int beg = 0, end = n-1;
+  while(beg < end){
+    // what we are searching for
+    int target = abs(vec[beg] - k);
+    if(vec[end] == target){
+      ans = true;
+      break;
+    }
+    else if(vec[end] < target)beg++;
+    else if(vec[end] > target)end--;
+  }
 ```
 # Contiguous Subarray Sum
 ## Cumulative Sum
