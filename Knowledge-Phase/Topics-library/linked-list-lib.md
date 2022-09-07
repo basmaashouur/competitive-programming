@@ -19,16 +19,16 @@ struct node
 };
 int main() {
   node* headNode = new node;
-  headNode->value = 0;
+  headNode->value = 1;
   headNode->next = NULL;
-  node* curr = headNode;
+  node* prevNode = headNode;
 
-  for(int x = 1 ;x < 5; x++){
-    node* temp = new node;
-    temp->value = x;
-    temp->next = NULL;
-    curr->next = temp;
-    curr = temp;
+  for(int x = 2;x < 6; x++){
+      node* currNode = new node;
+      currNode -> value = x;
+      currNode -> next = NULL;
+      prevNode->next = currNode;
+      prevNode = currNode;
   }
 
   while(headNode != NULL){
