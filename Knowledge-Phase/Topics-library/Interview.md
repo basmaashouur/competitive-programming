@@ -7,6 +7,7 @@ Table of Contents
 - [Stack](#stack)
 - [Queue](#queue)
 - [Recursion](#recursion)
+- [Trees](#trees)
 
 
 ## Arrays
@@ -57,3 +58,6 @@ int main() {
 
 
 ## Recursion
+
+
+## Trees
