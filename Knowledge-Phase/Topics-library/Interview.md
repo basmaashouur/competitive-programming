@@ -11,6 +11,8 @@ Table of Contents
 
 
 ## Arrays
+### Matrix
+- Expressions, compositions 
 
 ## Linked List
 - Build
