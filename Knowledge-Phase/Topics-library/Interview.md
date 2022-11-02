@@ -13,10 +13,13 @@ Table of Contents
 ## Arrays
 
 ## Linked List
+- Build
+- Reverse Linked lisr
 
 ## Stack
 
 ### Curr Max, Min
+- 2nd max, 3rd. etc..
 
 ### Montonic stack
 
@@ -58,6 +61,32 @@ int main() {
 
 
 ## Recursion
+### Steps
+1. Base case
+2. Return
+3. Merge Answers
+
+### Code
+
+- Sum, Keep the ans as param
+```cpp
+int sum (int n, int ans){
+if(n == 0) return ans;
+ans += n;
+return sum(n-1, ans);
+}
+```
+- Sum, dont keep the ans as param
+```cpp
+int sum (int n){
+if(n == 0) return 0;
+return n + sum(n-1);
+}
+```
+## dynmiac Programming
+- Kadane Algo
 
 
 ## Trees
+
+## Grpah
