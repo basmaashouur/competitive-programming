@@ -92,3 +92,48 @@ return n + sum(n-1);
 ## Trees
 
 ## Grpah
+
+### BFS right view return
+```java
+int[] solution(Tree<Integer> t) {
+    int[] arr = {};
+    if(t == null)return arr;
+           Queue<Tree<Integer>> queue = new LinkedList<Tree<Integer>>();
+           List<Integer> vals = new ArrayList<Integer>();
+           List<Integer> levels = new ArrayList<Integer>();
+           List<Integer> ans = new ArrayList<Integer>();
+           Map<Tree<Integer>, Integer> levelOfParent = new HashMap<>();
+           queue.add(t);
+           vals.add(t.value);
+           levels.add(0);
+           levelOfParent.put(t, 0);
+           
+           while (!queue.isEmpty()) {
+               Tree<Integer> parent = queue.poll();
+               if (parent.left != null) {
+                   queue.add(parent.left);
+                   vals.add(parent.left.value);
+                   levels.add(levelOfParent.get(parent) +1);
+                   levelOfParent.put(parent.left, levelOfParent.get(parent) +1);
+
+               }
+               if (parent.right != null){ 
+                   queue.add(parent.right);
+                   vals.add(parent.right.value);
+                   levels.add(levelOfParent.get(parent) +1);
+                   levelOfParent.put(parent.right, levelOfParent.get(parent) +1);
+               }
+       }
+       levels.add(1000000);
+       for(int x = 0; x < levels.size()-1; x++){
+           if(levels.get(x) != levels.get(x+1)){
+               ans.add(vals.get(x));
+           }
+       }
+        arr = ans.stream().mapToInt(i->i).toArray();
+
+      return arr;
+
+}
+
+```
