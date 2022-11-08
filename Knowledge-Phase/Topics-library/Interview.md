@@ -67,6 +67,9 @@ int main() {
 1. Base case
 2. Return
 3. Merge Answers
+4. Famous problems
+  1. print ourmutaion 
+  2. Print all K-length increasing sequences
 
 ### Code
 
