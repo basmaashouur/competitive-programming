@@ -15,8 +15,14 @@ Table of Contents
 - Expressions, compositions 
 
 ## Linked List
+
+### Summary & Definitions
+### Base Code
+### Techniques & Hints
+### Problems & Variants 
+
 - Build
-- Reverse Linked lisr
+- Reverse Linked list
 
 ## Stack
 
