@@ -52,11 +52,27 @@ Just as the next property of a doubly linked list's tail points to the null valu
 - A circular linked list can be either a singly circular linked list or a doubly circular linked list.
 
 ### Base Code
+- C++
+- ``cpp
+// Singly linkied list
+
+// Doubly Linked List
+``
+- Java
+-  ``java
+// Singly linkied list
+
+// Doubly Linked List
+``
 ### Techniques & Hints
 ### Problems & Variants 
+1. Insert 
+2. Delete
+3. Reverse 
+4. Merge
+5. LRU Cashe
+6. palindrome 
 
-- Build
-- Reverse Linked list
 
 ## Stack
 
