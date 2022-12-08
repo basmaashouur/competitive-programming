@@ -80,6 +80,7 @@ Just as the next property of a doubly linked list's tail points to the null valu
 - 2nd max, 3rd. etc..
 
 ### Montonic stack
+### next greater element 
 
 
 ## Queue
