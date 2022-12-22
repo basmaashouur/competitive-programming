@@ -8,6 +8,8 @@ Table of Contents
 - [Queue](#queue)
 - [Recursion](#recursion)
 - [Trees](#trees)
+- [String]
+- [Sort & search]
 
 
 ## Arrays
@@ -75,6 +77,8 @@ Just as the next property of a doubly linked list's tail points to the null valu
 //   ListNode<T> next;
 // }
 //
+``
+``cpp
 ListNode<Integer> solution(ListNode<Integer> list, int target) {
     ListNode<Integer> newNode = new ListNode(target);
     if(list == null)return newNode;
@@ -96,6 +100,41 @@ ListNode<Integer> solution(ListNode<Integer> list, int target) {
 }
 
 ``
+
+```cpp
+insert an elemnt value before target
+
+// Singly-linked lists are already defined with this interface:
+// class ListNode<T> {
+//   ListNode(T x) {
+//     value = x;
+//   }
+//   T value;
+//   ListNode<T> next;
+// }
+//
+ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
+    ListNode<Integer> curr = head;
+    ListNode<Integer> newNode = new ListNode(value);
+     if(curr.value == target){
+         newNode.next = curr;
+         return newNode;
+     }
+     ListNode<Integer> currNext = head.next;
+     while(currNext != null){
+         if(currNext.value == target){
+             newNode.next = currNext;
+             curr.next = newNode;
+             return head;
+         }
+         curr = curr.next;
+         currNext = currNext.next;
+     }
+     
+     return head;
+}
+
+   ```
 ### Techniques & Hints
 ### Problems & Variants 
 1. Insert 
@@ -274,3 +313,7 @@ int[][] solution(Tree<Integer> t) {
 }
 
 ```
+
+### binary seaech
+
+## shifted binary seach
