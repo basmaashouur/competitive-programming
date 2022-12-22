@@ -63,6 +63,38 @@ Just as the next property of a doubly linked list's tail points to the null valu
 // Singly linkied list
 
 // Doubly Linked List
+
+// insert into sorted linked list
+
+// Singly-linked lists are already defined with this interface:
+// class ListNode<T> {
+//   ListNode(T x) {
+//     value = x;
+//   }
+//   T value;
+//   ListNode<T> next;
+// }
+//
+ListNode<Integer> solution(ListNode<Integer> list, int target) {
+    ListNode<Integer> newNode = new ListNode(target);
+    if(list == null)return newNode;
+    if(target < list.value){
+        newNode.next = list;
+        return newNode;
+    }
+    ListNode<Integer> curr = list;
+    while(curr != null){
+        if(curr.value < target && (curr.next == null || curr.next.value > target)){
+            newNode.next = curr.next;
+            curr.next = newNode;
+            return list;
+        }
+        curr = curr.next;
+    }
+    
+    return list;
+}
+
 ``
 ### Techniques & Hints
 ### Problems & Variants 
