@@ -4,6 +4,16 @@ Table of Contents
 ================= 
 - [Arrays](#arrays)
 - [Linked List](#linked-list)
+  - [Summary And Definitions](#summary-and-definitions)  
+  - [Base Code](#base-code)
+  - [Techniques And Hints](#techniques-and-hints)
+  - [Problems And Variants](#problems-and-variants)
+    - [Insert](#insert) 
+    - [Delete](#delete) 
+    - [Reverse](#reverse) 
+    - [Merge](#merge) 
+    - [LRU Cache](#lru-cache) 
+    - [Palindrome](#palindrome)
 - [Stack](#stack)
 - [Queue](#queue)
 - [Recursion](#recursion)
@@ -18,7 +28,7 @@ Table of Contents
 
 ## Linked List
 
-### Summary & Definitions
+### Summary And Definitions
 | **Singly Linked List**
 - A data structure that consists of nodes, each with some value and a pointer to the next node in the linked list. A linked list node's value and next node are typically stored in value and next properties, respectively.
 - The first node in a linked list is referred to as the head of the linked list, while the last node in a linked list, whose next property points to the null value, is known as the tail of the linked list.
@@ -55,30 +65,35 @@ Just as the next property of a doubly linked list's tail points to the null valu
 
 ### Base Code
 - C++
-- ``cpp
-// Singly linkied list
+ ```cpp
+// Singly Linked List
 
 // Doubly Linked List
-``
+```
 - Java
--  ``java
-// Singly linkied list
+ ```java
 
+// Singly-linked lists
+class ListNode<T> {
+   ListNode(T x) {
+     value = x;
+   }
+   T value;
+   ListNode<T> next;
+ }
+ 
 // Doubly Linked List
-
-// insert into sorted linked list
-
-// Singly-linked lists are already defined with this interface:
-// class ListNode<T> {
-//   ListNode(T x) {
-//     value = x;
-//   }
-//   T value;
-//   ListNode<T> next;
-// }
-//
-``
-``cpp
+class ListNode<T> {
+   ListNode(T x) {
+     value = x;
+   }
+   T value;
+   ListNode<T> next;
+   ListNode<T> prev;
+ }
+```
+-
+```java
 ListNode<Integer> solution(ListNode<Integer> list, int target) {
     ListNode<Integer> newNode = new ListNode(target);
     if(list == null)return newNode;
@@ -99,20 +114,10 @@ ListNode<Integer> solution(ListNode<Integer> list, int target) {
     return list;
 }
 
-``
+```
 
-```cpp
+```java
 insert an elemnt value before target
-
-// Singly-linked lists are already defined with this interface:
-// class ListNode<T> {
-//   ListNode(T x) {
-//     value = x;
-//   }
-//   T value;
-//   ListNode<T> next;
-// }
-//
 ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
     ListNode<Integer> curr = head;
     ListNode<Integer> newNode = new ListNode(value);
@@ -134,15 +139,15 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
      return head;
 }
 
-   ```
-### Techniques & Hints
-### Problems & Variants 
-1. Insert 
-2. Delete
-3. Reverse 
-4. Merge
-5. LRU Cashe
-6. palindrome 
+ ```
+### Techniques And Hints
+### Problems And Variants 
+#### Insert 
+#### Delete
+#### Reverse 
+#### Merge
+#### LRU Cashe
+#### Palindrome 
 
 
 ## Stack
