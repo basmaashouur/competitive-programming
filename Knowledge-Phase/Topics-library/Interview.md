@@ -92,8 +92,19 @@ class ListNode<T> {
    ListNode<T> prev;
  }
 ```
--
+
+### Techniques And Hints
+### Problems And Variants 
+#### Insert 
+#### Delete
+#### Reverse 
+#### Merge
+#### LRU Cashe
+#### Palindrome 
+#### Other 
 ```java
+// JAVA
+// Insert a target into sorted linked list
 ListNode<Integer> solution(ListNode<Integer> list, int target) {
     ListNode<Integer> newNode = new ListNode(target);
     if(list == null)return newNode;
@@ -117,7 +128,8 @@ ListNode<Integer> solution(ListNode<Integer> list, int target) {
 ```
 
 ```java
-insert an elemnt value before target
+// JAVA
+Insert an elemnt value before target
 ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
     ListNode<Integer> curr = head;
     ListNode<Integer> newNode = new ListNode(value);
@@ -138,16 +150,7 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
      
      return head;
 }
-
- ```
-### Techniques And Hints
-### Problems And Variants 
-#### Insert 
-#### Delete
-#### Reverse 
-#### Merge
-#### LRU Cashe
-#### Palindrome 
+```
 
 
 ## Stack
