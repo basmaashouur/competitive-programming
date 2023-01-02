@@ -67,30 +67,58 @@ Just as the next property of a doubly linked list's tail points to the null valu
 - C++
  ```cpp
 // Singly Linked List
+class Node {
+public:
+	int value;
+	Node* next;
+	Node(int value)
+	{
+		this->value = value;
+		this->next = NULL;
+	}
+};
 
 // Doubly Linked List
+class Node {
+public:
+	int value;
+	Node* next;
+  Node* prev;
+	Node(int value)
+	{
+		this->value = value;
+		this->next = NULL;
+    this->prev = NULL;
+	}
+};
 ```
 - Java
  ```java
 
 // Singly-linked lists
-class ListNode<T> {
-   ListNode(T x) {
-     value = x;
-   }
-   T value;
-   ListNode<T> next;
- }
+class node<T> {
+    T value;
+    node<T> next;
+    node(T value)
+    {
+        this.value = value;
+        this.next = null;
+    }
+}
+
  
 // Doubly Linked List
-class ListNode<T> {
-   ListNode(T x) {
-     value = x;
-   }
-   T value;
-   ListNode<T> next;
-   ListNode<T> prev;
- }
+class node<T> {
+    T value;
+    node<T> next;
+    node<T> prev;
+    node(T value)
+    {
+        this.value = value;
+        this.next = null;
+        this.prev = null;
+    }
+}
 ```
 
 ### Techniques And Hints
