@@ -1,4 +1,4 @@
-# Famous Interview Topics and Questions
+# Famous Interview Topics and Questionsm Sloutions are in (Java, C++)
 
 Table of Contents
 ================= 
@@ -124,6 +124,7 @@ class node<T> {
 ### Techniques And Hints
 ### Problems And Variants 
 #### Insert 
+- There are two things you need to keep track of while Inserting an element in a Linked list, whatever the condition is, you need to keep track of *Before* node and the *After* node, that you will add you node beofre it and after it.
 #### Delete
 #### Reverse 
 #### Merge
