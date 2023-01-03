@@ -67,39 +67,32 @@ Just as the next property of a doubly linked list's tail points to the null valu
 - C++
  ```cpp
 // Singly Linked List
-class Node {
-public:
-	int value;
-	Node* next;
-	Node(int value)
-	{
-		this->value = value;
-		this->next = NULL;
-	}
-};
+struct ListNode {
+   int val;
+   ListNode *next;
+   ListNode() : val(0), next(nullptr) {}
+   ListNode(int x) : val(x), next(nullptr) {}
+  };
+
 
 // Doubly Linked List
-class Node {
-public:
-	int value;
-	Node* next;
-  Node* prev;
-	Node(int value)
-	{
-		this->value = value;
-		this->next = NULL;
-    this->prev = NULL;
-	}
-};
+struct ListNode {
+   int val;
+   ListNode *next;
+   ListNode *prev;
+   ListNode() : val(0), next(nullptr), prev(nullptr) {}
+   ListNode(int x) : val(x), next(nullptr), prev(nullptr) {}
+  };
+
 ```
 - Java
  ```java
 
 // Singly-linked lists
-class node<T> {
+class ListNode<T> {
     T value;
-    node<T> next;
-    node(T value)
+    ListNode<T> next;
+    ListNode(T value)
     {
         this.value = value;
         this.next = null;
@@ -108,11 +101,11 @@ class node<T> {
 
  
 // Doubly Linked List
-class node<T> {
+class ListNode<T> {
     T value;
-    node<T> next;
-    node<T> prev;
-    node(T value)
+    ListNode<T> next;
+    ListNode<T> prev;
+    ListNode(T value)
     {
         this.value = value;
         this.next = null;
@@ -124,19 +117,14 @@ class node<T> {
 ### Techniques And Hints
 ### Problems And Variants 
 #### Insert 
-- There are two things you need to keep track of while Inserting an element in a Linked list, whatever the condition is, you need to keep track of *Before* node and the *After* node, that you will add you node beofre it and after it.
-#### Delete
-#### Reverse 
-#### Merge
-#### LRU Cashe
-#### Palindrome 
-#### Other 
+- Java
+- You need to keep track of the before node
 ```java
-// JAVA
 // Insert a target into sorted linked list
 ListNode<Integer> solution(ListNode<Integer> list, int target) {
     ListNode<Integer> newNode = new ListNode(target);
     if(list == null)return newNode;
+    // insert 1st
     if(target < list.value){
         newNode.next = list;
         return newNode;
@@ -155,10 +143,9 @@ ListNode<Integer> solution(ListNode<Integer> list, int target) {
 }
 
 ```
-
+- Java
 ```java
-// JAVA
-Insert an elemnt value before target
+// Insert an elemnt value before target
 ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
     ListNode<Integer> curr = head;
     ListNode<Integer> newNode = new ListNode(value);
@@ -181,6 +168,117 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
 }
 ```
 
+#### Delete
+
+- Java
+```java
+// Delete a target node
+ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
+    ListNode<Integer> curr = head;
+     if(curr.value == target){
+         head = curr.next;
+         return head;
+     }
+     ListNode<Integer> currNext = head.next;
+     while(currNext != null){
+         if(currNext.value == target){
+             curr.next = currNext.next;
+             return head;
+         }
+         curr = curr.next;
+         currNext = currNext.next;
+     }
+     
+     return head;
+}
+```
+- C++
+```cpp
+// Given a node only delete from a list
+
+   // change the curr node value to next value, and the last node make it null
+    void deleteNode(ListNode* node) {
+        while(true){
+            node -> val = node->next->val;
+            if(node->next->next == NULL){
+                node->next = NULL;
+                break;
+            }
+            node = node -> next;
+        } 
+    }
+```
+#### Reverse 
+- C++
+- You need to keep track with the prev node so you can redirect the curr element to point to the prev instead of next
+```cpp
+// recersuive
+   ListNode* recReverseList(ListNode* curr, ListNode* prev) {
+       if(curr == NULL)return prev;
+       ListNode* temp = curr->next;
+       curr->next = prev;
+       return recReverseList(temp, curr);
+
+   }
+    ListNode* reverseList(ListNode* head) {
+        return recReverseList(head, NULL);
+    }
+    
+// Iterative 
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        if(curr == NULL || curr->next == NULL)return head;
+        while(curr != NULL){
+            ListNode* temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev;
+        
+    }
+```
+#### Merge
+#### LRU Cashe
+#### Palindrome 
+- C++
+- First get the mod of the list by fast and slow pointers
+- Reverse the 1st or the 2nd half, a list is palindrome if the 1st = 2nd half after reversing 
+- Check of its a palindrome
+```cpp
+    bool isPalindrome(ListNode* head) {
+        if(head -> next == NULL)return true;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* prev = NULL;
+        // get the mid of the list (slow)
+        while(fast != NULL && fast->next != NULL){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+
+        // reverse the 2nd half
+        while(slow != NULL){
+            ListNode* temp = slow -> next;
+            slow->next = prev;
+            prev = slow;
+            slow = temp;
+        }
+
+        // check if its palindrome
+
+        ListNode* right = prev;
+        ListNode* left = head;
+        while(right != NULL){
+            if(left->val != right ->val)return false;
+            left = left->next;
+            right = right->next;
+
+        }
+        return true;
+    }
+```
 
 ## Stack
 
