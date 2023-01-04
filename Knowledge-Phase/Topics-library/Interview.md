@@ -14,6 +14,7 @@ Table of Contents
     - [Merge](#merge) 
     - [LRU Cache](#lru-cache) 
     - [Palindrome](#palindrome)
+    - [Intersection of Two Linked Lists](#intersection-of-two-linked-lists)
 - [Stack](#stack)
 - [Queue](#queue)
 - [Recursion](#recursion)
@@ -240,6 +241,83 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
     }
 ```
 #### Merge
+- C++
+```cpp
+LinkedList *mergeLinkedLists(LinkedList *headOne, LinkedList *headTwo) {
+  // starting with a temp node
+  LinkedList* head = new LinkedList(-1);
+  LinkedList* curr = head;
+
+  while(headOne != NULL && headTwo != NULL){
+      if(headOne->value >= headTwo->value){
+        curr->next = headTwo;
+        headTwo = headTwo->next;
+      }
+      else {
+        curr->next = headOne;
+        headOne = headOne->next;
+      }
+  
+    curr = curr->next;
+  }
+  // 1 -> 2 -> 3
+  // 2 -> 3 -> 5 -> 6 -> 7
+  // will be ->5
+  // make next to the node which is not null
+  curr->next = headOne == NULL? headTwo:headOne;
+
+  // returning .next cuz the head is originally was -1
+  return head->next;
+}
+```class Solution {
+public:
+
+ListNode* mergeLinkedLists(ListNode *headOne, ListNode *headTwo) {
+  ListNode* head = new ListNode(-1);
+  ListNode* curr = head;
+
+  while(headOne != NULL && headTwo != NULL){
+      if(headOne->val >= headTwo->val){
+        curr->next = headTwo;
+        headTwo = headTwo->next;
+      }
+      else {
+        curr->next = headOne;
+        headOne = headOne->next;
+      }
+  
+    curr = curr->next;
+  }
+  curr->next = headOne == NULL? headTwo:headOne;
+  return head->next;
+}
+
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if(lists.empty() || ( lists.size() ==1 &&lists[0] == nullptr))return nullptr;
+        while(lists.size() > 1){
+            int n = lists.size();
+            ListNode* newList = mergeLinkedLists(lists[n-1], lists[n- 2]);
+            lists.pop_back();lists.pop_back();
+            lists.push_back(newList);
+        }
+        return lists[lists.size()-1];
+    }
+};
+```
+- Merge K Lists
+```cpp
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if(lists.empty() || ( lists.size() ==1 &&lists[0] == nullptr))return nullptr;
+        while(lists.size() > 1){
+            int n = lists.size();
+            // call merge two linked lists function
+            ListNode* newList = mergeLinkedLists(lists[n-1], lists[n- 2]);
+            lists.pop_back();lists.pop_back();
+            lists.push_back(newList);
+        }
+        return lists[lists.size()-1];
+    }
+```
 #### LRU Cashe
 #### Palindrome 
 - C++
@@ -277,6 +355,75 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
 
         }
         return true;
+    }
+```
+
+### Intersection of Two Linked Lists
+- C++
+- One way is to find the size of each lis, and then make the bigger size list to point on a node where the remaining nodes will equal to the other list node
+  1. Calculate NNN; the length of list A.
+  2. Calculate MMM; the length of list B.
+  3. Set the start pointer for the longer list.
+  4. Step the pointers through the list together.
+```cpp
+LinkedList* mergingLinkedLists(LinkedList* linkedListOne, LinkedList* linkedListTwo) {
+  // Write your code here.
+  int oneSz = 0, twoSz = 0;
+  LinkedList* curr = linkedListOne;
+
+  while(curr != nullptr){
+    oneSz++;
+    curr = curr->next;
+  }
+  curr = linkedListTwo;
+    while(curr != nullptr){
+    twoSz++;
+    curr = curr->next;
+  }
+  LinkedList *low, *hi;
+  int mx, mn;
+  if(oneSz > twoSz){
+    low = linkedListTwo;
+    hi = linkedListOne;
+  }
+  else{
+    low = linkedListOne;
+    hi = linkedListTwo;
+  }
+  mx = mxVal(oneSz, twoSz);
+  mn = -mxVal(-oneSz, -twoSz);
+
+  while(low != nullptr){
+    if(low == hi)return low;
+    if(mx != mn){
+      mx--;
+    }
+    else{
+       low = low->next;
+    }
+    hi = hi->next;
+    
+  }
+  return nullptr;
+}
+
+```
+
+- same as pervious approach but with one loop,  we say that *c* is the shared part, *a* is exclusive part of list A and *b* is exclusive part of list B, then we can have one pointer that goes over a + c + b and the other that goes over b + c + a. then they will meet again at C
+```cpp
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *pA = headA;
+        ListNode *pB = headB;
+        while (pA != pB) {
+            pA = pA == nullptr ? headB : pA->next;
+            pB = pB == nullptr ? headA : pB->next;
+        }
+        return pA;
+        
+        // Note: In the case lists do not intersect, the pointers for A and B
+        // will still line up in the 2nd iteration, just that here won't be
+        // a common node down the list and both will reach their respective ends
+        // at the same time. So pA will be NULL in that case.
     }
 ```
 
