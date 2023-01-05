@@ -287,40 +287,7 @@ LinkedList *mergeLinkedLists(LinkedList *headOne, LinkedList *headTwo) {
   // returning .next cuz the head is originally was -1
   return head->next;
 }
-```class Solution {
-public:
 
-ListNode* mergeLinkedLists(ListNode *headOne, ListNode *headTwo) {
-  ListNode* head = new ListNode(-1);
-  ListNode* curr = head;
-
-  while(headOne != NULL && headTwo != NULL){
-      if(headOne->val >= headTwo->val){
-        curr->next = headTwo;
-        headTwo = headTwo->next;
-      }
-      else {
-        curr->next = headOne;
-        headOne = headOne->next;
-      }
-  
-    curr = curr->next;
-  }
-  curr->next = headOne == NULL? headTwo:headOne;
-  return head->next;
-}
-
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.empty() || ( lists.size() ==1 &&lists[0] == nullptr))return nullptr;
-        while(lists.size() > 1){
-            int n = lists.size();
-            ListNode* newList = mergeLinkedLists(lists[n-1], lists[n- 2]);
-            lists.pop_back();lists.pop_back();
-            lists.push_back(newList);
-        }
-        return lists[lists.size()-1];
-    }
-};
 ```
 - Merge K Lists
 ```cpp
