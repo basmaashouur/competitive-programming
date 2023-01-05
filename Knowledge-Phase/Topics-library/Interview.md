@@ -172,8 +172,8 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
 #### Delete
 
 - Java
+- Delete a target node
 ```java
-// Delete a target node
 ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
     ListNode<Integer> curr = head;
      if(curr.value == target){
@@ -194,9 +194,8 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
 }
 ```
 - C++
+- Given a node only delete it from a list
 ```cpp
-// Given a node only delete from a list
-
    // change the curr node value to next value, and the last node make it null
     void deleteNode(ListNode* node) {
         while(true){
@@ -207,6 +206,25 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
             }
             node = node -> next;
         } 
+    }
+```
+- C++ 
+- Delete a middle node in a songle pass
+```cpp
+    ListNode* deleteMiddle(ListNode* head) {
+        if(head->next == nullptr)return nullptr;
+        ListNode* slow = head;
+        ListNode* prev = head;
+        ListNode* fast = head;
+
+        while(fast != nullptr && fast->next != nullptr){
+            prev = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        prev ->next = slow->next;
+        return head;
+        
     }
 ```
 #### Reverse 
