@@ -318,7 +318,104 @@ ListNode* mergeLinkedLists(ListNode *headOne, ListNode *headTwo) {
         return lists[lists.size()-1];
     }
 ```
-#### LRU Cashe
+#### LRU Cache
+- C++
+- The main Functions for the LRU Cache
+  1. Add a (key, value)
+    1.1 hit -> update as most recent, update its new value
+    2.2 miss -> add a new node and a make a hit update ad most recent, if the cache size is bigger than max, then delete the tail
+  2. Get a key
+    2.2 hit -> update it as most recent then return
+```cpp
+class LRUCache {
+public:
+
+struct ListNode {
+   int key;
+   int val;
+   ListNode *next;
+   ListNode *prev;
+   ListNode() : key(-1),val(-1), next(nullptr), prev(nullptr) {}
+   ListNode(int y,int x) : key(y),val(x), next(nullptr), prev(nullptr) {}
+  };
+  
+  int maxSize, currSize;
+  unordered_map<int,ListNode*>mostRecent;
+  ListNode *head;
+  ListNode *tail;
+
+    LRUCache(int maxSize) {
+      this->maxSize = maxSize;
+      head = new ListNode(); 
+      tail = new ListNode();
+      head->next = tail;
+      tail->prev = head;
+      currSize = 0;
+    }
+    
+    void updateMostRecent(ListNode *newNode){
+        ListNode * headNext = head->next;
+        head->next = newNode;
+        newNode->next = headNext;
+        newNode->prev = head;
+        headNext->prev = newNode;
+      }
+
+
+    void removeTail(){
+        mostRecent.erase(tail->prev->key);
+        tail->prev =  tail->prev->prev;
+        tail->prev->next = tail;
+        currSize--;
+      }
+
+    void removeNode(ListNode *node){
+        ListNode *prevNode = node->prev;
+        ListNode *nextNode = node->next;
+        prevNode->next = nextNode;
+        nextNode->prev = prevNode;
+      }
+
+    
+    int get(int key) {
+        // cache hit
+        if(mostRecent.find(key) != mostRecent.end()){
+            ListNode *hitNode = mostRecent[key];
+            // remove from its pos
+            removeNode(hitNode);
+            // update make it most recent
+            updateMostRecent(hitNode);
+            return hitNode->val;
+            }
+
+        // cache miss
+         return -1;
+        }
+    
+    void put(int key, int value) {
+      // cache hit
+      if(mostRecent.find(key) != mostRecent.end()){
+        ListNode *hitNode = mostRecent[key];
+        removeNode(hitNode);
+        updateMostRecent(hitNode);
+        // update map with the new value
+        hitNode->val = value;
+      }
+
+      // cache miss
+      else{
+           currSize++;
+           if(currSize > maxSize)removeTail();
+           ListNode *newNode = new ListNode(key, value);
+           updateMostRecent(newNode);
+           mostRecent.insert({key, newNode});
+      }
+
+    }
+
+};
+
+```
 #### Palindrome 
 - C++
 - First get the mod of the list by fast and slow pointers
