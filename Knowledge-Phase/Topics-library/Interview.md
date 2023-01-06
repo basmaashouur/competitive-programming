@@ -19,6 +19,11 @@ Table of Contents
 - [Queue](#queue)
 - [Recursion](#recursion)
 - [Trees](#trees)
+  - [Summary And Definitions](#summary-and-definitions)  
+  - [Base Code](#base-code)
+  - [Techniques And Hints](#techniques-and-hints)
+  - [Problems And Variants](#problems-and-variants)
+    - [Insert](#insert) 
 - [String]
 - [Sort & search]
 
@@ -303,7 +308,7 @@ LinkedList *mergeLinkedLists(LinkedList *headOne, LinkedList *headTwo) {
         return lists[lists.size()-1];
     }
 ```
-#### LRU Cache
+#### [LRU Cache](https://www.interviewcake.com/concept/java/lru-cache)
 - C++
 - The main Functions for the LRU Cache
   1. Add a (key, value)
