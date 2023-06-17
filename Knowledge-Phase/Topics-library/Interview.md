@@ -1,4 +1,4 @@
-# Famous Interview Topics and Questions, Sloutions are in (Java, C++)
+# Famous Interview Topics and Questions, Solutions are in (Java, C++)
 
 Table of Contents
 ================= 
@@ -24,8 +24,8 @@ Table of Contents
   - [Techniques And Hints](#techniques-and-hints)
   - [Problems And Variants](#problems-and-variants)
     - [Insert](#insert) 
-- [String]
-- [Sort & search]
+- [String](#string)
+- [Sort And search](sort-and-search)
 
 
 ## Arrays
@@ -41,7 +41,7 @@ Table of Contents
 - Below is a visual representation of a singly linked list whose nodes hold integer values:
 - ``0 -> 1 -> 2 -> 3 -> 4 -> 5 -> null``
 - A singly linked list typically exposes its head to its user for easy access. While finding a node in a singly linked list involves traversing through all of the nodes leading up to the node in question (as opposed to instant access with an array), adding or removing nodes simply involves overwriting next pointers (assuming that you have access to the node right before the node that you're adding or removing).
-- The following are a singly linked list's standard operations and their corresponding time complexities:
+- The following is a singly linked list's standard operations and their corresponding time complexities:
   -  Accessing the head: 0(1)
   -  Accessing the tail: O(n)
   -  Accessing a middle node: O(n)
@@ -56,7 +56,7 @@ Just as the next property of a doubly linked list's tail points to the null valu
 - Below is a visual representation of a doubly linked list whose nodes hold integer values:
 - ``null <- 0 <-> 1 <-> 2 <-> 3 <-> 4 <-> 5 -> null``
 - While a doubly linked list typically exposes both its head and tail to its user, as opposed to just its head in the case of a singly linked list, it otherwise behaves very similarly to a singly linked list.
-- The following are a doubly linked list's standard operations and their corresponding time complexities:
+- The following is a doubly linked list's standard operations and their corresponding time complexities:
   - Accessing the head: O(1)
   - Accessing the tail: O(1)
   - Accessing a middle node: O(n)
@@ -67,7 +67,7 @@ Just as the next property of a doubly linked list's tail points to the null valu
 
 | **Circular Linked List**
 - A linked list that has no clear head or tail, because its "tail" points to its "head," effectively forming a closed circle.
-- A circular linked list can be either a singly circular linked list or a doubly circular linked list.
+- A circular linked list can be either a single circular linked list or a doubly circular linked list.
 
 ### Base Code
 - C++
@@ -124,9 +124,9 @@ class ListNode<T> {
 ### Problems And Variants 
 #### Insert 
 - Java
-- You need to keep track of the before node
+- You need to keep track of the before the node
 ```java
-// Insert a target into sorted linked list
+// Insert a target into a sorted linked list
 ListNode<Integer> solution(ListNode<Integer> list, int target) {
     ListNode<Integer> newNode = new ListNode(target);
     if(list == null)return newNode;
@@ -236,7 +236,7 @@ ListNode<Integer> solution(ListNode<Integer> head, int target, int value) {
 - C++
 - You need to keep track with the prev node so you can redirect the curr element to point to the prev instead of next
 ```cpp
-// recersuive
+// recursive
    ListNode* recReverseList(ListNode* curr, ListNode* prev) {
        if(curr == NULL)return prev;
        ListNode* temp = curr->next;
@@ -310,12 +310,12 @@ LinkedList *mergeLinkedLists(LinkedList *headOne, LinkedList *headTwo) {
 ```
 #### [LRU Cache](https://www.interviewcake.com/concept/java/lru-cache)
 - C++
-- The main Functions for the LRU Cache
+- The main Functions of the LRU Cache
   1. Add a (key, value)
     1.1 hit -> update as most recent, update its new value
-    2.2 miss -> add a new node and a make a hit update ad most recent, if the cache size is bigger than max, then delete the tail
+    2.2 miss -> add a new node and make a hit update ad most recent, if the cache size is bigger than max, then delete the tail
   2. Get a key
-    2.2 hit -> update it as most recent then return
+    2.2 Hit -> update it as most recent then return
 ```cpp
 class LRUCache {
 public:
@@ -408,9 +408,9 @@ struct ListNode {
 ```
 #### Palindrome 
 - C++
-- First get the mod of the list by fast and slow pointers
+- First, get the mod of the list by fast and slow pointers
 - Reverse the 1st or the 2nd half, a list is palindrome if the 1st = 2nd half after reversing 
-- Check of its a palindrome
+- Check if its a palindrome
 ```cpp
     bool isPalindrome(ListNode* head) {
         if(head -> next == NULL)return true;
@@ -496,7 +496,7 @@ LinkedList* mergingLinkedLists(LinkedList* linkedListOne, LinkedList* linkedList
 
 ```
 
-- same as pervious approach but with one loop,  we say that *c* is the shared part, *a* is exclusive part of list A and *b* is exclusive part of list B, then we can have one pointer that goes over a + c + b and the other that goes over b + c + a. then they will meet again at C
+- same as the previous approach but with one loop,  we say that *c* is the shared part, *a* is the exclusive part of list A and *b* is the exclusive part of list B, then we can have one pointer that goes over a + c + b and the other that goes over b + c + a. then they will meet again at C
 ```cpp
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode *pA = headA;
@@ -507,8 +507,8 @@ LinkedList* mergingLinkedLists(LinkedList* linkedListOne, LinkedList* linkedList
         }
         return pA;
         
-        // Note: In the case lists do not intersect, the pointers for A and B
-        // will still line up in the 2nd iteration, just that here won't be
+        // Note: In the case, lists do not intersect, the pointers for A and B
+        // will still line up in the 2nd iteration, just that there won't be
         // a common node down the list and both will reach their respective ends
         // at the same time. So pA will be NULL in that case.
     }
@@ -565,12 +565,12 @@ int main() {
 2. Return
 3. Merge Answers
 4. Famous problems
-  1. print ourmutaion 
+  1. print permutation 
   2. Print all K-length increasing sequences
 
 ### Code
 
-- Sum, Keep the ans as param
+- Sum, Keep the ans as a param
 ```cpp
 int sum (int n, int ans){
 if(n == 0) return ans;
@@ -578,14 +578,14 @@ ans += n;
 return sum(n-1, ans);
 }
 ```
-- Sum, dont keep the ans as param
+- Sum, don't keep the ans as a param
 ```cpp
 int sum (int n){
 if(n == 0) return 0;
 return n + sum(n-1);
 }
 ```
-## dynmiac Programming
+## dynamic Programming
 - Kadane Algo
 
 
@@ -683,6 +683,6 @@ int[][] solution(Tree<Integer> t) {
 
 ```
 
-### binary seaech
+### Binary search
 
-## shifted binary seach
+## Shifted the binary search
