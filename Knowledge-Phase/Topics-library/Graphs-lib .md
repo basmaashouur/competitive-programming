@@ -175,29 +175,56 @@ Table of Contents
   Parameters: empty
   Returns: void
   */
-  
-  vector<vector<int> > adj; 
-  vector<int>res;
-  vector<int>in;
-  void toplog()
-  {
-	priority_queue<int, vector<int>, greater<int> >pq; //sort increasing
-	for (int u = 1; u <= n; u++)
-		if (in[u] == 0) pq.push(u);
 
-	while (!pq.empty())
-	{
-		int top = pq.top(), size=adj[top].size();
-		pq.pop(); res.pp(top);
-	
-		for (int x = 0; x < size; x++)
-		{
-			int u = adj[top][x];
-			if (--in[u] == 0)pq.push(u);
-		}
-	}
-  }
+```  
   
+vector<int>res;
+void toplog(int n, vector<vector<int> > adj,vector<int> in)
+{
+  priority_queue<int, vector<int>, greater<int> >pq; //sort increasing
+  for (int u = 0; u < n; u++){
+    if (in[u] == 0) {
+      pq.push(u);
+    }
+  }
+
+  while (!pq.empty())
+  {
+    int top = pq.top(), size = adj[top].size();
+    pq.pop(); 
+    res.push_back(top);
+  
+    for (int x = 0; x < size; x++)
+    {
+      int u = adj[top][x];
+      if (--in[u] == 0)pq.push(u);
+    }
+  }
+}
+
+int main() {      
+  int n = 4;
+  vector<vector<int> > adj(n); 
+  vector<pair<int, int>> vec = {{3, 2}, {3, 0}, {2, 0}, {2, 1}};
+  vector<int> in(n, 0);
+
+  for(int x = 0; x < n; x++){
+    adj[vec[x].second].push_back(vec[x].first);
+    in[vec[x].first]++;
+  }
+
+  toplog(n, adj, in);
+
+  for(long unsigned int x = 0; x < res.size(); x++){
+    cout << res[x] << " ";
+  }
+  cout << endl;
+
+  return 0;
+}
+
+  ```
+
   ```
 
   ### Bipartite Graph Check	
