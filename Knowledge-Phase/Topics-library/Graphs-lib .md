@@ -176,7 +176,7 @@ Table of Contents
   Returns: void
   */
 
-```  
+```cpp  
   
 vector<int>res;
 void toplog(int n, vector<vector<int> > adj,vector<int> in)
