@@ -225,7 +225,7 @@ int main() {
 
   ```
 
-  ```
+
 
   ### Bipartite Graph Check	
   - Using DFS or BFS.
