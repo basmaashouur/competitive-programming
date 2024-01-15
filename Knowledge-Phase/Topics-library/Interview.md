@@ -61,10 +61,6 @@ Table of Contents
 ### Matrix
 - Expressions, compositions 
 
-|
-|
-|
-
 ## Linked List
 ### Summary And Definitions
 | **Singly Linked List**
