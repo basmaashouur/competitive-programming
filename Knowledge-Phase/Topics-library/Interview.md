@@ -1,5 +1,12 @@
 # Famous Interview Topics and Questions, Solutions are in (Java, C++)
 
+
+## Quick Notes
+- chars to numeric, numeric to chars
+  ```cpp
+  (int)'a'; // will equal 97
+  ```
+
 ## Topic Name
 ### Summary And Definitions
 ### Techniques And Hints
