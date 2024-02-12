@@ -5,6 +5,8 @@
 - chars to numeric, numeric to chars
   ```cpp
   (int)'a'; // will equal 97
+  1 - '0'; // '1'
+ (char) '0' + '1'; // 1
   ```
 
 ## Topic Name
