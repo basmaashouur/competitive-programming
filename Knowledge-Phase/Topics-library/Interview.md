@@ -2,11 +2,20 @@
 
 
 ## Quick Notes
-- chars to numeric, numeric to chars
+- 
   ```cpp
-  (int)'a'; // will equal 97
-  1 - '0'; // '1'
- (char) '0' + '1'; // 1
+  #include <bits/stdc++.h>
+  using namespace std;
+
+  int main (){
+  priority_queue <int, vector<int>, greater<int> > pq;
+  
+  (int)'a'; // 97
+  char(0 + 97); // a
+  
+  '1' - '0'; // 1
+  char ('0' + 1) // '1'
+  }
   ```
 
 ## Topic Name
